@@ -4,14 +4,14 @@ Docker is a platform for developers and sysadmins to develop, deploy, and run ap
 
 ## Containers vs. Virtual Machines
 
-![enter image description here](https://www.researchgate.net/publication/322498386/figure/fig2/AS:582899906486273@1515985575648/Linux-Containers-on-top-of-a-common-kernel.png)
+![enter image description here](https://miro.medium.com/max/700/0*ujI404Gnomn1Wz5h.png)
 
 
 ## Reference 
 - https://docs.docker.com/get-started/overview/
 - https://medium.com/codingthesmartway-com-blog/docker-beginners-guide-part-1-images-containers-6f3507fffc98#:~:text=Docker%20is%20a%20platform%20for,Docker%20containers%20are%20always%20portable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4OTgyOTUyMCwtMTMwNTI3NjYzMiwyNj
+eyJoaXN0b3J5IjpbLTk0NzAyOTI3MCwtMTMwNTI3NjYzMiwyNj
 k3NTQ2OSwtMjA5OTczOTQ3NCwtNTAzMzQzMTcyLDIwNzc1ODE3
 MTgsNzMwOTk4MTE2XX0=
 -->
