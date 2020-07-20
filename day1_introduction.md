@@ -3,6 +3,7 @@ Docker is a platform for developers and sysadmins to develop, deploy, and run ap
 
 ## Containers vs. Virtual Machines
 ![enter image description here](https://www.itgratis.com/wp-content/uploads/2018/03/docker.jpg)
+
 A **Dockerized application** is just a process that runs on your system. It **doesn’t require running a Hypervisor** (such as VMWare or VirtualBox), which means there’s **no guest operating system** to lug around. I do think there are reasons to use Virtual Machines nowadays, but they solve a different set of problems than Docker. You can use Docker to isolate individual applications, and use Virtual Machines to isolate entire systems. They are operating at different levels of abstraction.
 
 ## Docker Engine
@@ -43,5 +44,5 @@ A container is a **runnable instance of an image.**
 - https://medium.com/better-programming/docker-containers-vs-virtual-machines-838022906016
 - https://stackify.com/docker-image-vs-container-everything-you-need-to-know/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTE4NzA1NF19
+eyJoaXN0b3J5IjpbLTg3NTg3MzQ3MiwtOTI5MTg3MDU0XX0=
 -->
