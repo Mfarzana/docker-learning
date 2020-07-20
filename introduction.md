@@ -11,10 +11,12 @@ A **Dockerized application** is just a process that runs on your system. It **do
 ## Reference 
 - https://docs.docker.com/get-started/overview/
 - https://medium.com/codingthesmartway-com-blog/docker-beginners-guide-part-1-images-containers-6f3507fffc98#:~:text=Docker%20is%20a%20platform%20for,Docker%20containers%20are%20always%20portable.
+- https://devopscon.io/blog/docker/docker-vs-virtual-machine-where-are-the-differences/
 - https://blog.netapp.com/blogs/containers-vs-vms/amp/
+- https://medium.com/better-programming/docker-containers-vs-virtual-machines-838022906016
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTAxMjgzNzQsODQyNjg5ODcyLDEwNT
-Y4MTkwMDksLTEyMzk0ODgyMjAsNjE5NDU5NDE0LC05NDcwMjky
-NzAsLTEzMDUyNzY2MzIsMjY5NzU0NjksLTIwOTk3Mzk0NzQsLT
-UwMzM0MzE3MiwyMDc3NTgxNzE4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTgxMTAxMzkzMSw4NDI2ODk4NzIsMTA1Nj
+gxOTAwOSwtMTIzOTQ4ODIyMCw2MTk0NTk0MTQsLTk0NzAyOTI3
+MCwtMTMwNTI3NjYzMiwyNjk3NTQ2OSwtMjA5OTczOTQ3NCwtNT
+AzMzQzMTcyLDIwNzc1ODE3MTgsNzMwOTk4MTE2XX0=
 -->
