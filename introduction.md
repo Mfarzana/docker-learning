@@ -29,6 +29,9 @@ The Docker daemon (dockerd) **listens** for Docker **API requests** and **manage
 The Docker client (docker) is the primary way that many **Docker users interact with Docker.** When you use commands such as docker run, the client sends these commands to dockerd, which carries them out. The docker command uses the Docker API. The Docker client can communicate with more than one daemon.
 #### Docker registries
 A **Docker registry stores Docker images.** Docker Hub is a public registry that anyone can use, and Docker is configured to look for images on Docker Hub by default. You can even run your own private registry.
+
+CONTAINERS
+A container is a runnable instance of an image.
 ## Reference 
 - https://docs.docker.com/get-started/overview/
 - https://medium.com/codingthesmartway-com-blog/docker-beginners-guide-part-1-images-containers-6f3507fffc98#:~:text=Docker%20is%20a%20platform%20for,Docker%20containers%20are%20always%20portable.
@@ -36,7 +39,7 @@ A **Docker registry stores Docker images.** Docker Hub is a public registry that
 - https://blog.netapp.com/blogs/containers-vs-vms/amp/
 - https://medium.com/better-programming/docker-containers-vs-virtual-machines-838022906016
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDU1MzMwLDE3NjUzMDIxMzYsNTUxOT
+eyJoaXN0b3J5IjpbNTk3MDgyNzIyLDE3NjUzMDIxMzYsNTUxOT
 M5ODQxLDgzMjczOTk3MywtODExMDEzOTMxLDg0MjY4OTg3Miwx
 MDU2ODE5MDA5LC0xMjM5NDg4MjIwLDYxOTQ1OTQxNCwtOTQ3MD
 I5MjcwLC0xMzA1Mjc2NjMyLDI2OTc1NDY5LC0yMDk5NzM5NDc0
