@@ -23,12 +23,12 @@ The **CLI uses** the **Docker REST API to control or interact** with the **Docke
 Docker uses a **client-server** architecture. The **Docker client talks to the Docker daemon,** which does the heavy lifting of **building, running, and distributing your Docker containers.** The **Docker client and daemon** can **run** on the s**ame system**, or you can connect a Docker client to a remote Docker daemon. The **Docker client ** and ** daemon communicate** using a **REST API**, over UNIX sockets or a network interface
 
 ![enter image description here](https://docs.docker.com/engine/images/architecture.svg)
-  - **The Docker daemon**
+  ### The Docker daemon
 The Docker daemon (dockerd) **listens** for Docker **API requests** and **manages Docker objects** such as images, containers, networks, and volumes. A daemon can also communicate with other daemons to manage Docker services.
-- **The Docker client**
+### The Docker client
 The Docker client (docker) is the primary way that many **Docker users interact with Docker.** When you use commands such as docker run, the client sends these commands to dockerd, which carries them out. The docker command uses the Docker API. The Docker client can communicate with more than one daemon.
-- **Docker registries**
-A **Docker registry stores Docker images.** Docker Hub is a **public registry** that anyone can use, and Docker is configured to look for images on Docker Hub by default. You can even run your own **private registry.**
+### Docker registries
+	A **Docker registry stores Docker images.** Docker Hub is a **public registry** that anyone can use, and Docker is configured to look for images on Docker Hub by default. You can even run your own **private registry.**
 - **IMAGES**
 	Virtual machine environments, images would be called something like “**snapshots**.” They’re a picture of a Docker virtual machine at a specific point in time. Docker images are a little bit different from a virtual machine snapshot, though. For starters, Docker images can’t ever change. Once you’ve made one, you can delete it, but you can’t modify it. If you need a new version of the snapshot, you create an entirely new image
 **NB: snapshot is a binary image of a filesystem**
@@ -43,10 +43,10 @@ A container is a **runnable instance of an image.**
 - https://medium.com/better-programming/docker-containers-vs-virtual-machines-838022906016
 - https://stackify.com/docker-image-vs-container-everything-you-need-to-know/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyMzEzODYxLC04ODQyMzExMDAsMTc2NT
-MwMjEzNiw1NTE5Mzk4NDEsODMyNzM5OTczLC04MTEwMTM5MzEs
-ODQyNjg5ODcyLDEwNTY4MTkwMDksLTEyMzk0ODgyMjAsNjE5ND
-U5NDE0LC05NDcwMjkyNzAsLTEzMDUyNzY2MzIsMjY5NzU0Njks
-LTIwOTk3Mzk0NzQsLTUwMzM0MzE3MiwyMDc3NTgxNzE4LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTYzMjE4MDM4NSwtODg0MjMxMTAwLDE3Nj
+UzMDIxMzYsNTUxOTM5ODQxLDgzMjczOTk3MywtODExMDEzOTMx
+LDg0MjY4OTg3MiwxMDU2ODE5MDA5LC0xMjM5NDg4MjIwLDYxOT
+Q1OTQxNCwtOTQ3MDI5MjcwLC0xMzA1Mjc2NjMyLDI2OTc1NDY5
+LC0yMDk5NzM5NDc0LC01MDMzNDMxNzIsMjA3NzU4MTcxOCw3Mz
+A5OTgxMTZdfQ==
 -->
