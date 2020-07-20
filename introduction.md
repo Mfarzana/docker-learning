@@ -20,7 +20,13 @@ A **command line interface** (CLI) client (the docker command).
 
 ![enter image description here](https://docs.docker.com/engine/images/engine-components-flow.png)
 
+The CLI uses the Docker REST API to control or interact with the Docker daemon through scripting or direct CLI commands. Many other Docker applications use the underlying API and CLI.
 
+The daemon creates and manages Docker objects, such as images, containers, networks, and volumes.
+
+Note: Docker is licensed under the open source Apache 2.0 license.
+
+For more details, see Docker Architecture below
 
 ## Reference 
 - https://docs.docker.com/get-started/overview/
@@ -29,9 +35,9 @@ A **command line interface** (CLI) client (the docker command).
 - https://blog.netapp.com/blogs/containers-vs-vms/amp/
 - https://medium.com/better-programming/docker-containers-vs-virtual-machines-838022906016
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyNzM5OTczLC04MTEwMTM5MzEsODQyNj
-g5ODcyLDEwNTY4MTkwMDksLTEyMzk0ODgyMjAsNjE5NDU5NDE0
-LC05NDcwMjkyNzAsLTEzMDUyNzY2MzIsMjY5NzU0NjksLTIwOT
-k3Mzk0NzQsLTUwMzM0MzE3MiwyMDc3NTgxNzE4LDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbNDAyNTc3MTkxLDgzMjczOTk3MywtODExMD
+EzOTMxLDg0MjY4OTg3MiwxMDU2ODE5MDA5LC0xMjM5NDg4MjIw
+LDYxOTQ1OTQxNCwtOTQ3MDI5MjcwLC0xMzA1Mjc2NjMyLDI2OT
+c1NDY5LC0yMDk5NzM5NDc0LC01MDMzNDMxNzIsMjA3NzU4MTcx
+OCw3MzA5OTgxMTZdfQ==
 -->
