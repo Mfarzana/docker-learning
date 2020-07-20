@@ -12,17 +12,17 @@ A **Dockerized application** is just a process that runs on your system. It **do
 ## Docker Engine
 Docker Engine is a **client-server application** with these major components:
 
-A server which is a type of long-running program called a **daemon process** (the dockerd command).
+A **server** which is a type of long-running program called a **daemon process** (the dockerd command).
 
 A **REST API** which specifies interfaces that programs can use to talk to the daemon and instruct it what to do.
 
-A **command line interface** (CLI) client (the docker command).
+A **command line interface** (CLI) **client** (the docker command).
 
 ![enter image description here](https://docs.docker.com/engine/images/engine-components-flow.png)
 
-The CLI uses the Docker REST API to control or interact with the Docker daemon through scripting or direct CLI commands. Many other Docker applications use the underlying API and CLI.
+The **CLI uses** the Docker **REST API to control or interac**t with the **Docker daemon** through scripting or direct CLI commands. Many other Docker applications use the underlying API and CLI.
 
-The daemon creates and manages Docker objects, such as images, containers, networks, and volumes.
+The **daemon creates and manages Docker objects**, such as images, containers, networks, and volumes.
 
 Note: Docker is licensed under the open source Apache 2.0 license.
 
@@ -35,9 +35,9 @@ For more details, see Docker Architecture below
 - https://blog.netapp.com/blogs/containers-vs-vms/amp/
 - https://medium.com/better-programming/docker-containers-vs-virtual-machines-838022906016
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAyNTc3MTkxLDgzMjczOTk3MywtODExMD
-EzOTMxLDg0MjY4OTg3MiwxMDU2ODE5MDA5LC0xMjM5NDg4MjIw
-LDYxOTQ1OTQxNCwtOTQ3MDI5MjcwLC0xMzA1Mjc2NjMyLDI2OT
-c1NDY5LC0yMDk5NzM5NDc0LC01MDMzNDMxNzIsMjA3NzU4MTcx
-OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE4OTk0MzkyNTcsODMyNzM5OTczLC04MT
+EwMTM5MzEsODQyNjg5ODcyLDEwNTY4MTkwMDksLTEyMzk0ODgy
+MjAsNjE5NDU5NDE0LC05NDcwMjkyNzAsLTEzMDUyNzY2MzIsMj
+Y5NzU0NjksLTIwOTk3Mzk0NzQsLTUwMzM0MzE3MiwyMDc3NTgx
+NzE4LDczMDk5ODExNl19
 -->
