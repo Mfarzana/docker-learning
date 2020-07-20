@@ -4,9 +4,6 @@ Docker is a platform for developers and sysadmins to develop, deploy, and run ap
 
 ## Containers vs. Virtual Machines
 ![enter image description here](https://www.itgratis.com/wp-content/uploads/2018/03/docker.jpg)
-
-Virtual machines and containers differ in several ways, but the primary difference is that **containers** provide a way to **virtualize an OS so that multiple workloads can run on a single OS** instance. With **VMs**, the hardware is being virtualized to **run multiple OS instances**. Containers’ speed, agility, and portability make them yet another tool to help streamline software development.
-
 A **Dockerized application** is just a process that runs on your system. It **doesn’t require running a Hypervisor** (such as VMWare or VirtualBox), which means there’s **no guest operating system** to lug around. I do think there are reasons to use Virtual Machines nowadays, but they solve a different set of problems than Docker. You can use Docker to isolate individual applications, and use Virtual Machines to isolate entire systems. They are operating at different levels of abstraction.
 
 ## Docker Engine
@@ -23,7 +20,7 @@ Docker Engine is a **client-server application** with these major components:
 The **CLI uses** the **Docker REST API to control or interact** with the **Docker daemon** through scripting or direct CLI commands. The **daemon creates and manages Docker objects**, such as images, containers, networks, and volumes.
 
 ## Docker architecture
-Docker uses a **client-server** architecture. The **Docker client talks to the Docker daemon,** which does the heavy lifting of **building, running, and distributing your Docker containers.** The **Docker client and daemon** can **run** on the s**ame system**, or you can connect a Docker client to a remote Docker daemon. The **Docker client ** and ** daemon communicate** using a REST API**, over UNIX sockets or a network interface
+Docker uses a **client-server** architecture. The **Docker client talks to the Docker daemon,** which does the heavy lifting of **building, running, and distributing your Docker containers.** The **Docker client and daemon** can **run** on the s**ame system**, or you can connect a Docker client to a remote Docker daemon. The **Docker client ** and ** daemon communicate** using a **REST API**, over UNIX sockets or a network interface
 
 ![enter image description here](https://docs.docker.com/engine/images/architecture.svg)
 ## Reference 
@@ -33,9 +30,9 @@ Docker uses a **client-server** architecture. The **Docker client talks to the D
 - https://blog.netapp.com/blogs/containers-vs-vms/amp/
 - https://medium.com/better-programming/docker-containers-vs-virtual-machines-838022906016
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTEzMjcwMiw1NTE5Mzk4NDEsODMyNz
-M5OTczLC04MTEwMTM5MzEsODQyNjg5ODcyLDEwNTY4MTkwMDks
-LTEyMzk0ODgyMjAsNjE5NDU5NDE0LC05NDcwMjkyNzAsLTEzMD
-UyNzY2MzIsMjY5NzU0NjksLTIwOTk3Mzk0NzQsLTUwMzM0MzE3
-MiwyMDc3NTgxNzE4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTEzNzUzNDE2MzcsNTUxOTM5ODQxLDgzMj
+czOTk3MywtODExMDEzOTMxLDg0MjY4OTg3MiwxMDU2ODE5MDA5
+LC0xMjM5NDg4MjIwLDYxOTQ1OTQxNCwtOTQ3MDI5MjcwLC0xMz
+A1Mjc2NjMyLDI2OTc1NDY5LC0yMDk5NzM5NDc0LC01MDMzNDMx
+NzIsMjA3NzU4MTcxOCw3MzA5OTgxMTZdfQ==
 -->
