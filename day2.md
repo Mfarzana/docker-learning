@@ -1,3 +1,5 @@
+## NIC Card
+A Network Interface Card (NIC) is a computer hardware component that allows a **computer to connect to a network**. NICs may be used for both wired and wireless connections.
 
 **Linux OS has two-part**
 
@@ -10,6 +12,6 @@
  - https://medium.com/devops-world/how-linux-kernel-is-organized-56eafcace44
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4MTk3NzY5LC0xODUwMDA0MTY2LDQ5Nz
-gxODgxMCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNjkzMTM0MzI2LDM4ODE5Nzc2OSwtMTg1MD
+AwNDE2Niw0OTc4MTg4MTAsNzMwOTk4MTE2XX0=
 -->
