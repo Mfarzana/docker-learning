@@ -1,4 +1,3 @@
-> Written with [StackEdit](https://stackedit.io/).
 ## Docker 
 Docker is a platform for developers and sysadmins to develop, deploy, and run applications with containers. This is often described as containerization. 
 
@@ -44,10 +43,10 @@ A container is a **runnable instance of an image.**
 - https://medium.com/better-programming/docker-containers-vs-virtual-machines-838022906016
 - https://stackify.com/docker-image-vs-container-everything-you-need-to-know/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzU5MTE4LC04ODQyMzExMDAsMTc2NT
-MwMjEzNiw1NTE5Mzk4NDEsODMyNzM5OTczLC04MTEwMTM5MzEs
-ODQyNjg5ODcyLDEwNTY4MTkwMDksLTEyMzk0ODgyMjAsNjE5ND
-U5NDE0LC05NDcwMjkyNzAsLTEzMDUyNzY2MzIsMjY5NzU0Njks
-LTIwOTk3Mzk0NzQsLTUwMzM0MzE3MiwyMDc3NTgxNzE4LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTkyOTE4NzA1NCwxNjUzNTkxMTgsLTg4ND
+IzMTEwMCwxNzY1MzAyMTM2LDU1MTkzOTg0MSw4MzI3Mzk5NzMs
+LTgxMTAxMzkzMSw4NDI2ODk4NzIsMTA1NjgxOTAwOSwtMTIzOT
+Q4ODIyMCw2MTk0NTk0MTQsLTk0NzAyOTI3MCwtMTMwNTI3NjYz
+MiwyNjk3NTQ2OSwtMjA5OTczOTQ3NCwtNTAzMzQzMTcyLDIwNz
+c1ODE3MTgsNzMwOTk4MTE2XX0=
 -->
