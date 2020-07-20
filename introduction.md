@@ -24,11 +24,9 @@ Docker uses a **client-server** architecture. The **Docker client talks to the D
 
 ![enter image description here](https://docs.docker.com/engine/images/architecture.svg)
 **The Docker daemon**
-
- - List item
-
-The Docker daemon (dockerd) listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. A daemon can also communicate with other daemons to manage Docker services.
-
+- The Docker daemon (dockerd) **listens** for Docker **API requests** and **manages Docker objects** such as images, containers, networks, and volumes. A daemon can also communicate with other daemons to manage Docker services.
+**The Docker client**
+The Docker client (docker) is the primary way that many Docker users interact with Docker. When you use commands such as docker run, the client sends these commands to dockerd, which carries them out. The docker command uses the Docker API. The Docker client can communicate with more than one daemon.
 ## Reference 
 - https://docs.docker.com/get-started/overview/
 - https://medium.com/codingthesmartway-com-blog/docker-beginners-guide-part-1-images-containers-6f3507fffc98#:~:text=Docker%20is%20a%20platform%20for,Docker%20containers%20are%20always%20portable.
@@ -36,9 +34,9 @@ The Docker daemon (dockerd) listens for Docker API requests and manages Docker o
 - https://blog.netapp.com/blogs/containers-vs-vms/amp/
 - https://medium.com/better-programming/docker-containers-vs-virtual-machines-838022906016
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NTMwMjEzNiw1NTE5Mzk4NDEsODMyNz
-M5OTczLC04MTEwMTM5MzEsODQyNjg5ODcyLDEwNTY4MTkwMDks
-LTEyMzk0ODgyMjAsNjE5NDU5NDE0LC05NDcwMjkyNzAsLTEzMD
-UyNzY2MzIsMjY5NzU0NjksLTIwOTk3Mzk0NzQsLTUwMzM0MzE3
-MiwyMDc3NTgxNzE4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNjM4ODQ4NzYxLDE3NjUzMDIxMzYsNTUxOT
+M5ODQxLDgzMjczOTk3MywtODExMDEzOTMxLDg0MjY4OTg3Miwx
+MDU2ODE5MDA5LC0xMjM5NDg4MjIwLDYxOTQ1OTQxNCwtOTQ3MD
+I5MjcwLC0xMzA1Mjc2NjMyLDI2OTc1NDY5LC0yMDk5NzM5NDc0
+LC01MDMzNDMxNzIsMjA3NzU4MTcxOCw3MzA5OTgxMTZdfQ==
 -->
