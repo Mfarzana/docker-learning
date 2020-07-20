@@ -22,6 +22,8 @@ Docker Engine is a **client-server application** with these major components:
 
 The **CLI uses** the **Docker REST API to control or interact** with the **Docker daemon** through scripting or direct CLI commands. The **daemon creates and manages Docker objects**, such as images, containers, networks, and volumes.
 
+## Docker architecture
+
 ## Reference 
 - https://docs.docker.com/get-started/overview/
 - https://medium.com/codingthesmartway-com-blog/docker-beginners-guide-part-1-images-containers-6f3507fffc98#:~:text=Docker%20is%20a%20platform%20for,Docker%20containers%20are%20always%20portable.
@@ -29,9 +31,9 @@ The **CLI uses** the **Docker REST API to control or interact** with the **Docke
 - https://blog.netapp.com/blogs/containers-vs-vms/amp/
 - https://medium.com/better-programming/docker-containers-vs-virtual-machines-838022906016
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxOTM5ODQxLDgzMjczOTk3MywtODExMD
-EzOTMxLDg0MjY4OTg3MiwxMDU2ODE5MDA5LC0xMjM5NDg4MjIw
-LDYxOTQ1OTQxNCwtOTQ3MDI5MjcwLC0xMzA1Mjc2NjMyLDI2OT
-c1NDY5LC0yMDk5NzM5NDc0LC01MDMzNDMxNzIsMjA3NzU4MTcx
-OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTU1MDk2NzgzMiw1NTE5Mzk4NDEsODMyNz
+M5OTczLC04MTEwMTM5MzEsODQyNjg5ODcyLDEwNTY4MTkwMDks
+LTEyMzk0ODgyMjAsNjE5NDU5NDE0LC05NDcwMjkyNzAsLTEzMD
+UyNzY2MzIsMjY5NzU0NjksLTIwOTk3Mzk0NzQsLTUwMzM0MzE3
+MiwyMDc3NTgxNzE4LDczMDk5ODExNl19
 -->
