@@ -28,13 +28,14 @@ The Docker daemon (dockerd) **listens** for Docker **API requests** and **manage
 ### The Docker client
 The Docker client (docker) is the primary way that many **Docker users interact with Docker.** When you use commands such as docker run, the client sends these commands to dockerd, which carries them out. The docker command uses the Docker API. The Docker client can communicate with more than one daemon.
 ### Docker registries
-	A **Docker registry stores Docker images.** Docker Hub is a **public registry** that anyone can use, and Docker is configured to look for images on Docker Hub by default. You can even run your own **private registry.**
-- **IMAGES**
-	Virtual machine environments, images would be called something like “**snapshots**.” They’re a picture of a Docker virtual machine at a specific point in time. Docker images are a little bit different from a virtual machine snapshot, though. For starters, Docker images can’t ever change. Once you’ve made one, you can delete it, but you can’t modify it. If you need a new version of the snapshot, you create an entirely new image
+A **Docker registry stores Docker images**. Docker Hub is a **public registry** that anyone can use, and Docker is configured to look for images on Docker Hub by default. You can even run your own **private registry.**
+### IMAGES
+Virtual machine environments, images would be called something like “**snapshots**.” They’re a picture of a Docker virtual machine at a specific point in time. Docker images are a little bit different from a virtual machine snapshot, though. For starters, Docker images can’t ever change. Once you’ve made one, you can delete it, but you can’t modify it. If you need a new version of the snapshot, you create an entirely new image
 **NB: snapshot is a binary image of a filesystem**
 
-- **CONTAINERS**
+### CONTAINERS
 A container is a **runnable instance of an image.**
+
 ## Reference 
 - https://docs.docker.com/get-started/overview/
 - https://medium.com/codingthesmartway-com-blog/docker-beginners-guide-part-1-images-containers-6f3507fffc98#:~:text=Docker%20is%20a%20platform%20for,Docker%20containers%20are%20always%20portable.
@@ -43,7 +44,7 @@ A container is a **runnable instance of an image.**
 - https://medium.com/better-programming/docker-containers-vs-virtual-machines-838022906016
 - https://stackify.com/docker-image-vs-container-everything-you-need-to-know/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMjE4MDM4NSwtODg0MjMxMTAwLDE3Nj
+eyJoaXN0b3J5IjpbLTgxODk3NDQxNSwtODg0MjMxMTAwLDE3Nj
 UzMDIxMzYsNTUxOTM5ODQxLDgzMjczOTk3MywtODExMDEzOTMx
 LDg0MjY4OTg3MiwxMDU2ODE5MDA5LC0xMjM5NDg4MjIwLDYxOT
 Q1OTQxNCwtOTQ3MDI5MjcwLC0xMzA1Mjc2NjMyLDI2OTc1NDY5
