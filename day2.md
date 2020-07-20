@@ -3,7 +3,7 @@ A Network Interface Card (NIC) is a computer hardware component that allows a **
 ## Linux 
 **Linux OS has two-part**
 
- - **User Space**:User(Processes/Application/Services) need to do something and for that a typical interface is shell
+ - **User Space**:**User**(Processes/**Application**/Services) need to do something and for that a typical interface is shell
  - **Kernel Space or Name Space**: Kernel is the only component that has direct access to hardware.
 
 
@@ -12,6 +12,7 @@ A Network Interface Card (NIC) is a computer hardware component that allows a **
  - https://medium.com/devops-world/how-linux-kernel-is-organized-56eafcace44
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4Mzc0NDUyNCwzODgxOTc3NjksLTE4NT
-AwMDQxNjYsNDk3ODE4ODEwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTYxNTc2ODc4MCwyMDgzNzQ0NTI0LDM4OD
+E5Nzc2OSwtMTg1MDAwNDE2Niw0OTc4MTg4MTAsNzMwOTk4MTE2
+XX0=
 -->
