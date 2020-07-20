@@ -23,6 +23,12 @@ The **CLI uses** the **Docker REST API to control or interact** with the **Docke
 Docker uses a **client-server** architecture. The **Docker client talks to the Docker daemon,** which does the heavy lifting of **building, running, and distributing your Docker containers.** The **Docker client and daemon** can **run** on the s**ame system**, or you can connect a Docker client to a remote Docker daemon. The **Docker client ** and ** daemon communicate** using a **REST API**, over UNIX sockets or a network interface
 
 ![enter image description here](https://docs.docker.com/engine/images/architecture.svg)
+**The Docker daemon**
+
+ - List item
+
+The Docker daemon (dockerd) listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. A daemon can also communicate with other daemons to manage Docker services.
+
 ## Reference 
 - https://docs.docker.com/get-started/overview/
 - https://medium.com/codingthesmartway-com-blog/docker-beginners-guide-part-1-images-containers-6f3507fffc98#:~:text=Docker%20is%20a%20platform%20for,Docker%20containers%20are%20always%20portable.
@@ -30,9 +36,9 @@ Docker uses a **client-server** architecture. The **Docker client talks to the D
 - https://blog.netapp.com/blogs/containers-vs-vms/amp/
 - https://medium.com/better-programming/docker-containers-vs-virtual-machines-838022906016
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzUzNDE2MzcsNTUxOTM5ODQxLDgzMj
-czOTk3MywtODExMDEzOTMxLDg0MjY4OTg3MiwxMDU2ODE5MDA5
-LC0xMjM5NDg4MjIwLDYxOTQ1OTQxNCwtOTQ3MDI5MjcwLC0xMz
-A1Mjc2NjMyLDI2OTc1NDY5LC0yMDk5NzM5NDc0LC01MDMzNDMx
-NzIsMjA3NzU4MTcxOCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTc2NTMwMjEzNiw1NTE5Mzk4NDEsODMyNz
+M5OTczLC04MTEwMTM5MzEsODQyNjg5ODcyLDEwNTY4MTkwMDks
+LTEyMzk0ODgyMjAsNjE5NDU5NDE0LC05NDcwMjkyNzAsLTEzMD
+UyNzY2MzIsMjY5NzU0NjksLTIwOTk3Mzk0NzQsLTUwMzM0MzE3
+MiwyMDc3NTgxNzE4LDczMDk5ODExNl19
 -->
