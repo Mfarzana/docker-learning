@@ -30,7 +30,7 @@ The Docker client (docker) is the primary way that many **Docker users interact 
 ### Docker registries
 A **Docker registry stores Docker images**. Docker Hub is a **public registry** that anyone can use, and Docker is configured to look for images on Docker Hub by default. You can even run your own **private registry.**
 ### IMAGES
-Virtual machine environments, images would be called something like “**snapshots**.” They’re a picture of a Docker virtual machine at a specific point in time. Docker images are a little bit different from a virtual machine snapshot, though. For starters, Docker images can’t ever change. Once you’ve made one, you can delete it, but you can’t modify it. If you need a new version of the snapshot, you create an entirely new image
+Virtual machine environments, **images** would be called something **like snapshots**. They’re a picture of a Docker virtual machine at a specific point in time. Docker images are a little bit different from a virtual machine snapshot, though. For starters, Docker images can’t ever change. Once you’ve made one, you can delete it, but you can’t modify it. If you need a new version of the snapshot, you create an entirely new image
 **NB: snapshot is a binary image of a filesystem**
 
 ### CONTAINERS
@@ -44,10 +44,10 @@ A container is a **runnable instance of an image.**
 - https://medium.com/better-programming/docker-containers-vs-virtual-machines-838022906016
 - https://stackify.com/docker-image-vs-container-everything-you-need-to-know/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODk3NDQxNSwtODg0MjMxMTAwLDE3Nj
-UzMDIxMzYsNTUxOTM5ODQxLDgzMjczOTk3MywtODExMDEzOTMx
-LDg0MjY4OTg3MiwxMDU2ODE5MDA5LC0xMjM5NDg4MjIwLDYxOT
-Q1OTQxNCwtOTQ3MDI5MjcwLC0xMzA1Mjc2NjMyLDI2OTc1NDY5
-LC0yMDk5NzM5NDc0LC01MDMzNDMxNzIsMjA3NzU4MTcxOCw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTY1MzU5MTE4LC04ODQyMzExMDAsMTc2NT
+MwMjEzNiw1NTE5Mzk4NDEsODMyNzM5OTczLC04MTEwMTM5MzEs
+ODQyNjg5ODcyLDEwNTY4MTkwMDksLTEyMzk0ODgyMjAsNjE5ND
+U5NDE0LC05NDcwMjkyNzAsLTEzMDUyNzY2MzIsMjY5NzU0Njks
+LTIwOTk3Mzk0NzQsLTUwMzM0MzE3MiwyMDc3NTgxNzE4LDczMD
+k5ODExNl19
 -->
