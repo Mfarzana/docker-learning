@@ -7,9 +7,9 @@
 
 ## Referece 
 
- - List item
+ - https://medium.com/devops-world/how-linux-kernel-is-organized-56eafcace44
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NzY0MzYzNSwtMTg1MDAwNDE2Niw0OT
-c4MTg4MTAsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMzg4MTk3NzY5LC0xODUwMDA0MTY2LDQ5Nz
+gxODgxMCw3MzA5OTgxMTZdfQ==
 -->
