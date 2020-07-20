@@ -24,6 +24,8 @@ The **CLI uses** the **Docker REST API to control or interact** with the **Docke
 
 ## Docker architecture
 
+
+![enter image description here](https://docs.docker.com/engine/images/architecture.svg)
 ## Reference 
 - https://docs.docker.com/get-started/overview/
 - https://medium.com/codingthesmartway-com-blog/docker-beginners-guide-part-1-images-containers-6f3507fffc98#:~:text=Docker%20is%20a%20platform%20for,Docker%20containers%20are%20always%20portable.
@@ -31,7 +33,7 @@ The **CLI uses** the **Docker REST API to control or interact** with the **Docke
 - https://blog.netapp.com/blogs/containers-vs-vms/amp/
 - https://medium.com/better-programming/docker-containers-vs-virtual-machines-838022906016
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MDk2NzgzMiw1NTE5Mzk4NDEsODMyNz
+eyJoaXN0b3J5IjpbMjA0Njc0MDU4NCw1NTE5Mzk4NDEsODMyNz
 M5OTczLC04MTEwMTM5MzEsODQyNjg5ODcyLDEwNTY4MTkwMDks
 LTEyMzk0ODgyMjAsNjE5NDU5NDE0LC05NDcwMjkyNzAsLTEzMD
 UyNzY2MzIsMjY5NzU0NjksLTIwOTk3Mzk0NzQsLTUwMzM0MzE3
