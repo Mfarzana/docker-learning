@@ -18,8 +18,6 @@ A Network Interface Card (NIC) is a computer hardware component that allows a **
                      Signals
                      System Calls 
 If **User need** to **interact** with **Kernel** there is a limited option,which is provided by kernel and strictly defined by the kernel what user can do
-Signal
-System Calls
 ### System Calls
 -  Essential part of Linux Operating System
 - Processes cannot access the kernel directly
@@ -42,9 +40,9 @@ There is one more thing involved in this whole process called libraries which is
  - https://www.ibm.com/support/knowledgecenter/en/ssw_aix_72/network/protocols_addr_resolution.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEzMDg2NDA5LC05NTg5OTA3MDUsLTU2Mj
-I1NjU5MSwtMTE3MzYzMzM1NCwtNDU4MzkwMjYsLTExMjAyOTIx
-NiwyMDk1ODE2MTE2LDE2MTU3Njg3ODAsMjA4Mzc0NDUyNCwzOD
-gxOTc3NjksLTE4NTAwMDQxNjYsNDk3ODE4ODEwLDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbLTkzMDA4OTI1NSwtOTU4OTkwNzA1LC01Nj
+IyNTY1OTEsLTExNzM2MzMzNTQsLTQ1ODM5MDI2LC0xMTIwMjky
+MTYsMjA5NTgxNjExNiwxNjE1NzY4NzgwLDIwODM3NDQ1MjQsMz
+g4MTk3NzY5LC0xODUwMDA0MTY2LDQ5NzgxODgxMCw3MzA5OTgx
+MTZdfQ==
 -->
