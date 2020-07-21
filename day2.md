@@ -14,10 +14,8 @@ A Network Interface Card (NIC) is a computer hardware component that allows a **
 
  - **User Space**:**User**(Processes/**Application**/Services) need to do something and for that a typical interface is shell
  - **Kernel Space or Name Space**: Kernel is the only component that has direct access to hardware.
- 
-All processes make system calls:
+ All processes make system calls:
 ![enter image description here](https://www.redhat.com/cms/managed-files/styles/wysiwyg_full_width/s3/2015/07/user-space-vs-kernel-space-simple-user-space.png?itok=7PGYkTdC)
-
  **Processes running** under the **user space** have access only to a limited part of memory, whereas the kernel has access to all of the memory. **Processes running in user space also don't have access to the kernel space.** **User space processes** can only **access** a small part of the **kernel** via an **interface** exposed by the kernel - **the system calls.**  If a process performs a system call, a software interrupt is sent to the kernel, which then dispatches the appropriate interrupt handler and continues its work after the handler has finished.
                       
 ### System Calls
@@ -72,11 +70,11 @@ Docker Engine uses namespaces such as the following on Linux:
 - https://thecodeboss.dev/2016/11/how-daemons-the-init-process-and-process-forking-work/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTc5NjMyMCwxNTY3MDQ3Nzg4LC0zMj
-M3NTA5MjYsMjEwNDk1NDg4NSwtMTQwODgyMjY0NywtMTE3ODk2
-MzQ1NSwtNDE0NjA3MDk2LC00NTY3MjYxOTAsNjg4MTY4NTY3LC
-01NTAzMzY2MzUsMTY1NDQ3MjI5Nyw1NDQyMTk1MzQsLTk1ODk5
-MDcwNSwtNTYyMjU2NTkxLC0xMTczNjMzMzU0LC00NTgzOTAyNi
-wtMTEyMDI5MjE2LDIwOTU4MTYxMTYsMTYxNTc2ODc4MCwyMDgz
-NzQ0NTI0XX0=
+eyJoaXN0b3J5IjpbLTE1NTI5NzI1MTIsMTU2NzA0Nzc4OCwtMz
+IzNzUwOTI2LDIxMDQ5NTQ4ODUsLTE0MDg4MjI2NDcsLTExNzg5
+NjM0NTUsLTQxNDYwNzA5NiwtNDU2NzI2MTkwLDY4ODE2ODU2Ny
+wtNTUwMzM2NjM1LDE2NTQ0NzIyOTcsNTQ0MjE5NTM0LC05NTg5
+OTA3MDUsLTU2MjI1NjU5MSwtMTE3MzYzMzM1NCwtNDU4MzkwMj
+YsLTExMjAyOTIxNiwyMDk1ODE2MTE2LDE2MTU3Njg3ODAsMjA4
+Mzc0NDUyNF19
 -->
