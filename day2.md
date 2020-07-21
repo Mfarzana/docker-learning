@@ -32,7 +32,7 @@ All processes make system calls:
 There is one more thing involved in this whole process called libraries which is just an additional code used by either shell or process to add more functionalities.For eg: the most important one is glibc which provides functions and system calls
 ### Init Process
 Init is the parent of all Linux processes. It is the **first process** to start when a computer boots up and it runs until the system shuts down. It is the ancestor of all other processes.
-
+Init ProcessProcess Forking
 ## The underlying technology
 ### Namespaces
 Docker uses a technology called  `namespaces`  to provide the isolated workspace called the  _container_. **When you run a container, Docker creates a set of  _namespaces_  for that container.**
@@ -57,10 +57,10 @@ Docker Engine uses namespaces such as the following on Linux:
  - https://www.redhat.com/en/blog/architecting-containers-part-1-why-understanding-user-space-vs-kernel-space-matters
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NjcyNjE5MCw2ODgxNjg1NjcsLTU1MD
-MzNjYzNSwxNjU0NDcyMjk3LDU0NDIxOTUzNCwtOTU4OTkwNzA1
-LC01NjIyNTY1OTEsLTExNzM2MzMzNTQsLTQ1ODM5MDI2LC0xMT
-IwMjkyMTYsMjA5NTgxNjExNiwxNjE1NzY4NzgwLDIwODM3NDQ1
-MjQsMzg4MTk3NzY5LC0xODUwMDA0MTY2LDQ5NzgxODgxMCw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNTEzNDkyMzMyLC00NTY3MjYxOTAsNjg4MT
+Y4NTY3LC01NTAzMzY2MzUsMTY1NDQ3MjI5Nyw1NDQyMTk1MzQs
+LTk1ODk5MDcwNSwtNTYyMjU2NTkxLC0xMTczNjMzMzU0LC00NT
+gzOTAyNiwtMTEyMDI5MjE2LDIwOTU4MTYxMTYsMTYxNTc2ODc4
+MCwyMDgzNzQ0NTI0LDM4ODE5Nzc2OSwtMTg1MDAwNDE2Niw0OT
+c4MTg4MTAsNzMwOTk4MTE2XX0=
 -->
