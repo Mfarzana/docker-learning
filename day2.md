@@ -53,8 +53,8 @@ Docker Engine uses namespaces such as the following on Linux:
 **Cgroups and Namespaces**
 Cgroups and namespaces are both **linux kernel features** that, together, create a way to isolate a process or group of processes to help create this abstraction we call a “container”. 
 
->- Cgroups or control groups are used to limit or monitor the resources of a group of processes.
-Namespaces, on the other hand, isolate what a group of processes have access to within the system. For example, a network namespace allows for different processes to use the same port without conflicting with one another. There is a process id namespace that could allow for multiple processes running PID 1. Or, perhaps, a mount namespace can isolate parts of the file system a group of processes have access to. In order to easily take advantage of these features together to create these abstract containers we need some sort of run-time.
+>- **Cgroups or control groups** are used to limit or monitor the resources of a group of processes.
+>- **Namespaces,** on the other hand, isolate what a group of processes have access to within the system. For example, a network namespace allows for different processes to use the same port without conflicting with one another. There is a process id namespace that could allow for multiple processes running PID 1. Or, perhaps, a mount namespace can isolate parts of the file system a group of processes have access to. In order to easily take advantage of these features together to create these abstract containers we need some sort of run-time.
 
 
 
@@ -72,11 +72,11 @@ The OCI currently provides 2 container specifications:
 - https://thecodeboss.dev/2016/11/how-daemons-the-init-process-and-process-forking-work/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDk1OTQzOCwtMzU1NTgyNzk3LC01MD
-c0NTgzNCwxODYyNDM3NDM4LDE1NjcwNDc3ODgsLTMyMzc1MDky
-NiwyMTA0OTU0ODg1LC0xNDA4ODIyNjQ3LC0xMTc4OTYzNDU1LC
-00MTQ2MDcwOTYsLTQ1NjcyNjE5MCw2ODgxNjg1NjcsLTU1MDMz
-NjYzNSwxNjU0NDcyMjk3LDU0NDIxOTUzNCwtOTU4OTkwNzA1LC
-01NjIyNTY1OTEsLTExNzM2MzMzNTQsLTQ1ODM5MDI2LC0xMTIw
-MjkyMTZdfQ==
+eyJoaXN0b3J5IjpbLTE5MTU5Mzk4NDEsLTM1NTU4Mjc5NywtNT
+A3NDU4MzQsMTg2MjQzNzQzOCwxNTY3MDQ3Nzg4LC0zMjM3NTA5
+MjYsMjEwNDk1NDg4NSwtMTQwODgyMjY0NywtMTE3ODk2MzQ1NS
+wtNDE0NjA3MDk2LC00NTY3MjYxOTAsNjg4MTY4NTY3LC01NTAz
+MzY2MzUsMTY1NDQ3MjI5Nyw1NDQyMTk1MzQsLTk1ODk5MDcwNS
+wtNTYyMjU2NTkxLC0xMTczNjMzMzU0LC00NTgzOTAyNiwtMTEy
+MDI5MjE2XX0=
 -->
