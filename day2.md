@@ -62,7 +62,7 @@ Docker Engine uses namespaces such as the following on Linux:
 ## Referece 
 - https://docs.docker.com/get-started/overview/
  - https://medium.com/devops-world/how-linux-kernel-is-organized-56eafcace44
- - techopedia.com/definition/5306/network-interface-card-nic
+ - https://www.techopedia.com/definition/5306/network-interface-card-nic
  - https://community.fs.com/blog/nic-card-guide-for-beginners-functions-types-and-selection-tips.html
  - https://www.grandmetric.com/2018/01/20/how-does-routing-table-work/
  - https://www.ibm.com/support/knowledgecenter/en/ssw_aix_72/network/protocols_addr_resolution.html
@@ -72,11 +72,11 @@ Docker Engine uses namespaces such as the following on Linux:
 - https://thecodeboss.dev/2016/11/how-daemons-the-init-process-and-process-forking-work/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzc1MDkyNiwyMTA0OTU0ODg1LC0xND
-A4ODIyNjQ3LC0xMTc4OTYzNDU1LC00MTQ2MDcwOTYsLTQ1Njcy
-NjE5MCw2ODgxNjg1NjcsLTU1MDMzNjYzNSwxNjU0NDcyMjk3LD
-U0NDIxOTUzNCwtOTU4OTkwNzA1LC01NjIyNTY1OTEsLTExNzM2
-MzMzNTQsLTQ1ODM5MDI2LC0xMTIwMjkyMTYsMjA5NTgxNjExNi
-wxNjE1NzY4NzgwLDIwODM3NDQ1MjQsMzg4MTk3NzY5LC0xODUw
-MDA0MTY2XX0=
+eyJoaXN0b3J5IjpbMTU2NzA0Nzc4OCwtMzIzNzUwOTI2LDIxMD
+Q5NTQ4ODUsLTE0MDg4MjI2NDcsLTExNzg5NjM0NTUsLTQxNDYw
+NzA5NiwtNDU2NzI2MTkwLDY4ODE2ODU2NywtNTUwMzM2NjM1LD
+E2NTQ0NzIyOTcsNTQ0MjE5NTM0LC05NTg5OTA3MDUsLTU2MjI1
+NjU5MSwtMTE3MzYzMzM1NCwtNDU4MzkwMjYsLTExMjAyOTIxNi
+wyMDk1ODE2MTE2LDE2MTU3Njg3ODAsMjA4Mzc0NDUyNCwzODgx
+OTc3NjldfQ==
 -->
