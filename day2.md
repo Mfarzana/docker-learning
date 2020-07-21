@@ -9,7 +9,7 @@ A Network Interface Card (NIC) is a computer hardware component that allows a **
 > User Space ----> Kernel Space
                      Signals
                      System Calls 
-If **User need** to **interact** with Kernel there is a limited option,which is provided by kernel and strictly defined by the kernel what user can do
+If **User need** to **interact** with **Kernel** there is a limited option,which is provided by kernel and strictly defined by the kernel what user can do
 
 ## Referece 
 
@@ -18,7 +18,7 @@ If **User need** to **interact** with Kernel there is a limited option,which is 
  - https://community.fs.com/blog/nic-card-guide-for-beginners-functions-types-and-selection-tips.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjExMjMzNDAsMTYxNTc2ODc4MCwyMD
-gzNzQ0NTI0LDM4ODE5Nzc2OSwtMTg1MDAwNDE2Niw0OTc4MTg4
-MTAsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMjA5NTgxNjExNiwxNjE1NzY4NzgwLDIwOD
+M3NDQ1MjQsMzg4MTk3NzY5LC0xODUwMDA0MTY2LDQ5NzgxODgx
+MCw3MzA5OTgxMTZdfQ==
 -->
