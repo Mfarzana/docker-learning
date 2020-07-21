@@ -46,7 +46,7 @@ the way to **create a process** is to **create a copy of the existing process** 
 
 ## Docker technology
 ### Namespaces
-Docker uses a technology called  `namespaces`  to provide the isolated workspace called the  _container_. **When you run a container, Docker creates a set of  _namespaces_  for that container.**
+ **When you run a container, Docker creates a set of  _namespaces_  for that container.**
 Docker Engine uses namespaces such as the following on Linux:
 -   **The  `pid`  namespace:**  Process isolation (PID: Process ID).
 
@@ -58,7 +58,6 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
 
 
 
-The OCI currently provides 2 container specifications:
 ## Referece 
 - https://docs.docker.com/get-started/overview/
  - https://medium.com/devops-world/how-linux-kernel-is-organized-56eafcace44
@@ -72,11 +71,11 @@ The OCI currently provides 2 container specifications:
 - https://thecodeboss.dev/2016/11/how-daemons-the-init-process-and-process-forking-work/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTU5Mzk4NDEsLTM1NTU4Mjc5NywtNT
-A3NDU4MzQsMTg2MjQzNzQzOCwxNTY3MDQ3Nzg4LC0zMjM3NTA5
-MjYsMjEwNDk1NDg4NSwtMTQwODgyMjY0NywtMTE3ODk2MzQ1NS
-wtNDE0NjA3MDk2LC00NTY3MjYxOTAsNjg4MTY4NTY3LC01NTAz
-MzY2MzUsMTY1NDQ3MjI5Nyw1NDQyMTk1MzQsLTk1ODk5MDcwNS
-wtNTYyMjU2NTkxLC0xMTczNjMzMzU0LC00NTgzOTAyNiwtMTEy
-MDI5MjE2XX0=
+eyJoaXN0b3J5IjpbMTI2ODE0NjU2MiwtMzU1NTgyNzk3LC01MD
+c0NTgzNCwxODYyNDM3NDM4LDE1NjcwNDc3ODgsLTMyMzc1MDky
+NiwyMTA0OTU0ODg1LC0xNDA4ODIyNjQ3LC0xMTc4OTYzNDU1LC
+00MTQ2MDcwOTYsLTQ1NjcyNjE5MCw2ODgxNjg1NjcsLTU1MDMz
+NjYzNSwxNjU0NDcyMjk3LDU0NDIxOTUzNCwtOTU4OTkwNzA1LC
+01NjIyNTY1OTEsLTExNzM2MzMzNTQsLTQ1ODM5MDI2LC0xMTIw
+MjkyMTZdfQ==
 -->
