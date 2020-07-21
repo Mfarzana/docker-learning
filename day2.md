@@ -33,8 +33,9 @@ There is one more thing involved in this whole process called libraries which is
 
 ### Init Process
 Init is the parent of all Linux processes. It is the **first process** to start when a computer boots up and it runs until the system shuts down. It is the ancestor of all other processes.
+
 ### Process Forking 
-the way to create a process is to create a copy of the existing process and to go from there. This practice – known as **process forking** – involves duplicating the existing process to create a child process and making an exec system call to start another program.
+the way to **create a process** is to **create a copy of the existing process** and to go from there. This practice – known as **process forking** – involves duplicating the existing process to create a child process and making an exec system call to start another program.
 > System call fork() is used to create processes. 
 
 
@@ -62,10 +63,10 @@ Docker Engine uses namespaces such as the following on Linux:
  - https://www.redhat.com/en/blog/architecting-containers-part-1-why-understanding-user-space-vs-kernel-space-matters
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjA2Njc5NDUsLTQ1NjcyNjE5MCw2OD
-gxNjg1NjcsLTU1MDMzNjYzNSwxNjU0NDcyMjk3LDU0NDIxOTUz
-NCwtOTU4OTkwNzA1LC01NjIyNTY1OTEsLTExNzM2MzMzNTQsLT
-Q1ODM5MDI2LC0xMTIwMjkyMTYsMjA5NTgxNjExNiwxNjE1NzY4
-NzgwLDIwODM3NDQ1MjQsMzg4MTk3NzY5LC0xODUwMDA0MTY2LD
-Q5NzgxODgxMCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNzM1MDEzOTI5LC00NTY3MjYxOTAsNjg4MT
+Y4NTY3LC01NTAzMzY2MzUsMTY1NDQ3MjI5Nyw1NDQyMTk1MzQs
+LTk1ODk5MDcwNSwtNTYyMjU2NTkxLC0xMTczNjMzMzU0LC00NT
+gzOTAyNiwtMTEyMDI5MjE2LDIwOTU4MTYxMTYsMTYxNTc2ODc4
+MCwyMDgzNzQ0NTI0LDM4ODE5Nzc2OSwtMTg1MDAwNDE2Niw0OT
+c4MTg4MTAsNzMwOTk4MTE2XX0=
 -->
