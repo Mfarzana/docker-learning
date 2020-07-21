@@ -1,10 +1,13 @@
 ## NIC Card
 A Network Interface Card (NIC) is a computer hardware component that allows a **computer to connect to a network**. NICs may be used for both wired and wireless connections.
+
 ## Routing table
 **The place where routing information is stored is called a routing table.**  **Routing table contains** routing entries, that is list of **destinations** (often called: list of network prefixes or routes).
 >  **Destination IP** field of packet is checked against **information stored in router**
+>  
 ## Address Resolution Protocol (ARP)
  **ARP** dynamically **translates** Internet addresses (**IP addresses**/logical addresses) **into** the unique hardware addresses(**MAC addresses**/Physical addresses)on local area networks.
+ 
 ## Linux 
 **Linux OS has two-part**
 
@@ -37,8 +40,8 @@ There is one more thing involved in this whole process called libraries which is
  - https://www.ibm.com/support/knowledgecenter/en/ssw_aix_72/network/protocols_addr_resolution.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU0MTM5NTAsLTQ1ODM5MDI2LC0xMTIwMj
-kyMTYsMjA5NTgxNjExNiwxNjE1NzY4NzgwLDIwODM3NDQ1MjQs
-Mzg4MTk3NzY5LC0xODUwMDA0MTY2LDQ5NzgxODgxMCw3MzA5OT
-gxMTZdfQ==
+eyJoaXN0b3J5IjpbLTExNzM2MzMzNTQsLTQ1ODM5MDI2LC0xMT
+IwMjkyMTYsMjA5NTgxNjExNiwxNjE1NzY4NzgwLDIwODM3NDQ1
+MjQsMzg4MTk3NzY5LC0xODUwMDA0MTY2LDQ5NzgxODgxMCw3Mz
+A5OTgxMTZdfQ==
 -->
