@@ -46,12 +46,9 @@ the way to **create a process** is to **create a copy of the existing process** 
 
 ## Docker technology
 ### Namespaces
- **When you run a container, Docker creates a set of  _namespaces_  for that container.**
-Docker Engine uses namespaces such as the following on Linux:
 -   **The  `pid`  namespace:**  Process isolation (PID: Process ID).
-
 **Cgroups and Namespaces**
-Cgroups and namespaces are both **linux kernel features** that, together, create a way to isolate a process or group of processes to help create this abstraction we call a “container”. 
+Cgroups and namespaces are both **linux kernel features** that, together, create a way to **isolate a process or group of processes** to help create this abstraction we call a “**container**”. 
 
 >- **Cgroups or control groups** are used to limit or monitor the resources of a group of processes.
 >- **Namespaces** isolate what **a group of processes** have access to within the system. For example, a network namespace allows for different processes to use the same port without conflicting with one another. There is a process id namespace that could allow for multiple processes running PID 1. Or, perhaps, a mount namespace can isolate parts of the file system a group of processes have access to. In order to easily take advantage of these features together to create these abstract containers we need some sort of run-time.
@@ -71,11 +68,11 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
 - https://thecodeboss.dev/2016/11/how-daemons-the-init-process-and-process-forking-work/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMDU5MjMwNSwxMjY4MTQ2NTYyLC0zNT
-U1ODI3OTcsLTUwNzQ1ODM0LDE4NjI0Mzc0MzgsMTU2NzA0Nzc4
-OCwtMzIzNzUwOTI2LDIxMDQ5NTQ4ODUsLTE0MDg4MjI2NDcsLT
-ExNzg5NjM0NTUsLTQxNDYwNzA5NiwtNDU2NzI2MTkwLDY4ODE2
-ODU2NywtNTUwMzM2NjM1LDE2NTQ0NzIyOTcsNTQ0MjE5NTM0LC
-05NTg5OTA3MDUsLTU2MjI1NjU5MSwtMTE3MzYzMzM1NCwtNDU4
-MzkwMjZdfQ==
+eyJoaXN0b3J5IjpbNjM5ODgyMTQ1LDEyNjgxNDY1NjIsLTM1NT
+U4Mjc5NywtNTA3NDU4MzQsMTg2MjQzNzQzOCwxNTY3MDQ3Nzg4
+LC0zMjM3NTA5MjYsMjEwNDk1NDg4NSwtMTQwODgyMjY0NywtMT
+E3ODk2MzQ1NSwtNDE0NjA3MDk2LC00NTY3MjYxOTAsNjg4MTY4
+NTY3LC01NTAzMzY2MzUsMTY1NDQ3MjI5Nyw1NDQyMTk1MzQsLT
+k1ODk5MDcwNSwtNTYyMjU2NTkxLC0xMTczNjMzMzU0LC00NTgz
+OTAyNl19
 -->
