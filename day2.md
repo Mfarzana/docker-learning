@@ -46,7 +46,7 @@ the way to **create a process** is to **create a copy of the existing process** 
 >- Daemons are spawned one of two ways**: either the init process forks and creates them directly 
 
 
-## The underlying technology
+## Docker technology
 ### Namespaces
 Docker uses a technology called  `namespaces`  to provide the isolated workspace called the  _container_. **When you run a container, Docker creates a set of  _namespaces_  for that container.**
 
@@ -72,11 +72,11 @@ Docker Engine uses namespaces such as the following on Linux:
 - https://thecodeboss.dev/2016/11/how-daemons-the-init-process-and-process-forking-work/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NzA0Nzc4OCwtMzIzNzUwOTI2LDIxMD
-Q5NTQ4ODUsLTE0MDg4MjI2NDcsLTExNzg5NjM0NTUsLTQxNDYw
-NzA5NiwtNDU2NzI2MTkwLDY4ODE2ODU2NywtNTUwMzM2NjM1LD
-E2NTQ0NzIyOTcsNTQ0MjE5NTM0LC05NTg5OTA3MDUsLTU2MjI1
-NjU5MSwtMTE3MzYzMzM1NCwtNDU4MzkwMjYsLTExMjAyOTIxNi
-wyMDk1ODE2MTE2LDE2MTU3Njg3ODAsMjA4Mzc0NDUyNCwzODgx
-OTc3NjldfQ==
+eyJoaXN0b3J5IjpbLTEyNTc5NjMyMCwxNTY3MDQ3Nzg4LC0zMj
+M3NTA5MjYsMjEwNDk1NDg4NSwtMTQwODgyMjY0NywtMTE3ODk2
+MzQ1NSwtNDE0NjA3MDk2LC00NTY3MjYxOTAsNjg4MTY4NTY3LC
+01NTAzMzY2MzUsMTY1NDQ3MjI5Nyw1NDQyMTk1MzQsLTk1ODk5
+MDcwNSwtNTYyMjU2NTkxLC0xMTczNjMzMzU0LC00NTgzOTAyNi
+wtMTEyMDI5MjE2LDIwOTU4MTYxMTYsMTYxNTc2ODc4MCwyMDgz
+NzQ0NTI0XX0=
 -->
