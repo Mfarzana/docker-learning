@@ -54,6 +54,21 @@ Docker Engine uses namespaces such as the following on Linux:
 
 -   **The  `pid`  namespace:**  Process isolation (PID: Process ID).
 -  
+**Cgroups and Namespaces**
+Cgroups and namespaces are both linux kernel features that, together, create a way to isolate a process or group of processes to help create this abstraction we call a “container”. 
+
+Cgroups or control groups are used to limit or monitor the resources of a group of processes. We can see below that at /sys/fs/cgroup what cgroups are setup and administered.
+
+
+
+Two obvious cgroup options shown above are cpu and memory. If we look at the options within each, it starts to become more apparent how processes are throttled and limited to the resources they are allowed to use.
+
+Namespaces, on the other hand, isolate what a group of processes have access to within the system. For example, a network namespace allows for different processes to use the same port without conflicting with one another. There is a process id namespace that could allow for multiple processes running PID 1. Or, perhaps, a mount namespace can isolate parts of the file system a group of processes have access to. In order to easily take advantage of these features together to create these abstract containers we need some sort of run-time.
+
+runC
+Docker internally uses runC as it’s container run-time. runC is a lightweight, portable container run-time that is merely a CLI tool used to spawn and run containers using the above mentioned kernel features. runC was actually pulled out of docker and donated to the Open Container Initiative (OCI). This group was formed to create standards around container format and, with that, runC follows the OCI run-time specification.
+
+The OCI currently provides 2 container specifications:
 ## Referece 
 - https://docs.docker.com/get-started/overview/
  - https://medium.com/devops-world/how-linux-kernel-is-organized-56eafcace44
@@ -67,11 +82,11 @@ Docker Engine uses namespaces such as the following on Linux:
 - https://thecodeboss.dev/2016/11/how-daemons-the-init-process-and-process-forking-work/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MjQzNzQzOCwxNTY3MDQ3Nzg4LC0zMj
-M3NTA5MjYsMjEwNDk1NDg4NSwtMTQwODgyMjY0NywtMTE3ODk2
-MzQ1NSwtNDE0NjA3MDk2LC00NTY3MjYxOTAsNjg4MTY4NTY3LC
-01NTAzMzY2MzUsMTY1NDQ3MjI5Nyw1NDQyMTk1MzQsLTk1ODk5
-MDcwNSwtNTYyMjU2NTkxLC0xMTczNjMzMzU0LC00NTgzOTAyNi
-wtMTEyMDI5MjE2LDIwOTU4MTYxMTYsMTYxNTc2ODc4MCwyMDgz
-NzQ0NTI0XX0=
+eyJoaXN0b3J5IjpbMTIzMTQ4NzAzNCwxODYyNDM3NDM4LDE1Nj
+cwNDc3ODgsLTMyMzc1MDkyNiwyMTA0OTU0ODg1LC0xNDA4ODIy
+NjQ3LC0xMTc4OTYzNDU1LC00MTQ2MDcwOTYsLTQ1NjcyNjE5MC
+w2ODgxNjg1NjcsLTU1MDMzNjYzNSwxNjU0NDcyMjk3LDU0NDIx
+OTUzNCwtOTU4OTkwNzA1LC01NjIyNTY1OTEsLTExNzM2MzMzNT
+QsLTQ1ODM5MDI2LC0xMTIwMjkyMTYsMjA5NTgxNjExNiwxNjE1
+NzY4NzgwXX0=
 -->
