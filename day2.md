@@ -33,10 +33,9 @@ There is one more thing involved in this whole process called libraries which is
 
 ### Init Process
 Init is the parent of all Linux processes. It is the **first process** to start when a computer boots up and it runs until the system shuts down. It is the ancestor of all other processes.
-### fork() System Call
-System call fork() is used to create processes. It takes no arguments and returns a process ID. The purpose of fork() is to create a new process, which becomes the child process of the caller. After a new child process is created, both processes will execute the next instruction following the fork() system call. Therefore, we have to distinguish the parent from the child. This can be done by testing the returned value of fork():
+### Process Forking 
 
-Traditionally in Unix, the only way to create a process is to create a copy of the existing process and to go from there. This practice – known as process forking – involves duplicating the existing process to create a child process and making an exec system call to start another program.
+the way to create a process is to create a copy of the existing process and to go from there. This practice – known as process forking – involves duplicating the existing process to create a child process and making an exec system call to start another program.
 
 ## The underlying technology
 ### Namespaces
@@ -62,7 +61,7 @@ Docker Engine uses namespaces such as the following on Linux:
  - https://www.redhat.com/en/blog/architecting-containers-part-1-why-understanding-user-space-vs-kernel-space-matters
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjU2NjE1MzIsLTQ1NjcyNjE5MCw2OD
+eyJoaXN0b3J5IjpbLTE1Mzg5MzU1MTQsLTQ1NjcyNjE5MCw2OD
 gxNjg1NjcsLTU1MDMzNjYzNSwxNjU0NDcyMjk3LDU0NDIxOTUz
 NCwtOTU4OTkwNzA1LC01NjIyNTY1OTEsLTExNzM2MzMzNTQsLT
 Q1ODM5MDI2LC0xMTIwMjkyMTYsMjA5NTgxNjExNiwxNjE1NzY4
