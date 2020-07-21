@@ -27,11 +27,11 @@ System Calls
 - provides a library interface to use system calls from programs
 - Common task like opening,listing,reading and writing to files all involves system calls
 - The fork() and exec() system calls determine how a process start
-- fork(): the kernel creates an almost identical copy of the current process and replaces that
+- **fork()**: the **kernel** **creates** an almost identical **copy of the current process and replaces that**
 - exec(): the kernel starts a program,which replaces the current process
 There is one more thing involved in this whole process called libraries which is just an additional code used by either shell or process to add more functionalities.For eg: the most important one is glibc which provides functions and system calls
 
-The underlying technology
+## The underlying technology
 
 ## Referece 
 
@@ -42,8 +42,8 @@ The underlying technology
  - https://www.ibm.com/support/knowledgecenter/en/ssw_aix_72/network/protocols_addr_resolution.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDYzOTgxNTksLTU2MjI1NjU5MSwtMT
-E3MzYzMzM1NCwtNDU4MzkwMjYsLTExMjAyOTIxNiwyMDk1ODE2
-MTE2LDE2MTU3Njg3ODAsMjA4Mzc0NDUyNCwzODgxOTc3NjksLT
-E4NTAwMDQxNjYsNDk3ODE4ODEwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTk1ODk5MDcwNSwtNTYyMjU2NTkxLC0xMT
+czNjMzMzU0LC00NTgzOTAyNiwtMTEyMDI5MjE2LDIwOTU4MTYx
+MTYsMTYxNTc2ODc4MCwyMDgzNzQ0NTI0LDM4ODE5Nzc2OSwtMT
+g1MDAwNDE2Niw0OTc4MTg4MTAsNzMwOTk4MTE2XX0=
 -->
