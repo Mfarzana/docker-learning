@@ -44,7 +44,7 @@ the way to **create a process** is to **create a copy of the existing process** 
 **Daemons are background process**.Some processes have the goal to run for a long time on the system in the background. This could be to fulfill requests like scanning an incoming email or sending back a page of a website. These processes are called daemons. **Daemons are often started directly after the operating system started.** Most have a ‘d’ at the end of the process name, to hint that they are a daemon process.
 **Good to remember**: A daemon is always a process, but not all processes are a daemon
 > **How Daemons Work**
-Daemons are spawned one of two ways: either the init process forks and creates them directly – like we mentioned above in the init process segment – or some other process will fork itself to create a child process, and then the parent process immediately exits. The first condition seems pretty straightforward – the init process forks to create a daemon – but how does that second condition work, and how does the init process end up becoming the parent of these daemons?
+**Daemons are spawned one of two ways**: either the init process forks** and **creates them directly** 
 
 When you fork a process to create a child process, and then immediately kill that parent process, the child process becomes an orphaned process – a running process with no parent (not to be confused with a zombie process, such as a child process that has been terminated but is waiting on the parent process to read its exit status). By default, if a child process gets orphaned, the init process will automatically adopt the process and become its parent. This is a key concept to understand, because this is normally how daemons that you start after boot up relate to the init process. And that’s about all that makes daemons unique from normal background processes – see, not too bad!
 ## The underlying technology
@@ -73,11 +73,11 @@ Docker Engine uses namespaces such as the following on Linux:
 - https://thecodeboss.dev/2016/11/how-daemons-the-init-process-and-process-forking-work/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDk1NDg4NSwtMTQwODgyMjY0NywtMT
-E3ODk2MzQ1NSwtNDE0NjA3MDk2LC00NTY3MjYxOTAsNjg4MTY4
-NTY3LC01NTAzMzY2MzUsMTY1NDQ3MjI5Nyw1NDQyMTk1MzQsLT
-k1ODk5MDcwNSwtNTYyMjU2NTkxLC0xMTczNjMzMzU0LC00NTgz
-OTAyNiwtMTEyMDI5MjE2LDIwOTU4MTYxMTYsMTYxNTc2ODc4MC
-wyMDgzNzQ0NTI0LDM4ODE5Nzc2OSwtMTg1MDAwNDE2Niw0OTc4
-MTg4MTBdfQ==
+eyJoaXN0b3J5IjpbMzcwNzczNzQyLDIxMDQ5NTQ4ODUsLTE0MD
+g4MjI2NDcsLTExNzg5NjM0NTUsLTQxNDYwNzA5NiwtNDU2NzI2
+MTkwLDY4ODE2ODU2NywtNTUwMzM2NjM1LDE2NTQ0NzIyOTcsNT
+Q0MjE5NTM0LC05NTg5OTA3MDUsLTU2MjI1NjU5MSwtMTE3MzYz
+MzM1NCwtNDU4MzkwMjYsLTExMjAyOTIxNiwyMDk1ODE2MTE2LD
+E2MTU3Njg3ODAsMjA4Mzc0NDUyNCwzODgxOTc3NjksLTE4NTAw
+MDQxNjZdfQ==
 -->
