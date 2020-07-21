@@ -39,9 +39,10 @@ There is one more thing involved in this whole process called libraries which is
  - https://community.fs.com/blog/nic-card-guide-for-beginners-functions-types-and-selection-tips.html
  - https://www.grandmetric.com/2018/01/20/how-does-routing-table-work/
  - https://www.ibm.com/support/knowledgecenter/en/ssw_aix_72/network/protocols_addr_resolution.html
+ - https://unix.stackexchange.com/questions/87625/what-is-difference-between-user-space-and-kernel-space
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NzA2NzM2MSw1NDQyMTk1MzQsLTk1OD
+eyJoaXN0b3J5IjpbMTY1NDQ3MjI5Nyw1NDQyMTk1MzQsLTk1OD
 k5MDcwNSwtNTYyMjU2NTkxLC0xMTczNjMzMzU0LC00NTgzOTAy
 NiwtMTEyMDI5MjE2LDIwOTU4MTYxMTYsMTYxNTc2ODc4MCwyMD
 gzNzQ0NTI0LDM4ODE5Nzc2OSwtMTg1MDAwNDE2Niw0OTc4MTg4
