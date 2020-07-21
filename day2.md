@@ -18,7 +18,7 @@ A Network Interface Card (NIC) is a computer hardware component that allows a **
 All processes make system calls:
 ![enter image description here](https://www.redhat.com/cms/managed-files/styles/wysiwyg_full_width/s3/2015/07/user-space-vs-kernel-space-simple-user-space.png?itok=7PGYkTdC)
 
-> **Processes running** under the **user space** have access only to a limited part of memory, whereas the kernel has access to all of the memory. **Processes running in user space also don't have access to the kernel space.** **User space processes** can only **access** a small part of the **kernel** via an **interface** exposed by the kernel - **the system calls.** If a process performs a system call, a software interrupt is sent to the kernel, which then dispatches the appropriate interrupt handler and continues its work after the handler has finished.
+ **Processes running** under the **user space** have access only to a limited part of memory, whereas the kernel has access to all of the memory. **Processes running in user space also don't have access to the kernel space.** **User space processes** can only **access** a small part of the **kernel** via an **interface** exposed by the kernel - **the system calls.**  If a process performs a system call, a software interrupt is sent to the kernel, which then dispatches the appropriate interrupt handler and continues its work after the handler has finished.
                       
 ### System Calls
 -  Essential part of Linux Operating System
@@ -44,9 +44,9 @@ There is one more thing involved in this whole process called libraries which is
  - https://www.redhat.com/en/blog/architecting-containers-part-1-why-understanding-user-space-vs-kernel-space-matters
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkzNjQ5ODU1LDE2NTQ0NzIyOTcsNTQ0Mj
-E5NTM0LC05NTg5OTA3MDUsLTU2MjI1NjU5MSwtMTE3MzYzMzM1
-NCwtNDU4MzkwMjYsLTExMjAyOTIxNiwyMDk1ODE2MTE2LDE2MT
-U3Njg3ODAsMjA4Mzc0NDUyNCwzODgxOTc3NjksLTE4NTAwMDQx
-NjYsNDk3ODE4ODEwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTU1MDMzNjYzNSwxNjU0NDcyMjk3LDU0ND
+IxOTUzNCwtOTU4OTkwNzA1LC01NjIyNTY1OTEsLTExNzM2MzMz
+NTQsLTQ1ODM5MDI2LC0xMTIwMjkyMTYsMjA5NTgxNjExNiwxNj
+E1NzY4NzgwLDIwODM3NDQ1MjQsMzg4MTk3NzY5LC0xODUwMDA0
+MTY2LDQ5NzgxODgxMCw3MzA5OTgxMTZdfQ==
 -->
