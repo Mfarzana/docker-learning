@@ -59,6 +59,8 @@ Cgroups and namespaces are both linux kernel features that, together, create a w
 
 Cgroups or control groups are used to limit or monitor the resources of a group of processes. We can see below that at /sys/fs/cgroup what cgroups are setup and administered.
 
+provide a new way of limiting access to system resources for processes. You can create your own cgroups, monitor the cgroups you configure, deny cgroups access to certain resources, and even reconfigure your cgroups dynamically on a running system.
+
 
 
 Two obvious cgroup options shown above are cpu and memory. If we look at the options within each, it starts to become more apparent how processes are throttled and limited to the resources they are allowed to use.
@@ -82,11 +84,11 @@ The OCI currently provides 2 container specifications:
 - https://thecodeboss.dev/2016/11/how-daemons-the-init-process-and-process-forking-work/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMTQ4NzAzNCwxODYyNDM3NDM4LDE1Nj
-cwNDc3ODgsLTMyMzc1MDkyNiwyMTA0OTU0ODg1LC0xNDA4ODIy
-NjQ3LC0xMTc4OTYzNDU1LC00MTQ2MDcwOTYsLTQ1NjcyNjE5MC
-w2ODgxNjg1NjcsLTU1MDMzNjYzNSwxNjU0NDcyMjk3LDU0NDIx
-OTUzNCwtOTU4OTkwNzA1LC01NjIyNTY1OTEsLTExNzM2MzMzNT
-QsLTQ1ODM5MDI2LC0xMTIwMjkyMTYsMjA5NTgxNjExNiwxNjE1
-NzY4NzgwXX0=
+eyJoaXN0b3J5IjpbLTUwNzQ1ODM0LDE4NjI0Mzc0MzgsMTU2Nz
+A0Nzc4OCwtMzIzNzUwOTI2LDIxMDQ5NTQ4ODUsLTE0MDg4MjI2
+NDcsLTExNzg5NjM0NTUsLTQxNDYwNzA5NiwtNDU2NzI2MTkwLD
+Y4ODE2ODU2NywtNTUwMzM2NjM1LDE2NTQ0NzIyOTcsNTQ0MjE5
+NTM0LC05NTg5OTA3MDUsLTU2MjI1NjU5MSwtMTE3MzYzMzM1NC
+wtNDU4MzkwMjYsLTExMjAyOTIxNiwyMDk1ODE2MTE2LDE2MTU3
+Njg3ODBdfQ==
 -->
