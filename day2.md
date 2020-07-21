@@ -20,7 +20,7 @@ A Network Interface Card (NIC) is a computer hardware component that allows a **
 If **User need** to **interact** with **Kernel** there is a limited option,which is provided by kernel and strictly defined by the kernel what user can do
 Signal
 System Calls
-## System Calls
+### System Calls
 -  Essential part of Linux Operating System
 - Processes cannot access the kernel directly
 - System calls are used as an interface for processes to the kernel. glibc
@@ -31,6 +31,8 @@ System Calls
 - exec(): the kernel starts a program,which replaces the current process
 There is one more thing involved in this whole process called libraries which is just an additional code used by either shell or process to add more functionalities.For eg: the most important one is glibc which provides functions and system calls
 
+The underlying technology
+
 ## Referece 
 
  - https://medium.com/devops-world/how-linux-kernel-is-organized-56eafcace44
@@ -40,8 +42,8 @@ There is one more thing involved in this whole process called libraries which is
  - https://www.ibm.com/support/knowledgecenter/en/ssw_aix_72/network/protocols_addr_resolution.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzM2MzMzNTQsLTQ1ODM5MDI2LC0xMT
-IwMjkyMTYsMjA5NTgxNjExNiwxNjE1NzY4NzgwLDIwODM3NDQ1
-MjQsMzg4MTk3NzY5LC0xODUwMDA0MTY2LDQ5NzgxODgxMCw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTU2MjI1NjU5MSwtMTE3MzYzMzM1NCwtND
+U4MzkwMjYsLTExMjAyOTIxNiwyMDk1ODE2MTE2LDE2MTU3Njg3
+ODAsMjA4Mzc0NDUyNCwzODgxOTc3NjksLTE4NTAwMDQxNjYsND
+k3ODE4ODEwLDczMDk5ODExNl19
 -->
