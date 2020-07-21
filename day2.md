@@ -42,9 +42,10 @@ the way to **create a process** is to **create a copy of the existing process** 
 
 ### Daemons 
 **Daemons are background process**.Some processes have the goal to run for a long time on the system in the background. This could be to fulfill requests like scanning an incoming email or sending back a page of a website. These processes are called daemons. Besides the duration, another big difference is that daemons do not need interaction with the terminal. Typically they won’t send any data to it but use log files instead. **Daemons are often started directly after the operating system started.** Most have a ‘d’ at the end of the process name, to hint that they are a daemon process.
+Good to remember: A daemon is always a process, but not all processes are a daemon
 **How Daemons Work**
 
-Good to remember: A daemon is always a process, but not all processes are a daemon
+
 
 Daemons are spawned one of two ways: either the init process forks and creates them directly – like we mentioned above in the init process segment – or some other process will fork itself to create a child process, and then the parent process immediately exits. The first condition seems pretty straightforward – the init process forks to create a daemon – but how does that second condition work, and how does the init process end up becoming the parent of these daemons?
 
@@ -75,11 +76,11 @@ Docker Engine uses namespaces such as the following on Linux:
 - https://thecodeboss.dev/2016/11/how-daemons-the-init-process-and-process-forking-work/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTA0MzE5NjMsLTE0MDg4MjI2NDcsLT
-ExNzg5NjM0NTUsLTQxNDYwNzA5NiwtNDU2NzI2MTkwLDY4ODE2
-ODU2NywtNTUwMzM2NjM1LDE2NTQ0NzIyOTcsNTQ0MjE5NTM0LC
-05NTg5OTA3MDUsLTU2MjI1NjU5MSwtMTE3MzYzMzM1NCwtNDU4
-MzkwMjYsLTExMjAyOTIxNiwyMDk1ODE2MTE2LDE2MTU3Njg3OD
-AsMjA4Mzc0NDUyNCwzODgxOTc3NjksLTE4NTAwMDQxNjYsNDk3
-ODE4ODEwXX0=
+eyJoaXN0b3J5IjpbMTY4Nzk5OTI4NywtMTQwODgyMjY0NywtMT
+E3ODk2MzQ1NSwtNDE0NjA3MDk2LC00NTY3MjYxOTAsNjg4MTY4
+NTY3LC01NTAzMzY2MzUsMTY1NDQ3MjI5Nyw1NDQyMTk1MzQsLT
+k1ODk5MDcwNSwtNTYyMjU2NTkxLC0xMTczNjMzMzU0LC00NTgz
+OTAyNiwtMTEyMDI5MjE2LDIwOTU4MTYxMTYsMTYxNTc2ODc4MC
+wyMDgzNzQ0NTI0LDM4ODE5Nzc2OSwtMTg1MDAwNDE2Niw0OTc4
+MTg4MTBdfQ==
 -->
