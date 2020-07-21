@@ -29,7 +29,7 @@ All processes make system calls:
 - The fork() and exec() system calls determine how a process start
 - **fork()**: the **kernel** **creates** an almost identical **copy of the current process and replaces that**
 - exec(): the kernel starts a program,which replaces the current process
-There is one more thing involved in this whole process called libraries which is just an additional code used by either shell or process to add more functionalities.For eg: the most important one is glibc which provides functions and system calls
+There is one more thing involved in this whole process called libraries which is just an additional code used by either shell or process to add more functionalities.
 
 ### Init Process
 Init is the parent of all Linux processes. It is the **first process** to start when a computer boots up and it runs until the system shuts down. It is the ancestor of all other processes.
@@ -71,11 +71,11 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2NTg5OTY0LC0zNDE4NTgwMTksLTI1OT
-IzNjUwMiwtMjU5MjM2NTAyLDEyNjgxNDY1NjIsLTM1NTU4Mjc5
-NywtNTA3NDU4MzQsMTg2MjQzNzQzOCwxNTY3MDQ3Nzg4LC0zMj
-M3NTA5MjYsMjEwNDk1NDg4NSwtMTQwODgyMjY0NywtMTE3ODk2
-MzQ1NSwtNDE0NjA3MDk2LC00NTY3MjYxOTAsNjg4MTY4NTY3LC
-01NTAzMzY2MzUsMTY1NDQ3MjI5Nyw1NDQyMTk1MzQsLTk1ODk5
-MDcwNV19
+eyJoaXN0b3J5IjpbMTg4MDc5MzQwNywtMzQxODU4MDE5LC0yNT
+kyMzY1MDIsLTI1OTIzNjUwMiwxMjY4MTQ2NTYyLC0zNTU1ODI3
+OTcsLTUwNzQ1ODM0LDE4NjI0Mzc0MzgsMTU2NzA0Nzc4OCwtMz
+IzNzUwOTI2LDIxMDQ5NTQ4ODUsLTE0MDg4MjI2NDcsLTExNzg5
+NjM0NTUsLTQxNDYwNzA5NiwtNDU2NzI2MTkwLDY4ODE2ODU2Ny
+wtNTUwMzM2NjM1LDE2NTQ0NzIyOTcsNTQ0MjE5NTM0LC05NTg5
+OTA3MDVdfQ==
 -->
