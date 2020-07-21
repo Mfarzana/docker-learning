@@ -54,7 +54,7 @@ Docker Engine uses namespaces such as the following on Linux:
 Cgroups and namespaces are both **linux kernel features** that, together, create a way to isolate a process or group of processes to help create this abstraction we call a “container”. 
 
 >- **Cgroups or control groups** are used to limit or monitor the resources of a group of processes.
->- **Namespaces,** on the other hand, isolate what a group of processes have access to within the system. For example, a network namespace allows for different processes to use the same port without conflicting with one another. There is a process id namespace that could allow for multiple processes running PID 1. Or, perhaps, a mount namespace can isolate parts of the file system a group of processes have access to. In order to easily take advantage of these features together to create these abstract containers we need some sort of run-time.
+>- **Namespaces** isolate what **a group of processes** have access to within the system. For example, a network namespace allows for different processes to use the same port without conflicting with one another. There is a process id namespace that could allow for multiple processes running PID 1. Or, perhaps, a mount namespace can isolate parts of the file system a group of processes have access to. In order to easily take advantage of these features together to create these abstract containers we need some sort of run-time.
 
 
 
@@ -71,11 +71,11 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
 - https://thecodeboss.dev/2016/11/how-daemons-the-init-process-and-process-forking-work/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODE0NjU2MiwtMzU1NTgyNzk3LC01MD
-c0NTgzNCwxODYyNDM3NDM4LDE1NjcwNDc3ODgsLTMyMzc1MDky
-NiwyMTA0OTU0ODg1LC0xNDA4ODIyNjQ3LC0xMTc4OTYzNDU1LC
-00MTQ2MDcwOTYsLTQ1NjcyNjE5MCw2ODgxNjg1NjcsLTU1MDMz
-NjYzNSwxNjU0NDcyMjk3LDU0NDIxOTUzNCwtOTU4OTkwNzA1LC
-01NjIyNTY1OTEsLTExNzM2MzMzNTQsLTQ1ODM5MDI2LC0xMTIw
-MjkyMTZdfQ==
+eyJoaXN0b3J5IjpbMTQzMDU5MjMwNSwxMjY4MTQ2NTYyLC0zNT
+U1ODI3OTcsLTUwNzQ1ODM0LDE4NjI0Mzc0MzgsMTU2NzA0Nzc4
+OCwtMzIzNzUwOTI2LDIxMDQ5NTQ4ODUsLTE0MDg4MjI2NDcsLT
+ExNzg5NjM0NTUsLTQxNDYwNzA5NiwtNDU2NzI2MTkwLDY4ODE2
+ODU2NywtNTUwMzM2NjM1LDE2NTQ0NzIyOTcsNTQ0MjE5NTM0LC
+05NTg5OTA3MDUsLTU2MjI1NjU5MSwtMTE3MzYzMzM1NCwtNDU4
+MzkwMjZdfQ==
 -->
