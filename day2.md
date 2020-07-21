@@ -17,9 +17,8 @@ A Network Interface Card (NIC) is a computer hardware component that allows a **
 
 
 > User Space ----> Kernel Space
-                     Signals
-                     System Calls 
-If **User need** to **interact** with **Kernel** there is a limited option,which is provided by kernel and strictly defined by the kernel what user can do
+> **Processes running** under the **user space** have access only to a limited part of memory, whereas the kernel has access to all of the memory. **Processes running in user space also don't have access to the kernel space.** **User space processes** can only **access** a small part of the **kernel** via an **interface** exposed by the kernel - **the system calls.** If a process performs a system call, a software interrupt is sent to the kernel, which then dispatches the appropriate interrupt handler and continues its work after the handler has finished.
+                      
 ### System Calls
 -  Essential part of Linux Operating System
 - Processes cannot access the kernel directly
@@ -42,9 +41,9 @@ There is one more thing involved in this whole process called libraries which is
  - https://www.ibm.com/support/knowledgecenter/en/ssw_aix_72/network/protocols_addr_resolution.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3NjYyMTgyLDU0NDIxOTUzNCwtOTU4OT
-kwNzA1LC01NjIyNTY1OTEsLTExNzM2MzMzNTQsLTQ1ODM5MDI2
-LC0xMTIwMjkyMTYsMjA5NTgxNjExNiwxNjE1NzY4NzgwLDIwOD
-M3NDQ1MjQsMzg4MTk3NzY5LC0xODUwMDA0MTY2LDQ5NzgxODgx
-MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTU4NzA2NzM2MSw1NDQyMTk1MzQsLTk1OD
+k5MDcwNSwtNTYyMjU2NTkxLC0xMTczNjMzMzU0LC00NTgzOTAy
+NiwtMTEyMDI5MjE2LDIwOTU4MTYxMTYsMTYxNTc2ODc4MCwyMD
+gzNzQ0NTI0LDM4ODE5Nzc2OSwtMTg1MDAwNDE2Niw0OTc4MTg4
+MTAsNzMwOTk4MTE2XX0=
 -->
