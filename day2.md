@@ -23,7 +23,7 @@ System Calls
 ### System Calls
 -  Essential part of Linux Operating System
 - Processes cannot access the kernel directly
-- System calls are used as an interface for processes to the kernel. glibc
+- **System calls are used as an interface for processes to the kernel**. glibc
 - provides a library interface to use system calls from programs
 - Common task like opening,listing,reading and writing to files all involves system calls
 - The fork() and exec() system calls determine how a process start
@@ -42,8 +42,8 @@ The underlying technology
  - https://www.ibm.com/support/knowledgecenter/en/ssw_aix_72/network/protocols_addr_resolution.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MjI1NjU5MSwtMTE3MzYzMzM1NCwtND
-U4MzkwMjYsLTExMjAyOTIxNiwyMDk1ODE2MTE2LDE2MTU3Njg3
-ODAsMjA4Mzc0NDUyNCwzODgxOTc3NjksLTE4NTAwMDQxNjYsND
-k3ODE4ODEwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE3NDYzOTgxNTksLTU2MjI1NjU5MSwtMT
+E3MzYzMzM1NCwtNDU4MzkwMjYsLTExMjAyOTIxNiwyMDk1ODE2
+MTE2LDE2MTU3Njg3ODAsMjA4Mzc0NDUyNCwzODgxOTc3NjksLT
+E4NTAwMDQxNjYsNDk3ODE4ODEwLDczMDk5ODExNl19
 -->
