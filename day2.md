@@ -9,7 +9,7 @@ A Network Interface Card (NIC) is a computer hardware component that allows a **
 ### Address Resolution Protocol (ARP)
  **ARP** dynamically **translates** Internet addresses (**IP addresses**/logical addresses) **into** the unique hardware addresses(**MAC addresses**/Physical addresses)on local area networks.
  
-## Core Concept of Linux Kernel
+## Linux KernelBasic Concept 
 **Linux OS has two-part**
 
  - **User Space**:**User**(Processes/**Application**/Services) need to do something and for that a typical interface is shell
@@ -41,9 +41,9 @@ There is one more thing involved in this whole process called libraries which is
  - https://www.ibm.com/support/knowledgecenter/en/ssw_aix_72/network/protocols_addr_resolution.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0MjE5NTM0LC05NTg5OTA3MDUsLTU2Mj
-I1NjU5MSwtMTE3MzYzMzM1NCwtNDU4MzkwMjYsLTExMjAyOTIx
-NiwyMDk1ODE2MTE2LDE2MTU3Njg3ODAsMjA4Mzc0NDUyNCwzOD
-gxOTc3NjksLTE4NTAwMDQxNjYsNDk3ODE4ODEwLDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbLTEwMjg1MjQyMDQsNTQ0MjE5NTM0LC05NT
+g5OTA3MDUsLTU2MjI1NjU5MSwtMTE3MzYzMzM1NCwtNDU4Mzkw
+MjYsLTExMjAyOTIxNiwyMDk1ODE2MTE2LDE2MTU3Njg3ODAsMj
+A4Mzc0NDUyNCwzODgxOTc3NjksLTE4NTAwMDQxNjYsNDk3ODE4
+ODEwLDczMDk5ODExNl19
 -->
