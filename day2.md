@@ -71,13 +71,15 @@ Docker Engine uses namespaces such as the following on Linux:
  - https://www.ibm.com/support/knowledgecenter/en/ssw_aix_72/network/protocols_addr_resolution.html
  - https://unix.stackexchange.com/questions/87625/what-is-difference-between-user-space-and-kernel-space
  - https://www.redhat.com/en/blog/architecting-containers-part-1-why-understanding-user-space-vs-kernel-space-matters
+ - https://linux-audit.com/running-processes-and-daemons-on-linux-systems/
+- https://thecodeboss.dev/2016/11/how-daemons-the-init-process-and-process-forking-work/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDYwNTQ0OCwtMTQwODgyMjY0NywtMT
-E3ODk2MzQ1NSwtNDE0NjA3MDk2LC00NTY3MjYxOTAsNjg4MTY4
-NTY3LC01NTAzMzY2MzUsMTY1NDQ3MjI5Nyw1NDQyMTk1MzQsLT
-k1ODk5MDcwNSwtNTYyMjU2NTkxLC0xMTczNjMzMzU0LC00NTgz
-OTAyNiwtMTEyMDI5MjE2LDIwOTU4MTYxMTYsMTYxNTc2ODc4MC
-wyMDgzNzQ0NTI0LDM4ODE5Nzc2OSwtMTg1MDAwNDE2Niw0OTc4
-MTg4MTBdfQ==
+eyJoaXN0b3J5IjpbLTExMTA0MzE5NjMsLTE0MDg4MjI2NDcsLT
+ExNzg5NjM0NTUsLTQxNDYwNzA5NiwtNDU2NzI2MTkwLDY4ODE2
+ODU2NywtNTUwMzM2NjM1LDE2NTQ0NzIyOTcsNTQ0MjE5NTM0LC
+05NTg5OTA3MDUsLTU2MjI1NjU5MSwtMTE3MzYzMzM1NCwtNDU4
+MzkwMjYsLTExMjAyOTIxNiwyMDk1ODE2MTE2LDE2MTU3Njg3OD
+AsMjA4Mzc0NDUyNCwzODgxOTc3NjksLTE4NTAwMDQxNjYsNDk3
+ODE4ODEwXX0=
 -->
