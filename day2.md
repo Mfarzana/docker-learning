@@ -68,14 +68,13 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
  - https://linux-audit.com/running-processes-and-daemons-on-linux-systems/
 - https://thecodeboss.dev/2016/11/how-daemons-the-init-process-and-process-forking-work/
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
-- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk5NDY0NzMzLDc5NTMzNDM5OSwxODgwNz
-kzNDA3LC0zNDE4NTgwMTksLTI1OTIzNjUwMiwtMjU5MjM2NTAy
-LDEyNjgxNDY1NjIsLTM1NTU4Mjc5NywtNTA3NDU4MzQsMTg2Mj
-QzNzQzOCwxNTY3MDQ3Nzg4LC0zMjM3NTA5MjYsMjEwNDk1NDg4
-NSwtMTQwODgyMjY0NywtMTE3ODk2MzQ1NSwtNDE0NjA3MDk2LC
-00NTY3MjYxOTAsNjg4MTY4NTY3LC01NTAzMzY2MzUsMTY1NDQ3
-MjI5N119
+eyJoaXN0b3J5IjpbLTE0NzAxODYzOTgsMzk5NDY0NzMzLDc5NT
+MzNDM5OSwxODgwNzkzNDA3LC0zNDE4NTgwMTksLTI1OTIzNjUw
+MiwtMjU5MjM2NTAyLDEyNjgxNDY1NjIsLTM1NTU4Mjc5NywtNT
+A3NDU4MzQsMTg2MjQzNzQzOCwxNTY3MDQ3Nzg4LC0zMjM3NTA5
+MjYsMjEwNDk1NDg4NSwtMTQwODgyMjY0NywtMTE3ODk2MzQ1NS
+wtNDE0NjA3MDk2LC00NTY3MjYxOTAsNjg4MTY4NTY3LC01NTAz
+MzY2MzVdfQ==
 -->
