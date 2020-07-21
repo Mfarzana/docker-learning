@@ -47,16 +47,13 @@ the way to **create a process** is to **create a copy of the existing process** 
 ## Docker technology
 ### Namespaces
 Docker uses a technology called  `namespaces`  to provide the isolated workspace called the  _container_. **When you run a container, Docker creates a set of  _namespaces_  for that container.**
-
-These namespaces provide a layer of isolation. Each aspect of a container runs in a separate namespace and its access is limited to that namespace.
-
 Docker Engine uses namespaces such as the following on Linux:
-
 -   **The  `pid`  namespace:**  Process isolation (PID: Process ID).
--  
+
 **Cgroups and Namespaces**
-Cgroups and namespaces are both linux kernel features that, together, create a way to isolate a process or group of processes to help create this abstraction we call a “container”. 
-Cgroups or control groups are used to limit or monitor the resources of a group of processes.
+Cgroups and namespaces are both **linux kernel features** that, together, create a way to isolate a process or group of processes to help create this abstraction we call a “container”. 
+
+>- Cgroups or control groups are used to limit or monitor the resources of a group of processes.
 Namespaces, on the other hand, isolate what a group of processes have access to within the system. For example, a network namespace allows for different processes to use the same port without conflicting with one another. There is a process id namespace that could allow for multiple processes running PID 1. Or, perhaps, a mount namespace can isolate parts of the file system a group of processes have access to. In order to easily take advantage of these features together to create these abstract containers we need some sort of run-time.
 
 
@@ -75,11 +72,11 @@ The OCI currently provides 2 container specifications:
 - https://thecodeboss.dev/2016/11/how-daemons-the-init-process-and-process-forking-work/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTU4Mjc5NywtNTA3NDU4MzQsMTg2Mj
-QzNzQzOCwxNTY3MDQ3Nzg4LC0zMjM3NTA5MjYsMjEwNDk1NDg4
-NSwtMTQwODgyMjY0NywtMTE3ODk2MzQ1NSwtNDE0NjA3MDk2LC
-00NTY3MjYxOTAsNjg4MTY4NTY3LC01NTAzMzY2MzUsMTY1NDQ3
-MjI5Nyw1NDQyMTk1MzQsLTk1ODk5MDcwNSwtNTYyMjU2NTkxLC
-0xMTczNjMzMzU0LC00NTgzOTAyNiwtMTEyMDI5MjE2LDIwOTU4
-MTYxMTZdfQ==
+eyJoaXN0b3J5IjpbLTM2NDk1OTQzOCwtMzU1NTgyNzk3LC01MD
+c0NTgzNCwxODYyNDM3NDM4LDE1NjcwNDc3ODgsLTMyMzc1MDky
+NiwyMTA0OTU0ODg1LC0xNDA4ODIyNjQ3LC0xMTc4OTYzNDU1LC
+00MTQ2MDcwOTYsLTQ1NjcyNjE5MCw2ODgxNjg1NjcsLTU1MDMz
+NjYzNSwxNjU0NDcyMjk3LDU0NDIxOTUzNCwtOTU4OTkwNzA1LC
+01NjIyNTY1OTEsLTExNzM2MzMzNTQsLTQ1ODM5MDI2LC0xMTIw
+MjkyMTZdfQ==
 -->
