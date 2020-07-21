@@ -42,11 +42,10 @@ the way to **create a process** is to **create a copy of the existing process** 
 
 ### Daemons 
 **Daemons are background process**.Some processes have the goal to run for a long time on the system in the background. This could be to fulfill requests like scanning an incoming email or sending back a page of a website. These processes are called daemons. **Daemons are often started directly after the operating system started.** Most have a ‘d’ at the end of the process name, to hint that they are a daemon process.
-**Good to remember**: A daemon is always a process, but not all processes are a daemon
-> **How Daemons Work**
-**Daemons are spawned one of two ways**: either the init process forks** and **creates them directly** 
+>- **Good to remember**: A daemon is always a process, but not all processes are a daemon
+>- Daemons are spawned one of two ways**: either the init process forks and creates them directly 
 
-When you fork a process to create a child process, and then immediately kill that parent process, the child process becomes an orphaned process – a running process with no parent (not to be confused with a zombie process, such as a child process that has been terminated but is waiting on the parent process to read its exit status). By default, if a child process gets orphaned, the init process will automatically adopt the process and become its parent. This is a key concept to understand, because this is normally how daemons that you start after boot up relate to the init process. And that’s about all that makes daemons unique from normal background processes – see, not too bad!
+
 ## The underlying technology
 ### Namespaces
 Docker uses a technology called  `namespaces`  to provide the isolated workspace called the  _container_. **When you run a container, Docker creates a set of  _namespaces_  for that container.**
@@ -73,11 +72,11 @@ Docker Engine uses namespaces such as the following on Linux:
 - https://thecodeboss.dev/2016/11/how-daemons-the-init-process-and-process-forking-work/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcwNzczNzQyLDIxMDQ5NTQ4ODUsLTE0MD
-g4MjI2NDcsLTExNzg5NjM0NTUsLTQxNDYwNzA5NiwtNDU2NzI2
-MTkwLDY4ODE2ODU2NywtNTUwMzM2NjM1LDE2NTQ0NzIyOTcsNT
-Q0MjE5NTM0LC05NTg5OTA3MDUsLTU2MjI1NjU5MSwtMTE3MzYz
-MzM1NCwtNDU4MzkwMjYsLTExMjAyOTIxNiwyMDk1ODE2MTE2LD
-E2MTU3Njg3ODAsMjA4Mzc0NDUyNCwzODgxOTc3NjksLTE4NTAw
-MDQxNjZdfQ==
+eyJoaXN0b3J5IjpbLTMyMzc1MDkyNiwyMTA0OTU0ODg1LC0xND
+A4ODIyNjQ3LC0xMTc4OTYzNDU1LC00MTQ2MDcwOTYsLTQ1Njcy
+NjE5MCw2ODgxNjg1NjcsLTU1MDMzNjYzNSwxNjU0NDcyMjk3LD
+U0NDIxOTUzNCwtOTU4OTkwNzA1LC01NjIyNTY1OTEsLTExNzM2
+MzMzNTQsLTQ1ODM5MDI2LC0xMTIwMjkyMTYsMjA5NTgxNjExNi
+wxNjE1NzY4NzgwLDIwODM3NDQ1MjQsMzg4MTk3NzY5LC0xODUw
+MDA0MTY2XX0=
 -->
