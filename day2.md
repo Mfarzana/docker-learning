@@ -32,7 +32,18 @@ All processes make system calls:
 There is one more thing involved in this whole process called libraries which is just an additional code used by either shell or process to add more functionalities.For eg: the most important one is glibc which provides functions and system calls
 
 ## The underlying technology
+### Namespaces
+Docker uses a technology called  `namespaces`  to provide the isolated workspace called the  _container_. **When you run a container, Docker creates a set of  _namespaces_  for that container.**
 
+These namespaces provide a layer of isolation. Each aspect of a container runs in a separate namespace and its access is limited to that namespace.
+
+Docker Engine uses namespaces such as the following on Linux:
+
+-   **The  `pid`  namespace:**  Process isolation (PID: Process ID).
+-   **The  `net`  namespace:**  Managing network interfaces (NET: Networking).
+-   **The  `ipc`  namespace:**  Managing access to IPC resources (IPC: InterProcess Communication).
+-   **The  `mnt`  namespace:**  Managing filesystem mount points (MNT: Mount).
+-   **The  `uts`  namespace:**  Isolating kernel and version identifiers. (UTS: Unix Timesharing System).
 ## Referece 
 - https://docs.docker.com/get-started/overview/
  - https://medium.com/devops-world/how-linux-kernel-is-organized-56eafcace44
@@ -44,9 +55,9 @@ There is one more thing involved in this whole process called libraries which is
  - https://www.redhat.com/en/blog/architecting-containers-part-1-why-understanding-user-space-vs-kernel-space-matters
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MDMzNjYzNSwxNjU0NDcyMjk3LDU0ND
-IxOTUzNCwtOTU4OTkwNzA1LC01NjIyNTY1OTEsLTExNzM2MzMz
-NTQsLTQ1ODM5MDI2LC0xMTIwMjkyMTYsMjA5NTgxNjExNiwxNj
-E1NzY4NzgwLDIwODM3NDQ1MjQsMzg4MTk3NzY5LC0xODUwMDA0
-MTY2LDQ5NzgxODgxMCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNjg4MTY4NTY3LC01NTAzMzY2MzUsMTY1ND
+Q3MjI5Nyw1NDQyMTk1MzQsLTk1ODk5MDcwNSwtNTYyMjU2NTkx
+LC0xMTczNjMzMzU0LC00NTgzOTAyNiwtMTEyMDI5MjE2LDIwOT
+U4MTYxMTYsMTYxNTc2ODc4MCwyMDgzNzQ0NTI0LDM4ODE5Nzc2
+OSwtMTg1MDAwNDE2Niw0OTc4MTg4MTAsNzMwOTk4MTE2XX0=
 -->
