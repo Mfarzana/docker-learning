@@ -13,14 +13,14 @@ If **User need** to **interact** with **Kernel** there is a limited option,which
 Signal
 System Calls
 System Calls
-Essential part of Linux Operating System
+-  Essential part of Linux Operating System
 - Processes cannot access the kernel directly
 - System calls are used as an interface for processes to the kernel. glibc
 - provides a library interface to use system calls from programs
 - Common task like opening,listing,reading and writing to files all involves system calls
 - The fork() and exec() system calls determine how a process start
-fork(): the kernel creates an almost identical copy of the current process and replaces that
-exec(): the kernel starts a program,which replaces the current process
+- fork(): the kernel creates an almost identical copy of the current process and replaces that
+- exec(): the kernel starts a program,which replaces the current process
 There is one more thing involved in this whole process called libraries which is just an additional code used by either shell or process to add more functionalities.For eg: the most important one is glibc which provides functions and system calls
 
 ## Referece 
@@ -30,7 +30,7 @@ There is one more thing involved in this whole process called libraries which is
  - https://community.fs.com/blog/nic-card-guide-for-beginners-functions-types-and-selection-tips.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5Mjk5OTEsMjA5NTgxNjExNiwxNjE1Nz
-Y4NzgwLDIwODM3NDQ1MjQsMzg4MTk3NzY5LC0xODUwMDA0MTY2
-LDQ5NzgxODgxMCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTgzNjU4OTUyNiwyMDk1ODE2MTE2LDE2MT
+U3Njg3ODAsMjA4Mzc0NDUyNCwzODgxOTc3NjksLTE4NTAwMDQx
+NjYsNDk3ODE4ODEwLDczMDk5ODExNl19
 -->
