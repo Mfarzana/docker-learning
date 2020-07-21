@@ -57,9 +57,7 @@ Docker Engine uses namespaces such as the following on Linux:
 **Cgroups and Namespaces**
 Cgroups and namespaces are both linux kernel features that, together, create a way to isolate a process or group of processes to help create this abstraction we call a “container”. 
 
-Cgroups or control groups are used to limit or monitor the resources of a group of processes. We can see below that at /sys/fs/cgroup what cgroups are setup and administered.
-
-provide a new way of limiting access to system resources for processes. You can create your own cgroups, monitor the cgroups you configure, deny cgroups access to certain resources, and even reconfigure your cgroups dynamically on a running system.
+Cgroups or control groups are used to limit or monitor the resources of a group of processes.Control groups provide a new way of limiting access to system resources for processes. You can create your own cgroups, monitor the cgroups you configure, deny cgroups access to certain resources, and even reconfigure your cgroups dynamically on a running system.
 
 
 
@@ -84,11 +82,11 @@ The OCI currently provides 2 container specifications:
 - https://thecodeboss.dev/2016/11/how-daemons-the-init-process-and-process-forking-work/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNzQ1ODM0LDE4NjI0Mzc0MzgsMTU2Nz
-A0Nzc4OCwtMzIzNzUwOTI2LDIxMDQ5NTQ4ODUsLTE0MDg4MjI2
-NDcsLTExNzg5NjM0NTUsLTQxNDYwNzA5NiwtNDU2NzI2MTkwLD
-Y4ODE2ODU2NywtNTUwMzM2NjM1LDE2NTQ0NzIyOTcsNTQ0MjE5
-NTM0LC05NTg5OTA3MDUsLTU2MjI1NjU5MSwtMTE3MzYzMzM1NC
-wtNDU4MzkwMjYsLTExMjAyOTIxNiwyMDk1ODE2MTE2LDE2MTU3
-Njg3ODBdfQ==
+eyJoaXN0b3J5IjpbMzEwMTk3MDg0LC01MDc0NTgzNCwxODYyND
+M3NDM4LDE1NjcwNDc3ODgsLTMyMzc1MDkyNiwyMTA0OTU0ODg1
+LC0xNDA4ODIyNjQ3LC0xMTc4OTYzNDU1LC00MTQ2MDcwOTYsLT
+Q1NjcyNjE5MCw2ODgxNjg1NjcsLTU1MDMzNjYzNSwxNjU0NDcy
+Mjk3LDU0NDIxOTUzNCwtOTU4OTkwNzA1LC01NjIyNTY1OTEsLT
+ExNzM2MzMzNTQsLTQ1ODM5MDI2LC0xMTIwMjkyMTYsMjA5NTgx
+NjExNl19
 -->
