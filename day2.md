@@ -32,7 +32,7 @@ All processes make system calls:
 There is one more thing involved in this whole process called libraries which is just an additional code used by either shell or process to add more functionalities.
 
 ### Init Process
-Init is the parent of all Linux processes. It is the **first process** to start when a computer boots up and it runs until the system shuts down. It is the ancestor of all other processes.
+Init is the parent of all Linux processes. It is the **first process** to **start** when a **computer** boots up and it runs until the system shuts down. It is the ancestor of all other processes.
 
 ### Process Forking 
 the way to **create a process** is to **create a copy of the existing process** and to go from there. This practice – known as **process forking** – involves duplicating the existing process to create a child process and making an exec system call to start another program.
@@ -71,11 +71,11 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MDc5MzQwNywtMzQxODU4MDE5LC0yNT
-kyMzY1MDIsLTI1OTIzNjUwMiwxMjY4MTQ2NTYyLC0zNTU1ODI3
-OTcsLTUwNzQ1ODM0LDE4NjI0Mzc0MzgsMTU2NzA0Nzc4OCwtMz
-IzNzUwOTI2LDIxMDQ5NTQ4ODUsLTE0MDg4MjI2NDcsLTExNzg5
-NjM0NTUsLTQxNDYwNzA5NiwtNDU2NzI2MTkwLDY4ODE2ODU2Ny
-wtNTUwMzM2NjM1LDE2NTQ0NzIyOTcsNTQ0MjE5NTM0LC05NTg5
-OTA3MDVdfQ==
+eyJoaXN0b3J5IjpbNzk1MzM0Mzk5LDE4ODA3OTM0MDcsLTM0MT
+g1ODAxOSwtMjU5MjM2NTAyLC0yNTkyMzY1MDIsMTI2ODE0NjU2
+MiwtMzU1NTgyNzk3LC01MDc0NTgzNCwxODYyNDM3NDM4LDE1Nj
+cwNDc3ODgsLTMyMzc1MDkyNiwyMTA0OTU0ODg1LC0xNDA4ODIy
+NjQ3LC0xMTc4OTYzNDU1LC00MTQ2MDcwOTYsLTQ1NjcyNjE5MC
+w2ODgxNjg1NjcsLTU1MDMzNjYzNSwxNjU0NDcyMjk3LDU0NDIx
+OTUzNF19
 -->
