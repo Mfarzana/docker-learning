@@ -1,4 +1,5 @@
-## NIC Card
+## 
+ NIC Card
 A Network Interface Card (NIC) is a computer hardware component that allows a **computer to connect to a network**. NICs may be used for both wired and wireless connections.
 
 ## Routing table
@@ -40,7 +41,7 @@ There is one more thing involved in this whole process called libraries which is
  - https://www.ibm.com/support/knowledgecenter/en/ssw_aix_72/network/protocols_addr_resolution.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDA4OTI1NSwtOTU4OTkwNzA1LC01Nj
+eyJoaXN0b3J5IjpbLTEzMzQyMzg1NywtOTU4OTkwNzA1LC01Nj
 IyNTY1OTEsLTExNzM2MzMzNTQsLTQ1ODM5MDI2LC0xMTIwMjky
 MTYsMjA5NTgxNjExNiwxNjE1NzY4NzgwLDIwODM3NDQ1MjQsMz
 g4MTk3NzY5LC0xODUwMDA0MTY2LDQ5NzgxODgxMCw3MzA5OTgx
