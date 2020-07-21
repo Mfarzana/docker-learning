@@ -14,9 +14,10 @@ A Network Interface Card (NIC) is a computer hardware component that allows a **
 
  - **User Space**:**User**(Processes/**Application**/Services) need to do something and for that a typical interface is shell
  - **Kernel Space or Name Space**: Kernel is the only component that has direct access to hardware.
+ 
+All processes make system calls:
+![enter image description here](https://www.redhat.com/cms/managed-files/styles/wysiwyg_full_width/s3/2015/07/user-space-vs-kernel-space-simple-user-space.png?itok=7PGYkTdC)
 
-
-> User Space ----> Kernel Space
 > **Processes running** under the **user space** have access only to a limited part of memory, whereas the kernel has access to all of the memory. **Processes running in user space also don't have access to the kernel space.** **User space processes** can only **access** a small part of the **kernel** via an **interface** exposed by the kernel - **the system calls.** If a process performs a system call, a software interrupt is sent to the kernel, which then dispatches the appropriate interrupt handler and continues its work after the handler has finished.
                       
 ### System Calls
@@ -40,11 +41,12 @@ There is one more thing involved in this whole process called libraries which is
  - https://www.grandmetric.com/2018/01/20/how-does-routing-table-work/
  - https://www.ibm.com/support/knowledgecenter/en/ssw_aix_72/network/protocols_addr_resolution.html
  - https://unix.stackexchange.com/questions/87625/what-is-difference-between-user-space-and-kernel-space
+ - https://www.redhat.com/en/blog/architecting-containers-part-1-why-understanding-user-space-vs-kernel-space-matters
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDQ3MjI5Nyw1NDQyMTk1MzQsLTk1OD
-k5MDcwNSwtNTYyMjU2NTkxLC0xMTczNjMzMzU0LC00NTgzOTAy
-NiwtMTEyMDI5MjE2LDIwOTU4MTYxMTYsMTYxNTc2ODc4MCwyMD
-gzNzQ0NTI0LDM4ODE5Nzc2OSwtMTg1MDAwNDE2Niw0OTc4MTg4
-MTAsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNjkzNjQ5ODU1LDE2NTQ0NzIyOTcsNTQ0Mj
+E5NTM0LC05NTg5OTA3MDUsLTU2MjI1NjU5MSwtMTE3MzYzMzM1
+NCwtNDU4MzkwMjYsLTExMjAyOTIxNiwyMDk1ODE2MTE2LDE2MT
+U3Njg3ODAsMjA4Mzc0NDUyNCwzODgxOTc3NjksLTE4NTAwMDQx
+NjYsNDk3ODE4ODEwLDczMDk5ODExNl19
 -->
