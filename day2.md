@@ -15,6 +15,7 @@ A Network Interface Card (NIC) is a computer hardware component that allows a **
  - **User Space**:**User**(Processes/**Application**/Services) need to do something and for that a typical interface is shell
  - **Kernel Space or Name Space**: Kernel is the only component that has direct access to hardware.
 
+
 > User Space ----> Kernel Space
                      Signals
                      System Calls 
@@ -41,7 +42,7 @@ There is one more thing involved in this whole process called libraries which is
  - https://www.ibm.com/support/knowledgecenter/en/ssw_aix_72/network/protocols_addr_resolution.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI0Mzg1NTU2LDU0NDIxOTUzNCwtOTU4OT
+eyJoaXN0b3J5IjpbMjc3NjYyMTgyLDU0NDIxOTUzNCwtOTU4OT
 kwNzA1LC01NjIyNTY1OTEsLTExNzM2MzMzNTQsLTQ1ODM5MDI2
 LC0xMTIwMjkyMTYsMjA5NTgxNjExNiwxNjE1NzY4NzgwLDIwOD
 M3NDQ1MjQsMzg4MTk3NzY5LC0xODUwMDA0MTY2LDQ5NzgxODgx
