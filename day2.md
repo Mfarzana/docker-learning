@@ -50,6 +50,7 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
 
 >- **Cgroups or control groups** are used to limit or monitor the resources of a group of processes.
 >- **Namespaces** isolate what **a group of processes** have access to within the system. For example, a network namespace allows for different processes to use the same port without conflicting with one another. There is a process id namespace that could allow for multiple processes running PID 1. Or, perhaps, a mount namespace can isolate parts of the file system a group of processes have access to. In order to easily take advantage of these features together to create these abstract containers we need some sort of run-time.
+>- Docker uses a technology called namespaces to provide the isolated workspace called the container. When you run a container, Docker creates a set of namespaces for that container.
 >-   **The  `pid`  namespace:**  Process isolation (PID: Process ID).
 
 
@@ -69,11 +70,11 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTIzNjUwMiwxMjY4MTQ2NTYyLC0zNT
-U1ODI3OTcsLTUwNzQ1ODM0LDE4NjI0Mzc0MzgsMTU2NzA0Nzc4
-OCwtMzIzNzUwOTI2LDIxMDQ5NTQ4ODUsLTE0MDg4MjI2NDcsLT
-ExNzg5NjM0NTUsLTQxNDYwNzA5NiwtNDU2NzI2MTkwLDY4ODE2
-ODU2NywtNTUwMzM2NjM1LDE2NTQ0NzIyOTcsNTQ0MjE5NTM0LC
-05NTg5OTA3MDUsLTU2MjI1NjU5MSwtMTE3MzYzMzM1NCwtNDU4
-MzkwMjZdfQ==
+eyJoaXN0b3J5IjpbMzI3MzQ0NTAxLC0yNTkyMzY1MDIsMTI2OD
+E0NjU2MiwtMzU1NTgyNzk3LC01MDc0NTgzNCwxODYyNDM3NDM4
+LDE1NjcwNDc3ODgsLTMyMzc1MDkyNiwyMTA0OTU0ODg1LC0xND
+A4ODIyNjQ3LC0xMTc4OTYzNDU1LC00MTQ2MDcwOTYsLTQ1Njcy
+NjE5MCw2ODgxNjg1NjcsLTU1MDMzNjYzNSwxNjU0NDcyMjk3LD
+U0NDIxOTUzNCwtOTU4OTkwNzA1LC01NjIyNTY1OTEsLTExNzM2
+MzMzNTRdfQ==
 -->
