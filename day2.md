@@ -14,8 +14,10 @@ A Network Interface Card (NIC) is a computer hardware component that allows a **
 
  - **User Space**:**User**(Processes/**Application**/Services) need to do something and for that a typical interface is shell
  - **Kernel Space or Name Space**: Kernel is the only component that has direct access to hardware.
->-  All processes make system calls:
+
+All processes make system calls:
 ![enter image description here](https://www.redhat.com/cms/managed-files/styles/wysiwyg_full_width/s3/2015/07/user-space-vs-kernel-space-simple-user-space.png?itok=7PGYkTdC)
+ 
  **Processes running** under the **user space** have access only to a limited part of memory, whereas the kernel has access to all of the memory. **Processes running in user space also don't have access to the kernel space.** **User space processes** can only **access** a small part of the **kernel** via an **interface** exposed by the kernel - **the system calls.**  If a process performs a system call, a software interrupt is sent to the kernel, which then dispatches the appropriate interrupt handler and continues its work after the handler has finished.
                       
 ### System Calls
@@ -69,11 +71,11 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTg1ODAxOSwtMjU5MjM2NTAyLC0yNT
-kyMzY1MDIsMTI2ODE0NjU2MiwtMzU1NTgyNzk3LC01MDc0NTgz
-NCwxODYyNDM3NDM4LDE1NjcwNDc3ODgsLTMyMzc1MDkyNiwyMT
-A0OTU0ODg1LC0xNDA4ODIyNjQ3LC0xMTc4OTYzNDU1LC00MTQ2
-MDcwOTYsLTQ1NjcyNjE5MCw2ODgxNjg1NjcsLTU1MDMzNjYzNS
-wxNjU0NDcyMjk3LDU0NDIxOTUzNCwtOTU4OTkwNzA1LC01NjIy
-NTY1OTFdfQ==
+eyJoaXN0b3J5IjpbNDQ2NTg5OTY0LC0zNDE4NTgwMTksLTI1OT
+IzNjUwMiwtMjU5MjM2NTAyLDEyNjgxNDY1NjIsLTM1NTU4Mjc5
+NywtNTA3NDU4MzQsMTg2MjQzNzQzOCwxNTY3MDQ3Nzg4LC0zMj
+M3NTA5MjYsMjEwNDk1NDg4NSwtMTQwODgyMjY0NywtMTE3ODk2
+MzQ1NSwtNDE0NjA3MDk2LC00NTY3MjYxOTAsNjg4MTY4NTY3LC
+01NTAzMzY2MzUsMTY1NDQ3MjI5Nyw1NDQyMTk1MzQsLTk1ODk5
+MDcwNV19
 -->
