@@ -10,9 +10,10 @@ A Network Interface Card (NIC) is a computer hardware component that allows a **
 ## Referece 
 
  - https://medium.com/devops-world/how-linux-kernel-is-organized-56eafcace44
+ - techopedia.com/definition/5306/network-interface-card-nic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTc2ODc4MCwyMDgzNzQ0NTI0LDM4OD
-E5Nzc2OSwtMTg1MDAwNDE2Niw0OTc4MTg4MTAsNzMwOTk4MTE2
-XX0=
+eyJoaXN0b3J5IjpbNzk4MjUzOTcwLDE2MTU3Njg3ODAsMjA4Mz
+c0NDUyNCwzODgxOTc3NjksLTE4NTAwMDQxNjYsNDk3ODE4ODEw
+LDczMDk5ODExNl19
 -->
