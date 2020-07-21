@@ -24,7 +24,7 @@ All processes make system calls:
 -  Essential part of Linux Operating System
 - Processes cannot access the kernel directly
 - **System calls are used as an interface for processes to the kernel**. glibc
-- provides a library interface to use system calls from programs
+ provides a library interface to use system calls from programs
 - Common task like opening,listing,reading and writing to files all involves system calls
 - The fork() and exec() system calls determine how a process start
 - **fork()**: the **kernel** **creates** an almost identical **copy of the current process and replaces that**
@@ -64,10 +64,10 @@ Docker Engine uses namespaces such as the following on Linux:
  - https://www.redhat.com/en/blog/architecting-containers-part-1-why-understanding-user-space-vs-kernel-space-matters
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDYwNzA5NiwtNDU2NzI2MTkwLDY4OD
-E2ODU2NywtNTUwMzM2NjM1LDE2NTQ0NzIyOTcsNTQ0MjE5NTM0
-LC05NTg5OTA3MDUsLTU2MjI1NjU5MSwtMTE3MzYzMzM1NCwtND
-U4MzkwMjYsLTExMjAyOTIxNiwyMDk1ODE2MTE2LDE2MTU3Njg3
-ODAsMjA4Mzc0NDUyNCwzODgxOTc3NjksLTE4NTAwMDQxNjYsND
-k3ODE4ODEwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTExNzg5NjM0NTUsLTQxNDYwNzA5NiwtND
+U2NzI2MTkwLDY4ODE2ODU2NywtNTUwMzM2NjM1LDE2NTQ0NzIy
+OTcsNTQ0MjE5NTM0LC05NTg5OTA3MDUsLTU2MjI1NjU5MSwtMT
+E3MzYzMzM1NCwtNDU4MzkwMjYsLTExMjAyOTIxNiwyMDk1ODE2
+MTE2LDE2MTU3Njg3ODAsMjA4Mzc0NDUyNCwzODgxOTc3NjksLT
+E4NTAwMDQxNjYsNDk3ODE4ODEwLDczMDk5ODExNl19
 -->
