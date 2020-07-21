@@ -34,7 +34,7 @@ There is one more thing involved in this whole process called libraries which is
 ## The underlying technology
 
 ## Referece 
-
+- https://docs.docker.com/get-started/overview/
  - https://medium.com/devops-world/how-linux-kernel-is-organized-56eafcace44
  - techopedia.com/definition/5306/network-interface-card-nic
  - https://community.fs.com/blog/nic-card-guide-for-beginners-functions-types-and-selection-tips.html
@@ -42,8 +42,9 @@ There is one more thing involved in this whole process called libraries which is
  - https://www.ibm.com/support/knowledgecenter/en/ssw_aix_72/network/protocols_addr_resolution.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODk5MDcwNSwtNTYyMjU2NTkxLC0xMT
-czNjMzMzU0LC00NTgzOTAyNiwtMTEyMDI5MjE2LDIwOTU4MTYx
-MTYsMTYxNTc2ODc4MCwyMDgzNzQ0NTI0LDM4ODE5Nzc2OSwtMT
-g1MDAwNDE2Niw0OTc4MTg4MTAsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbODEzMDg2NDA5LC05NTg5OTA3MDUsLTU2Mj
+I1NjU5MSwtMTE3MzYzMzM1NCwtNDU4MzkwMjYsLTExMjAyOTIx
+NiwyMDk1ODE2MTE2LDE2MTU3Njg3ODAsMjA4Mzc0NDUyNCwzOD
+gxOTc3NjksLTE4NTAwMDQxNjYsNDk3ODE4ODEwLDczMDk5ODEx
+Nl19
 -->
