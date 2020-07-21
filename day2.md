@@ -56,17 +56,10 @@ Docker Engine uses namespaces such as the following on Linux:
 -  
 **Cgroups and Namespaces**
 Cgroups and namespaces are both linux kernel features that, together, create a way to isolate a process or group of processes to help create this abstraction we call a “container”. 
-
-Cgroups or control groups are used to limit or monitor the resources of a group of processes.Control groups provide a new way of limiting access to system resources for processes. You can create your own cgroups, monitor the cgroups you configure, deny cgroups access to certain resources, and even reconfigure your cgroups dynamically on a running system.
-
-
-
-Two obvious cgroup options shown above are cpu and memory. If we look at the options within each, it starts to become more apparent how processes are throttled and limited to the resources they are allowed to use.
-
+Cgroups or control groups are used to limit or monitor the resources of a group of processes.
 Namespaces, on the other hand, isolate what a group of processes have access to within the system. For example, a network namespace allows for different processes to use the same port without conflicting with one another. There is a process id namespace that could allow for multiple processes running PID 1. Or, perhaps, a mount namespace can isolate parts of the file system a group of processes have access to. In order to easily take advantage of these features together to create these abstract containers we need some sort of run-time.
 
-runC
-Docker internally uses runC as it’s container run-time. runC is a lightweight, portable container run-time that is merely a CLI tool used to spawn and run containers using the above mentioned kernel features. runC was actually pulled out of docker and donated to the Open Container Initiative (OCI). This group was formed to create standards around container format and, with that, runC follows the OCI run-time specification.
+
 
 The OCI currently provides 2 container specifications:
 ## Referece 
@@ -82,11 +75,11 @@ The OCI currently provides 2 container specifications:
 - https://thecodeboss.dev/2016/11/how-daemons-the-init-process-and-process-forking-work/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEwMTk3MDg0LC01MDc0NTgzNCwxODYyND
-M3NDM4LDE1NjcwNDc3ODgsLTMyMzc1MDkyNiwyMTA0OTU0ODg1
-LC0xNDA4ODIyNjQ3LC0xMTc4OTYzNDU1LC00MTQ2MDcwOTYsLT
-Q1NjcyNjE5MCw2ODgxNjg1NjcsLTU1MDMzNjYzNSwxNjU0NDcy
-Mjk3LDU0NDIxOTUzNCwtOTU4OTkwNzA1LC01NjIyNTY1OTEsLT
-ExNzM2MzMzNTQsLTQ1ODM5MDI2LC0xMTIwMjkyMTYsMjA5NTgx
-NjExNl19
+eyJoaXN0b3J5IjpbLTM1NTU4Mjc5NywtNTA3NDU4MzQsMTg2Mj
+QzNzQzOCwxNTY3MDQ3Nzg4LC0zMjM3NTA5MjYsMjEwNDk1NDg4
+NSwtMTQwODgyMjY0NywtMTE3ODk2MzQ1NSwtNDE0NjA3MDk2LC
+00NTY3MjYxOTAsNjg4MTY4NTY3LC01NTAzMzY2MzUsMTY1NDQ3
+MjI5Nyw1NDQyMTk1MzQsLTk1ODk5MDcwNSwtNTYyMjU2NTkxLC
+0xMTczNjMzMzU0LC00NTgzOTAyNiwtMTEyMDI5MjE2LDIwOTU4
+MTYxMTZdfQ==
 -->
