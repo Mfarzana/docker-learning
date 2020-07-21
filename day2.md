@@ -53,10 +53,7 @@ These namespaces provide a layer of isolation. Each aspect of a container runs i
 Docker Engine uses namespaces such as the following on Linux:
 
 -   **The  `pid`  namespace:**  Process isolation (PID: Process ID).
--   **The  `net`  namespace:**  Managing network interfaces (NET: Networking).
--   **The  `ipc`  namespace:**  Managing access to IPC resources (IPC: InterProcess Communication).
--   **The  `mnt`  namespace:**  Managing filesystem mount points (MNT: Mount).
--   **The  `uts`  namespace:**  Isolating kernel and version identifiers. (UTS: Unix Timesharing System).
+-  
 ## Referece 
 - https://docs.docker.com/get-started/overview/
  - https://medium.com/devops-world/how-linux-kernel-is-organized-56eafcace44
@@ -70,11 +67,11 @@ Docker Engine uses namespaces such as the following on Linux:
 - https://thecodeboss.dev/2016/11/how-daemons-the-init-process-and-process-forking-work/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTI5NzI1MTIsMTU2NzA0Nzc4OCwtMz
-IzNzUwOTI2LDIxMDQ5NTQ4ODUsLTE0MDg4MjI2NDcsLTExNzg5
-NjM0NTUsLTQxNDYwNzA5NiwtNDU2NzI2MTkwLDY4ODE2ODU2Ny
-wtNTUwMzM2NjM1LDE2NTQ0NzIyOTcsNTQ0MjE5NTM0LC05NTg5
-OTA3MDUsLTU2MjI1NjU5MSwtMTE3MzYzMzM1NCwtNDU4MzkwMj
-YsLTExMjAyOTIxNiwyMDk1ODE2MTE2LDE2MTU3Njg3ODAsMjA4
-Mzc0NDUyNF19
+eyJoaXN0b3J5IjpbMTg2MjQzNzQzOCwxNTY3MDQ3Nzg4LC0zMj
+M3NTA5MjYsMjEwNDk1NDg4NSwtMTQwODgyMjY0NywtMTE3ODk2
+MzQ1NSwtNDE0NjA3MDk2LC00NTY3MjYxOTAsNjg4MTY4NTY3LC
+01NTAzMzY2MzUsMTY1NDQ3MjI5Nyw1NDQyMTk1MzQsLTk1ODk5
+MDcwNSwtNTYyMjU2NTkxLC0xMTczNjMzMzU0LC00NTgzOTAyNi
+wtMTEyMDI5MjE2LDIwOTU4MTYxMTYsMTYxNTc2ODc4MCwyMDgz
+NzQ0NTI0XX0=
 -->
