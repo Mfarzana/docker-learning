@@ -58,7 +58,7 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
 ## Network namespaces
 ### Problem: Create two namespaces  and ping  namespace vice versa
 
- - **ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns2 ubuntu@ip-172-31-10-25:~$ sudo ip netns** ns2
+ > **ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns2 ubuntu@ip-172-31-10-25:~$ sudo ip netns** ns2
    **ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns1 ubuntu@ip-172-31-10-25:~$ sudo ip netn**s ns1 ns2
    **ubuntu@ip-172-31-10-25:~$ sudo ip link add v-ns1 type veth peer name v-ns2** 
    **ubuntu@ip-172-31-10-25:~$ sudo ip link set v-ns1 netns ns1 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link** 1: lo:
@@ -145,7 +145,7 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjkzNjY5MDgsLTcwMDI1MDU2NywyNT
+eyJoaXN0b3J5IjpbLTEwMDU1ODMzMzksLTcwMDI1MDU2NywyNT
 I0Njg1NywxNzYzNzU5NDYwLC0xNDcwMTg2Mzk4LDM5OTQ2NDcz
 Myw3OTUzMzQzOTksMTg4MDc5MzQwNywtMzQxODU4MDE5LC0yNT
 kyMzY1MDIsLTI1OTIzNjUwMiwxMjY4MTQ2NTYyLC0zNTU1ODI3
