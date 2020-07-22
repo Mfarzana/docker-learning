@@ -140,7 +140,7 @@ ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip addr
        valid_lft forever preferred_lft forever
 ubuntu@ip-172-31-10-25:~$ sudo ip netns ns1 ping 192.168.10.2
 Command "ns1" is unknown, try "ip netns help".
-ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ping 192.168.10.2
+**ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ping 192.168.10.2**
 PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=0.037 ms
 64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=0.045 ms
@@ -154,15 +154,7 @@ PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 64 bytes from 192.168.10.2: icmp_seq=10 ttl=64 time=0.049 ms
 64 bytes from 192.168.10.2: icmp_seq=11 ttl=64 time=0.047 ms
 64 bytes from 192.168.10.2: icmp_seq=12 ttl=64 time=0.062 ms
-64 bytes from 192.168.10.2: icmp_seq=13 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=14 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=15 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=16 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=17 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=18 ttl=64 time=0.049 ms
-64 bytes from 192.168.10.2: icmp_seq=19 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=20 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=21 ttl=64 time=0.050 ms
+
 
 
 ## Referece 
@@ -179,11 +171,11 @@ PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2NjYwMTYwLDE3NjM3NTk0NjAsLTE0Nz
-AxODYzOTgsMzk5NDY0NzMzLDc5NTMzNDM5OSwxODgwNzkzNDA3
-LC0zNDE4NTgwMTksLTI1OTIzNjUwMiwtMjU5MjM2NTAyLDEyNj
-gxNDY1NjIsLTM1NTU4Mjc5NywtNTA3NDU4MzQsMTg2MjQzNzQz
-OCwxNTY3MDQ3Nzg4LC0zMjM3NTA5MjYsMjEwNDk1NDg4NSwtMT
-QwODgyMjY0NywtMTE3ODk2MzQ1NSwtNDE0NjA3MDk2LC00NTY3
-MjYxOTBdfQ==
+eyJoaXN0b3J5IjpbMjUyNDY4NTcsMTc2Mzc1OTQ2MCwtMTQ3MD
+E4NjM5OCwzOTk0NjQ3MzMsNzk1MzM0Mzk5LDE4ODA3OTM0MDcs
+LTM0MTg1ODAxOSwtMjU5MjM2NTAyLC0yNTkyMzY1MDIsMTI2OD
+E0NjU2MiwtMzU1NTgyNzk3LC01MDc0NTgzNCwxODYyNDM3NDM4
+LDE1NjcwNDc3ODgsLTMyMzc1MDkyNiwyMTA0OTU0ODg1LC0xND
+A4ODIyNjQ3LC0xMTc4OTYzNDU1LC00MTQ2MDcwOTYsLTQ1Njcy
+NjE5MF19
 -->
