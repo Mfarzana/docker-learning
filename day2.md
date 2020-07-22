@@ -68,13 +68,16 @@ ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns1
 ubuntu@ip-172-31-10-25:~$ sudo ip netns
 ns1
 ns2
+
 # Creating the veth pairs and associating one of their sides to their respective namespaces.
 ubuntu@ip-172-31-10-25:~$ sudo ip link add v-ns1 type veth peer name v-ns2
 ubuntu@ip-172-31-10-25:~$ sudo ip link set v-ns1 netns ns1
 ubuntu@ip-172-31-10-25:~$ sudo ip link set v-ns2 netns ns2
+
 # Assign IP address
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip addr add 192.168.10.1/24 dev v-ns1
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip addr add 192.168.10.2/24 dev v-ns2
+
 # Show Interfaces
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip addr
 1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN group default qlen 1000
@@ -88,11 +91,13 @@ ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link
 link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 9: v-ns1@if8: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
 link/ether 72:e1:ea:c4:f6:9a brd ff:ff:ff:ff:ff:ff link-netns ns2
+
 # Up interfaces
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link set lo up
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link set v-ns1 up
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip link set v-ns2 up
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip link set lo up
+
 # Check the connectivity from the ns1
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ping 192.168.10.2
 PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
@@ -112,11 +117,11 @@ PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjg1OTg2NSwtNDg2MDk5NzQ4LC0xOD
-E0MTY3MDIzLDExMDIxODkxODUsLTExODkwNDk1NDEsNDk1NzU1
-MzcxLC0xNzkzODg3MDcwLC03MDAyNTA1NjcsMjUyNDY4NTcsMT
-c2Mzc1OTQ2MCwtMTQ3MDE4NjM5OCwzOTk0NjQ3MzMsNzk1MzM0
-Mzk5LDE4ODA3OTM0MDcsLTM0MTg1ODAxOSwtMjU5MjM2NTAyLC
-0yNTkyMzY1MDIsMTI2ODE0NjU2MiwtMzU1NTgyNzk3LC01MDc0
-NTgzNF19
+eyJoaXN0b3J5IjpbLTEyMjg1ODEwMTMsMjExMjg1OTg2NSwtND
+g2MDk5NzQ4LC0xODE0MTY3MDIzLDExMDIxODkxODUsLTExODkw
+NDk1NDEsNDk1NzU1MzcxLC0xNzkzODg3MDcwLC03MDAyNTA1Nj
+csMjUyNDY4NTcsMTc2Mzc1OTQ2MCwtMTQ3MDE4NjM5OCwzOTk0
+NjQ3MzMsNzk1MzM0Mzk5LDE4ODA3OTM0MDcsLTM0MTg1ODAxOS
+wtMjU5MjM2NTAyLC0yNTkyMzY1MDIsMTI2ODE0NjU2MiwtMzU1
+NTgyNzk3XX0=
 -->
