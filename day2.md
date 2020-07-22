@@ -69,35 +69,8 @@ ns2
 ubuntu@ip-172-31-10-25:~$ sudo ip link add v-ns1 type veth peer name v-ns2
 ubuntu@ip-172-31-10-25:~$ sudo ip link set v-ns1 netns ns1
 ubuntu@ip-172-31-10-25:~$ sudo ip link set v-ns2 netns ns2
-
-ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip link
-
-1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default qlen 1000
-
-link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
-
-8: v-ns2@if9: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
-
-link/ether f6:18:b3:c3:24:bc brd ff:ff:ff:ff:ff:ff link-netns ns1
-
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip addr add 192.168.10.1/24 dev v-ns1
-
-ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link
-
-1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default qlen 1000
-
-link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
-
-9: v-ns1@if8: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
-
-link/ether 72:e1:ea:c4:f6:9a brd ff:ff:ff:ff:ff:ff link-netns ns2
-
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip addr add 192.168.10.2/24 dev v-ns2
-
-ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2
-
-No command specified
-
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip link
 
 1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default qlen 1000
@@ -267,7 +240,7 @@ PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkxODUzOTc3LC0xMTg5MDQ5NTQxLDQ5NT
+eyJoaXN0b3J5IjpbOTgzNTc5NDk1LC0xMTg5MDQ5NTQxLDQ5NT
 c1NTM3MSwtMTc5Mzg4NzA3MCwtNzAwMjUwNTY3LDI1MjQ2ODU3
 LDE3NjM3NTk0NjAsLTE0NzAxODYzOTgsMzk5NDY0NzMzLDc5NT
 MzNDM5OSwxODgwNzkzNDA3LC0zNDE4NTgwMTksLTI1OTIzNjUw
