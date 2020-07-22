@@ -108,7 +108,7 @@ ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ping 192.168.10.2
 PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 ~~~
 
-## Referece 
+## Refereces 
 - https://docs.docker.com/get-started/overview/
  - https://medium.com/devops-world/how-linux-kernel-is-organized-56eafcace44
  - https://www.techopedia.com/definition/5306/network-interface-card-nic
@@ -122,11 +122,11 @@ PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTIwOTEzOSwtNzA5NDY1MTY3LDUyND
-A1MDkyLC0xMjI4NTgxMDEzLDIxMTI4NTk4NjUsLTQ4NjA5OTc0
-OCwtMTgxNDE2NzAyMywxMTAyMTg5MTg1LC0xMTg5MDQ5NTQxLD
-Q5NTc1NTM3MSwtMTc5Mzg4NzA3MCwtNzAwMjUwNTY3LDI1MjQ2
-ODU3LDE3NjM3NTk0NjAsLTE0NzAxODYzOTgsMzk5NDY0NzMzLD
-c5NTMzNDM5OSwxODgwNzkzNDA3LC0zNDE4NTgwMTksLTI1OTIz
-NjUwMl19
+eyJoaXN0b3J5IjpbNDY4NzAzMzEwLDE4NzkyMDkxMzksLTcwOT
+Q2NTE2Nyw1MjQwNTA5MiwtMTIyODU4MTAxMywyMTEyODU5ODY1
+LC00ODYwOTk3NDgsLTE4MTQxNjcwMjMsMTEwMjE4OTE4NSwtMT
+E4OTA0OTU0MSw0OTU3NTUzNzEsLTE3OTM4ODcwNzAsLTcwMDI1
+MDU2NywyNTI0Njg1NywxNzYzNzU5NDYwLC0xNDcwMTg2Mzk4LD
+M5OTQ2NDczMyw3OTUzMzQzOTksMTg4MDc5MzQwNywtMzQxODU4
+MDE5XX0=
 -->
