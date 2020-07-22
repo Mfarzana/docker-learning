@@ -56,7 +56,8 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
 >-   **The  `pid`  namespace:**  Process isolation (PID: Process ID).
 
 ## Network namespaces
-### Problem: Create two name
+### Problem: Create namespaces  and ping  namespace vice versa
+
 
 ## Referece 
 - https://docs.docker.com/get-started/overview/
@@ -72,11 +73,11 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzk2MzIyODEsLTE0NzAxODYzOTgsMz
-k5NDY0NzMzLDc5NTMzNDM5OSwxODgwNzkzNDA3LC0zNDE4NTgw
-MTksLTI1OTIzNjUwMiwtMjU5MjM2NTAyLDEyNjgxNDY1NjIsLT
-M1NTU4Mjc5NywtNTA3NDU4MzQsMTg2MjQzNzQzOCwxNTY3MDQ3
-Nzg4LC0zMjM3NTA5MjYsMjEwNDk1NDg4NSwtMTQwODgyMjY0Ny
-wtMTE3ODk2MzQ1NSwtNDE0NjA3MDk2LC00NTY3MjYxOTAsNjg4
-MTY4NTY3XX0=
+eyJoaXN0b3J5IjpbLTU2NjE4MjI4MiwtMTQ3MDE4NjM5OCwzOT
+k0NjQ3MzMsNzk1MzM0Mzk5LDE4ODA3OTM0MDcsLTM0MTg1ODAx
+OSwtMjU5MjM2NTAyLC0yNTkyMzY1MDIsMTI2ODE0NjU2MiwtMz
+U1NTgyNzk3LC01MDc0NTgzNCwxODYyNDM3NDM4LDE1NjcwNDc3
+ODgsLTMyMzc1MDkyNiwyMTA0OTU0ODg1LC0xNDA4ODIyNjQ3LC
+0xMTc4OTYzNDU1LC00MTQ2MDcwOTYsLTQ1NjcyNjE5MCw2ODgx
+Njg1NjddfQ==
 -->
