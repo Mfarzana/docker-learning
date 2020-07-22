@@ -86,6 +86,8 @@ link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 link/ether f6:18:b3:c3:24:bc brd ff:ff:ff:ff:ff:ff link-netns ns1
 inet 192.168.10.2/24 scope global v-ns2
 valid_lft forever preferred_lft forever
+
+# Show Interfaces
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link
 1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default qlen 1000
 link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
@@ -117,11 +119,11 @@ PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTY0ODQwOCwtMTIyODU4MTAxMywyMT
-EyODU5ODY1LC00ODYwOTk3NDgsLTE4MTQxNjcwMjMsMTEwMjE4
-OTE4NSwtMTE4OTA0OTU0MSw0OTU3NTUzNzEsLTE3OTM4ODcwNz
-AsLTcwMDI1MDU2NywyNTI0Njg1NywxNzYzNzU5NDYwLC0xNDcw
-MTg2Mzk4LDM5OTQ2NDczMyw3OTUzMzQzOTksMTg4MDc5MzQwNy
-wtMzQxODU4MDE5LC0yNTkyMzY1MDIsLTI1OTIzNjUwMiwxMjY4
-MTQ2NTYyXX0=
+eyJoaXN0b3J5IjpbNTI0MDUwOTIsLTEyMjg1ODEwMTMsMjExMj
+g1OTg2NSwtNDg2MDk5NzQ4LC0xODE0MTY3MDIzLDExMDIxODkx
+ODUsLTExODkwNDk1NDEsNDk1NzU1MzcxLC0xNzkzODg3MDcwLC
+03MDAyNTA1NjcsMjUyNDY4NTcsMTc2Mzc1OTQ2MCwtMTQ3MDE4
+NjM5OCwzOTk0NjQ3MzMsNzk1MzM0Mzk5LDE4ODA3OTM0MDcsLT
+M0MTg1ODAxOSwtMjU5MjM2NTAyLC0yNTkyMzY1MDIsMTI2ODE0
+NjU2Ml19
 -->
