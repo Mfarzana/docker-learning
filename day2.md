@@ -59,10 +59,12 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
 Problem: Create two namespaces and ping them vice versa
 
 ~~~
+# Creating namespace ns1 and ns2
 ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns2
 ubuntu@ip-172-31-10-25:~$ sudo ip netns
 ns2
 ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns1
+# show created
 ubuntu@ip-172-31-10-25:~$ sudo ip netns
 ns1
 ns2
@@ -106,11 +108,11 @@ PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQxNjcwMjMsMTEwMjE4OTE4NSwtMT
-E4OTA0OTU0MSw0OTU3NTUzNzEsLTE3OTM4ODcwNzAsLTcwMDI1
-MDU2NywyNTI0Njg1NywxNzYzNzU5NDYwLC0xNDcwMTg2Mzk4LD
-M5OTQ2NDczMyw3OTUzMzQzOTksMTg4MDc5MzQwNywtMzQxODU4
-MDE5LC0yNTkyMzY1MDIsLTI1OTIzNjUwMiwxMjY4MTQ2NTYyLC
-0zNTU1ODI3OTcsLTUwNzQ1ODM0LDE4NjI0Mzc0MzgsMTU2NzA0
-Nzc4OF19
+eyJoaXN0b3J5IjpbLTE3MTIwNDg0MjQsLTE4MTQxNjcwMjMsMT
+EwMjE4OTE4NSwtMTE4OTA0OTU0MSw0OTU3NTUzNzEsLTE3OTM4
+ODcwNzAsLTcwMDI1MDU2NywyNTI0Njg1NywxNzYzNzU5NDYwLC
+0xNDcwMTg2Mzk4LDM5OTQ2NDczMyw3OTUzMzQzOTksMTg4MDc5
+MzQwNywtMzQxODU4MDE5LC0yNTkyMzY1MDIsLTI1OTIzNjUwMi
+wxMjY4MTQ2NTYyLC0zNTU1ODI3OTcsLTUwNzQ1ODM0LDE4NjI0
+Mzc0MzhdfQ==
 -->
