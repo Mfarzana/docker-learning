@@ -36,7 +36,7 @@ Virtual machine environments, **images** would be called something **like snapsh
 ### CONTAINERS
 A container is a **runnable instance of an image.**
 
-## Reference 
+## References 
 - https://docs.docker.com/get-started/overview/
 - https://medium.com/codingthesmartway-com-blog/docker-beginners-guide-part-1-images-containers-6f3507fffc98#:~:text=Docker%20is%20a%20platform%20for,Docker%20containers%20are%20always%20portable.
 - https://devopscon.io/blog/docker/docker-vs-virtual-machine-where-are-the-differences/
@@ -44,5 +44,6 @@ A container is a **runnable instance of an image.**
 - https://medium.com/better-programming/docker-containers-vs-virtual-machines-838022906016
 - https://stackify.com/docker-image-vs-container-everything-you-need-to-know/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTg3MzQ3MiwtOTI5MTg3MDU0XX0=
+eyJoaXN0b3J5IjpbMTg0NjE0OTg4NywtODc1ODczNDcyLC05Mj
+kxODcwNTRdfQ==
 -->
