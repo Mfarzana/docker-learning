@@ -57,7 +57,217 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
 
 ## Network namespaces
 ### Problem: Create namespaces  and ping  namespace vice versa
+ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns2
 
+ubuntu@ip-172-31-10-25:~$ sudo ip netns
+
+ns2
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns1
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns
+
+ns1
+
+ns2
+
+ubuntu@ip-172-31-10-25:~$ sudo ip link add v-ns1 type veth peer name v-ns2
+
+ubuntu@ip-172-31-10-25:~$ sudo ip link set v-ns1 netns ns1
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link
+
+1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+
+link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+
+9: v-ns1@if8: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+
+link/ether 72:e1:ea:c4:f6:9a brd ff:ff:ff:ff:ff:ff link-netnsid 0
+
+ubuntu@ip-172-31-10-25:~$ sudo ip link set v-ns2 netns ns2
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip link
+
+1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+
+link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+
+8: v-ns2@if9: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+
+link/ether f6:18:b3:c3:24:bc brd ff:ff:ff:ff:ff:ff link-netns ns1
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip addr add 192.168.10.1/24 dev v-ns1
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link
+
+1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+
+link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+
+9: v-ns1@if8: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+
+link/ether 72:e1:ea:c4:f6:9a brd ff:ff:ff:ff:ff:ff link-netns ns2
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip addr add 192.168.10.2/24 dev v-ns2
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2
+
+No command specified
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip link
+
+1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+
+link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+
+8: v-ns2@if9: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+
+link/ether f6:18:b3:c3:24:bc brd ff:ff:ff:ff:ff:ff link-netns ns1
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip addr
+
+1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN group default qlen 1000
+
+link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+
+8: v-ns2@if9: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+
+link/ether f6:18:b3:c3:24:bc brd ff:ff:ff:ff:ff:ff link-netns ns1
+
+inet 192.168.10.2/24 scope global v-ns2
+
+valid_lft forever preferred_lft forever
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns ns1 ip link
+
+Command "ns1" is unknown, try "ip netns help".
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link
+
+1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+
+link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+
+9: v-ns1@if8: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+
+link/ether 72:e1:ea:c4:f6:9a brd ff:ff:ff:ff:ff:ff link-netns ns2
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link set lo up
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link set ^Cp
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link set v-ns1@if8 up
+
+Cannot find device "v-ns1@if8"
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link set v-ns1 up
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip link set v-ns2 up
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip link set lo up
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip addr
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+
+link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+
+inet 127.0.0.1/8 scope host lo
+
+valid_lft forever preferred_lft forever
+
+inet6 ::1/128 scope host
+
+valid_lft forever preferred_lft forever
+
+9: v-ns1@if8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+
+link/ether 72:e1:ea:c4:f6:9a brd ff:ff:ff:ff:ff:ff link-netns ns2
+
+inet 192.168.10.1/24 scope global v-ns1
+
+valid_lft forever preferred_lft forever
+
+inet6 fe80::70e1:eaff:fec4:f69a/64 scope link
+
+valid_lft forever preferred_lft forever
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip addr
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+
+link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+
+inet 127.0.0.1/8 scope host lo
+
+valid_lft forever preferred_lft forever
+
+inet6 ::1/128 scope host
+
+valid_lft forever preferred_lft forever
+
+8: v-ns2@if9: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+
+link/ether f6:18:b3:c3:24:bc brd ff:ff:ff:ff:ff:ff link-netns ns1
+
+inet 192.168.10.2/24 scope global v-ns2
+
+valid_lft forever preferred_lft forever
+
+inet6 fe80::f418:b3ff:fec3:24bc/64 scope link
+
+valid_lft forever preferred_lft forever
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns ns1 ping 192.168.10.2
+
+Command "ns1" is unknown, try "ip netns help".
+
+ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ping 192.168.10.2
+
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=0.037 ms
+
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=0.045 ms
+
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=0.052 ms
+
+64 bytes from 192.168.10.2: icmp_seq=4 ttl=64 time=0.049 ms
+
+64 bytes from 192.168.10.2: icmp_seq=5 ttl=64 time=0.052 ms
+
+64 bytes from 192.168.10.2: icmp_seq=6 ttl=64 time=0.087 ms
+
+64 bytes from 192.168.10.2: icmp_seq=7 ttl=64 time=0.063 ms
+
+64 bytes from 192.168.10.2: icmp_seq=8 ttl=64 time=0.047 ms
+
+64 bytes from 192.168.10.2: icmp_seq=9 ttl=64 time=0.060 ms
+
+64 bytes from 192.168.10.2: icmp_seq=10 ttl=64 time=0.049 ms
+
+64 bytes from 192.168.10.2: icmp_seq=11 ttl=64 time=0.047 ms
+
+64 bytes from 192.168.10.2: icmp_seq=12 ttl=64 time=0.062 ms
+
+64 bytes from 192.168.10.2: icmp_seq=13 ttl=64 time=0.048 ms
+
+64 bytes from 192.168.10.2: icmp_seq=14 ttl=64 time=0.050 ms
+
+64 bytes from 192.168.10.2: icmp_seq=15 ttl=64 time=0.051 ms
+
+64 bytes from 192.168.10.2: icmp_seq=16 ttl=64 time=0.050 ms
+
+64 bytes from 192.168.10.2: icmp_seq=17 ttl=64 time=0.050 ms
+
+64 bytes from 192.168.10.2: icmp_seq=18 ttl=64 time=0.049 ms
+
+64 bytes from 192.168.10.2: icmp_seq=19 ttl=64 time=0.048 ms
+
+64 bytes from 192.168.10.2: icmp_seq=20 ttl=64 time=0.051 ms
+
+64 bytes from 192.168.10.2: icmp_seq=21 ttl=64 time=0.050 ms
 
 ## Referece 
 - https://docs.docker.com/get-started/overview/
@@ -73,7 +283,7 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NjE4MjI4MiwtMTQ3MDE4NjM5OCwzOT
+eyJoaXN0b3J5IjpbMTc2Mzc1OTQ2MCwtMTQ3MDE4NjM5OCwzOT
 k0NjQ3MzMsNzk1MzM0Mzk5LDE4ODA3OTM0MDcsLTM0MTg1ODAx
 OSwtMjU5MjM2NTAyLC0yNTkyMzY1MDIsMTI2ODE0NjU2MiwtMz
 U1NTgyNzk3LC01MDc0NTgzNCwxODYyNDM3NDM4LDE1NjcwNDc3
