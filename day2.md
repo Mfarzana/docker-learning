@@ -59,7 +59,7 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
 Problem: Create two namespaces and ping them vice versa
 
 ~~~
-**ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns2**
+ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns2
 ubuntu@ip-172-31-10-25:~$ sudo ip netns
 ns2
 ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns1
@@ -279,7 +279,7 @@ PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NjM0MTIzNiwtMTE4OTA0OTU0MSw0OT
+eyJoaXN0b3J5IjpbMTYyMzkxODg2MCwtMTE4OTA0OTU0MSw0OT
 U3NTUzNzEsLTE3OTM4ODcwNzAsLTcwMDI1MDU2NywyNTI0Njg1
 NywxNzYzNzU5NDYwLC0xNDcwMTg2Mzk4LDM5OTQ2NDczMyw3OT
 UzMzQzOTksMTg4MDc5MzQwNywtMzQxODU4MDE5LC0yNTkyMzY1
