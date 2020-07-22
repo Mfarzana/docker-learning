@@ -88,7 +88,7 @@ ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip link
 8: v-ns2@if9: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
     link/ether f6:18:b3:c3:24:bc brd ff:ff:ff:ff:ff:ff link-netns ns1
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip addr add 192.168.10.1/24 dev v-ns1
-ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link
+**ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link**
 1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 9: v-ns1@if8: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
@@ -165,162 +165,14 @@ PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 64 bytes from 192.168.10.2: icmp_seq=11 ttl=64 time=0.047 ms
 64 bytes from 192.168.10.2: icmp_seq=12 ttl=64 time=0.062 ms
 64 bytes from 192.168.10.2: icmp_seq=13 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=14 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=15 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=16 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=17 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=18 ttl=64 time=0.049 ms
-64 bytes from 192.168.10.2: icmp_seq=19 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=20 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=21 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=22 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=23 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=24 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=25 ttl=64 time=0.085 ms
-64 bytes from 192.168.10.2: icmp_seq=26 ttl=64 time=0.049 ms
-64 bytes from 192.168.10.2: icmp_seq=27 ttl=64 time=0.060 ms
-64 bytes from 192.168.10.2: icmp_seq=28 ttl=64 time=0.047 ms
-64 bytes from 192.168.10.2: icmp_seq=29 ttl=64 time=0.046 ms
-64 bytes from 192.168.10.2: icmp_seq=30 ttl=64 time=0.047 ms
-64 bytes from 192.168.10.2: icmp_seq=31 ttl=64 time=0.060 ms
-n64 bytes from 192.168.10.2: icmp_seq=32 ttl=64 time=0.059 ms
-w64 bytes from 192.168.10.2: icmp_seq=33 ttl=64 time=0.047 ms
-64 bytes from 192.168.10.2: icmp_seq=34 ttl=64 time=0.058 ms
-64 bytes from 192.168.10.2: icmp_seq=35 ttl=64 time=0.047 ms
-64 bytes from 192.168.10.2: icmp_seq=36 ttl=64 time=0.060 ms
-64 bytes from 192.168.10.2: icmp_seq=37 ttl=64 time=0.046 ms
-64 bytes from 192.168.10.2: icmp_seq=38 ttl=64 time=0.047 ms
-64 bytes from 192.168.10.2: icmp_seq=39 ttl=64 time=0.047 ms
-64 bytes from 192.168.10.2: icmp_seq=40 ttl=64 time=0.047 ms
-64 bytes from 192.168.10.2: icmp_seq=41 ttl=64 time=0.049 ms
-64 bytes from 192.168.10.2: icmp_seq=42 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=43 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=44 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=45 ttl=64 time=0.068 ms
-64 bytes from 192.168.10.2: icmp_seq=46 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=47 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=48 ttl=64 time=0.053 ms
-64 bytes from 192.168.10.2: icmp_seq=49 ttl=64 time=0.077 ms
-64 bytes from 192.168.10.2: icmp_seq=50 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=51 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=52 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=53 ttl=64 time=0.047 ms
-64 bytes from 192.168.10.2: icmp_seq=54 ttl=64 time=0.049 ms
-64 bytes from 192.168.10.2: icmp_seq=55 ttl=64 time=0.047 ms
-64 bytes from 192.168.10.2: icmp_seq=56 ttl=64 time=0.049 ms
-64 bytes from 192.168.10.2: icmp_seq=57 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=58 ttl=64 time=0.049 ms
-64 bytes from 192.168.10.2: icmp_seq=59 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=60 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=61 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=62 ttl=64 time=0.061 ms
-64 bytes from 192.168.10.2: icmp_seq=63 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=64 ttl=64 time=0.049 ms
-64 bytes from 192.168.10.2: icmp_seq=65 ttl=64 time=0.049 ms
-64 bytes from 192.168.10.2: icmp_seq=66 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=67 ttl=64 time=0.046 ms
-64 bytes from 192.168.10.2: icmp_seq=68 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=69 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=70 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=71 ttl=64 time=0.045 ms
-64 bytes from 192.168.10.2: icmp_seq=72 ttl=64 time=0.072 ms
-64 bytes from 192.168.10.2: icmp_seq=73 ttl=64 time=0.070 ms
-64 bytes from 192.168.10.2: icmp_seq=74 ttl=64 time=0.059 ms
-64 bytes from 192.168.10.2: icmp_seq=75 ttl=64 time=0.043 ms
-64 bytes from 192.168.10.2: icmp_seq=76 ttl=64 time=0.049 ms
-64 bytes from 192.168.10.2: icmp_seq=77 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=78 ttl=64 time=0.049 ms
-64 bytes from 192.168.10.2: icmp_seq=79 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=80 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=81 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=82 ttl=64 time=0.063 ms
-64 bytes from 192.168.10.2: icmp_seq=83 ttl=64 time=0.064 ms
-64 bytes from 192.168.10.2: icmp_seq=84 ttl=64 time=0.062 ms
-64 bytes from 192.168.10.2: icmp_seq=85 ttl=64 time=0.085 ms
-64 bytes from 192.168.10.2: icmp_seq=86 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=87 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=88 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=89 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=90 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=91 ttl=64 time=0.049 ms
-64 bytes from 192.168.10.2: icmp_seq=92 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=93 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=94 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=95 ttl=64 time=0.046 ms
-64 bytes from 192.168.10.2: icmp_seq=96 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=97 ttl=64 time=0.062 ms
-64 bytes from 192.168.10.2: icmp_seq=98 ttl=64 time=0.046 ms
-64 bytes from 192.168.10.2: icmp_seq=99 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=100 ttl=64 time=0.049 ms
-64 bytes from 192.168.10.2: icmp_seq=101 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=102 ttl=64 time=0.046 ms
-64 bytes from 192.168.10.2: icmp_seq=103 ttl=64 time=0.053 ms
-64 bytes from 192.168.10.2: icmp_seq=104 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=105 ttl=64 time=0.047 ms
-64 bytes from 192.168.10.2: icmp_seq=106 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=107 ttl=64 time=0.052 ms
-64 bytes from 192.168.10.2: icmp_seq=108 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=109 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=110 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=111 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=112 ttl=64 time=0.063 ms
-64 bytes from 192.168.10.2: icmp_seq=113 ttl=64 time=0.046 ms
-64 bytes from 192.168.10.2: icmp_seq=114 ttl=64 time=0.061 ms
-64 bytes from 192.168.10.2: icmp_seq=115 ttl=64 time=0.060 ms
-64 bytes from 192.168.10.2: icmp_seq=116 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=117 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=118 ttl=64 time=0.049 ms
-64 bytes from 192.168.10.2: icmp_seq=119 ttl=64 time=0.049 ms
-64 bytes from 192.168.10.2: icmp_seq=120 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=121 ttl=64 time=0.056 ms
-64 bytes from 192.168.10.2: icmp_seq=122 ttl=64 time=0.052 ms
-64 bytes from 192.168.10.2: icmp_seq=123 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=124 ttl=64 time=0.052 ms
-64 bytes from 192.168.10.2: icmp_seq=125 ttl=64 time=0.063 ms
-64 bytes from 192.168.10.2: icmp_seq=126 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=127 ttl=64 time=0.047 ms
-64 bytes from 192.168.10.2: icmp_seq=128 ttl=64 time=0.049 ms
+
 64 bytes from 192.168.10.2: icmp_seq=129 ttl=64 time=0.051 ms
 64 bytes from 192.168.10.2: icmp_seq=130 ttl=64 time=0.049 ms
 64 bytes from 192.168.10.2: icmp_seq=131 ttl=64 time=0.052 ms
 64 bytes from 192.168.10.2: icmp_seq=132 ttl=64 time=0.050 ms
 64 bytes from 192.168.10.2: icmp_seq=133 ttl=64 time=0.049 ms
 64 bytes from 192.168.10.2: icmp_seq=134 ttl=64 time=0.046 ms
-64 bytes from 192.168.10.2: icmp_seq=135 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=136 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=137 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=138 ttl=64 time=0.049 ms
-64 bytes from 192.168.10.2: icmp_seq=139 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=140 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=141 ttl=64 time=0.047 ms
-64 bytes from 192.168.10.2: icmp_seq=142 ttl=64 time=0.047 ms
-64 bytes from 192.168.10.2: icmp_seq=143 ttl=64 time=0.049 ms
-64 bytes from 192.168.10.2: icmp_seq=144 ttl=64 time=0.049 ms
-64 bytes from 192.168.10.2: icmp_seq=145 ttl=64 time=0.075 ms
-64 bytes from 192.168.10.2: icmp_seq=146 ttl=64 time=0.071 ms
-64 bytes from 192.168.10.2: icmp_seq=147 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=148 ttl=64 time=0.059 ms
-64 bytes from 192.168.10.2: icmp_seq=149 ttl=64 time=0.063 ms
-64 bytes from 192.168.10.2: icmp_seq=150 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=151 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=152 ttl=64 time=0.047 ms
-64 bytes from 192.168.10.2: icmp_seq=153 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=154 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=155 ttl=64 time=0.052 ms
-64 bytes from 192.168.10.2: icmp_seq=156 ttl=64 time=0.048 ms
-64 bytes from 192.168.10.2: icmp_seq=157 ttl=64 time=0.058 ms
-64 bytes from 192.168.10.2: icmp_seq=158 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=159 ttl=64 time=0.049 ms
-64 bytes from 192.168.10.2: icmp_seq=160 ttl=64 time=0.052 ms
-64 bytes from 192.168.10.2: icmp_seq=161 ttl=64 time=0.050 ms
-64 bytes from 192.168.10.2: icmp_seq=162 ttl=64 time=0.052 ms
-64 bytes from 192.168.10.2: icmp_seq=163 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=164 ttl=64 time=0.052 ms
-64 bytes from 192.168.10.2: icmp_seq=165 ttl=64 time=0.072 ms
-64 bytes from 192.168.10.2: icmp_seq=166 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=167 ttl=64 time=0.051 ms
-64 bytes from 192.168.10.2: icmp_seq=168 ttl=64 time=0.055 ms
-64 bytes from 192.168.10.2: icmp_seq=169 ttl=64 time=0.072 ms
+s
 64 bytes from 192.168.10.2: icmp_seq=170 ttl=64 time=0.049 ms
 64 bytes from 192.168.10.2: icmp_seq=171 ttl=64 time=0.057 ms
 64 bytes from 192.168.10.2: icmp_seq=172 ttl=64 time=0.049 ms
@@ -1163,11 +1015,11 @@ ubuntu@ip-172-31-10-25:~$
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzOTY3ODQ0MSwtMTQ3MDE4NjM5OCwzOT
-k0NjQ3MzMsNzk1MzM0Mzk5LDE4ODA3OTM0MDcsLTM0MTg1ODAx
-OSwtMjU5MjM2NTAyLC0yNTkyMzY1MDIsMTI2ODE0NjU2MiwtMz
-U1NTgyNzk3LC01MDc0NTgzNCwxODYyNDM3NDM4LDE1NjcwNDc3
-ODgsLTMyMzc1MDkyNiwyMTA0OTU0ODg1LC0xNDA4ODIyNjQ3LC
-0xMTc4OTYzNDU1LC00MTQ2MDcwOTYsLTQ1NjcyNjE5MCw2ODgx
-Njg1NjddfQ==
+eyJoaXN0b3J5IjpbLTEyNTM2OTMzNjIsLTE0NzAxODYzOTgsMz
+k5NDY0NzMzLDc5NTMzNDM5OSwxODgwNzkzNDA3LC0zNDE4NTgw
+MTksLTI1OTIzNjUwMiwtMjU5MjM2NTAyLDEyNjgxNDY1NjIsLT
+M1NTU4Mjc5NywtNTA3NDU4MzQsMTg2MjQzNzQzOCwxNTY3MDQ3
+Nzg4LC0zMjM3NTA5MjYsMjEwNDk1NDg4NSwtMTQwODgyMjY0Ny
+wtMTE3ODk2MzQ1NSwtNDE0NjA3MDk2LC00NTY3MjYxOTAsNjg4
+MTY4NTY3XX0=
 -->
