@@ -78,7 +78,7 @@ ubuntu@ip-172-31-10-25:~$ sudo ip link set v-ns2 netns ns2
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip addr add 192.168.10.1/24 dev v-ns1
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip addr add 192.168.10.2/24 dev v-ns2
 
-# Show Interfaces
+# IP Addresses and Interfaces
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip addr
 1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN group default qlen 1000
 link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
@@ -117,11 +117,11 @@ PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjg1ODEwMTMsMjExMjg1OTg2NSwtND
-g2MDk5NzQ4LC0xODE0MTY3MDIzLDExMDIxODkxODUsLTExODkw
-NDk1NDEsNDk1NzU1MzcxLC0xNzkzODg3MDcwLC03MDAyNTA1Nj
-csMjUyNDY4NTcsMTc2Mzc1OTQ2MCwtMTQ3MDE4NjM5OCwzOTk0
-NjQ3MzMsNzk1MzM0Mzk5LDE4ODA3OTM0MDcsLTM0MTg1ODAxOS
-wtMjU5MjM2NTAyLC0yNTkyMzY1MDIsMTI2ODE0NjU2MiwtMzU1
-NTgyNzk3XX0=
+eyJoaXN0b3J5IjpbLTI3MTY0ODQwOCwtMTIyODU4MTAxMywyMT
+EyODU5ODY1LC00ODYwOTk3NDgsLTE4MTQxNjcwMjMsMTEwMjE4
+OTE4NSwtMTE4OTA0OTU0MSw0OTU3NTUzNzEsLTE3OTM4ODcwNz
+AsLTcwMDI1MDU2NywyNTI0Njg1NywxNzYzNzU5NDYwLC0xNDcw
+MTg2Mzk4LDM5OTQ2NDczMyw3OTUzMzQzOTksMTg4MDc5MzQwNy
+wtMzQxODU4MDE5LC0yNTkyMzY1MDIsLTI1OTIzNjUwMiwxMjY4
+MTQ2NTYyXX0=
 -->
