@@ -59,6 +59,10 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
 Problem: Create two namespaces and ping them vice versa
 
 ~~~
+# Install docker on the server
+ubuntu@ip-172-31-10-25:~$ sudo apt update                           
+ubuntu@ip-172-31-10-25:~$ sudo apt install docker.io   
+
 # Creating namespace ns1 and ns2
 ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns2
 ubuntu@ip-172-31-10-25:~$ sudo ip netns
@@ -119,11 +123,11 @@ PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI0MDUwOTIsLTEyMjg1ODEwMTMsMjExMj
-g1OTg2NSwtNDg2MDk5NzQ4LC0xODE0MTY3MDIzLDExMDIxODkx
-ODUsLTExODkwNDk1NDEsNDk1NzU1MzcxLC0xNzkzODg3MDcwLC
-03MDAyNTA1NjcsMjUyNDY4NTcsMTc2Mzc1OTQ2MCwtMTQ3MDE4
-NjM5OCwzOTk0NjQ3MzMsNzk1MzM0Mzk5LDE4ODA3OTM0MDcsLT
-M0MTg1ODAxOSwtMjU5MjM2NTAyLC0yNTkyMzY1MDIsMTI2ODE0
-NjU2Ml19
+eyJoaXN0b3J5IjpbLTcwOTQ2NTE2Nyw1MjQwNTA5MiwtMTIyOD
+U4MTAxMywyMTEyODU5ODY1LC00ODYwOTk3NDgsLTE4MTQxNjcw
+MjMsMTEwMjE4OTE4NSwtMTE4OTA0OTU0MSw0OTU3NTUzNzEsLT
+E3OTM4ODcwNzAsLTcwMDI1MDU2NywyNTI0Njg1NywxNzYzNzU5
+NDYwLC0xNDcwMTg2Mzk4LDM5OTQ2NDczMyw3OTUzMzQzOTksMT
+g4MDc5MzQwNywtMzQxODU4MDE5LC0yNTkyMzY1MDIsLTI1OTIz
+NjUwMl19
 -->
