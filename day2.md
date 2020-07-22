@@ -71,8 +71,8 @@ ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link**
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 9: v-ns1@if8: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
     link/ether 72:e1:ea:c4:f6:9a brd ff:ff:ff:ff:ff:ff link-netnsid 0
-ubuntu@ip-172-31-10-25:~$ sudo ip link set v-ns2 netns ns2
-ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip link
+**ubuntu@ip-172-31-10-25:~$ sudo ip link set v-ns2 netns ns2**
+**ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip link**
 1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 8: v-ns2@if9: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
@@ -100,7 +100,7 @@ No command specified
        valid_lft forever preferred_lft forever
 **ubuntu@ip-172-31-10-25:~$ sudo ip netns ns1 ip link**
 Command "ns1" is unknown, try "ip netns help".
-ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link
+**ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link**
 1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 9: v-ns1@if8: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
@@ -122,7 +122,7 @@ ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link
        valid_lft forever preferred_lft forever
     inet6 fe80::70e1:eaff:fec4:f69a/64 scope link
        valid_lft forever preferred_lft forever
-ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip addr
+**ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip addr**
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
     inet 127.0.0.1/8 scope host lo
@@ -135,8 +135,6 @@ ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip addr
        valid_lft forever preferred_lft forever
     inet6 fe80::f418:b3ff:fec3:24bc/64 scope link
        valid_lft forever preferred_lft forever
-ubuntu@ip-172-31-10-25:~$ sudo ip netns ns1 ping 192.168.10.2
-Command "ns1" is unknown, try "ip netns help".
 **ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ping 192.168.10.2**
 PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=0.037 ms
@@ -168,11 +166,11 @@ PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjI0OTQ0NywyNTI0Njg1NywxNzYzNz
-U5NDYwLC0xNDcwMTg2Mzk4LDM5OTQ2NDczMyw3OTUzMzQzOTks
-MTg4MDc5MzQwNywtMzQxODU4MDE5LC0yNTkyMzY1MDIsLTI1OT
-IzNjUwMiwxMjY4MTQ2NTYyLC0zNTU1ODI3OTcsLTUwNzQ1ODM0
-LDE4NjI0Mzc0MzgsMTU2NzA0Nzc4OCwtMzIzNzUwOTI2LDIxMD
-Q5NTQ4ODUsLTE0MDg4MjI2NDcsLTExNzg5NjM0NTUsLTQxNDYw
-NzA5Nl19
+eyJoaXN0b3J5IjpbMzcxOTAzOTU1LDI1MjQ2ODU3LDE3NjM3NT
+k0NjAsLTE0NzAxODYzOTgsMzk5NDY0NzMzLDc5NTMzNDM5OSwx
+ODgwNzkzNDA3LC0zNDE4NTgwMTksLTI1OTIzNjUwMiwtMjU5Mj
+M2NTAyLDEyNjgxNDY1NjIsLTM1NTU4Mjc5NywtNTA3NDU4MzQs
+MTg2MjQzNzQzOCwxNTY3MDQ3Nzg4LC0zMjM3NTA5MjYsMjEwND
+k1NDg4NSwtMTQwODgyMjY0NywtMTE3ODk2MzQ1NSwtNDE0NjA3
+MDk2XX0=
 -->
