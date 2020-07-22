@@ -87,97 +87,8 @@ ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link set lo up
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link set v-ns1 up
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip link set v-ns2 up
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip link set lo up
-ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip addr
-1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
-link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
-inet 127.0.0.1/8 scope host lo
-valid_lft forever preferred_lft forever
-inet6 ::1/128 scope host
-valid_lft forever preferred_lft forever
-9: v-ns1@if8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
-link/ether 72:e1:ea:c4:f6:9a brd ff:ff:ff:ff:ff:ff link-netns ns2
-inet 192.168.10.1/24 scope global v-ns1
-valid_lft forever preferred_lft forever
-
-inet6 fe80::70e1:eaff:fec4:f69a/64 scope link
-
-valid_lft forever preferred_lft forever
-
-ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip addr
-
-1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
-
-link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
-
-inet 127.0.0.1/8 scope host lo
-
-valid_lft forever preferred_lft forever
-
-inet6 ::1/128 scope host
-
-valid_lft forever preferred_lft forever
-
-8: v-ns2@if9: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
-
-link/ether f6:18:b3:c3:24:bc brd ff:ff:ff:ff:ff:ff link-netns ns1
-
-inet 192.168.10.2/24 scope global v-ns2
-
-valid_lft forever preferred_lft forever
-
-inet6 fe80::f418:b3ff:fec3:24bc/64 scope link
-
-valid_lft forever preferred_lft forever
-
-ubuntu@ip-172-31-10-25:~$ sudo ip netns ns1 ping 192.168.10.2
-
-Command "ns1" is unknown, try "ip netns help".
-
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ping 192.168.10.2
-
 PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
-
-64 bytes from 192.168.10.2: icmp_seq=1 ttl=64 time=0.037 ms
-
-64 bytes from 192.168.10.2: icmp_seq=2 ttl=64 time=0.045 ms
-
-64 bytes from 192.168.10.2: icmp_seq=3 ttl=64 time=0.052 ms
-
-64 bytes from 192.168.10.2: icmp_seq=4 ttl=64 time=0.049 ms
-
-64 bytes from 192.168.10.2: icmp_seq=5 ttl=64 time=0.052 ms
-
-64 bytes from 192.168.10.2: icmp_seq=6 ttl=64 time=0.087 ms
-
-64 bytes from 192.168.10.2: icmp_seq=7 ttl=64 time=0.063 ms
-
-64 bytes from 192.168.10.2: icmp_seq=8 ttl=64 time=0.047 ms
-
-64 bytes from 192.168.10.2: icmp_seq=9 ttl=64 time=0.060 ms
-
-64 bytes from 192.168.10.2: icmp_seq=10 ttl=64 time=0.049 ms
-
-64 bytes from 192.168.10.2: icmp_seq=11 ttl=64 time=0.047 ms
-
-64 bytes from 192.168.10.2: icmp_seq=12 ttl=64 time=0.062 ms
-
-64 bytes from 192.168.10.2: icmp_seq=13 ttl=64 time=0.048 ms
-
-64 bytes from 192.168.10.2: icmp_seq=14 ttl=64 time=0.050 ms
-
-64 bytes from 192.168.10.2: icmp_seq=15 ttl=64 time=0.051 ms
-
-64 bytes from 192.168.10.2: icmp_seq=16 ttl=64 time=0.050 ms
-
-64 bytes from 192.168.10.2: icmp_seq=17 ttl=64 time=0.050 ms
-
-64 bytes from 192.168.10.2: icmp_seq=18 ttl=64 time=0.049 ms
-
-64 bytes from 192.168.10.2: icmp_seq=19 ttl=64 time=0.048 ms
-
-64 bytes from 192.168.10.2: icmp_seq=20 ttl=64 time=0.051 ms
-
-64 bytes from 192.168.10.2: icmp_seq=21 ttl=64 time=0.050 ms
 ~~~
 
 ## Referece 
@@ -194,11 +105,11 @@ PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODYwODE2NDMsLTExODkwNDk1NDEsND
-k1NzU1MzcxLC0xNzkzODg3MDcwLC03MDAyNTA1NjcsMjUyNDY4
-NTcsMTc2Mzc1OTQ2MCwtMTQ3MDE4NjM5OCwzOTk0NjQ3MzMsNz
-k1MzM0Mzk5LDE4ODA3OTM0MDcsLTM0MTg1ODAxOSwtMjU5MjM2
-NTAyLC0yNTkyMzY1MDIsMTI2ODE0NjU2MiwtMzU1NTgyNzk3LC
-01MDc0NTgzNCwxODYyNDM3NDM4LDE1NjcwNDc3ODgsLTMyMzc1
-MDkyNl19
+eyJoaXN0b3J5IjpbMTEwMjE4OTE4NSwtMTE4OTA0OTU0MSw0OT
+U3NTUzNzEsLTE3OTM4ODcwNzAsLTcwMDI1MDU2NywyNTI0Njg1
+NywxNzYzNzU5NDYwLC0xNDcwMTg2Mzk4LDM5OTQ2NDczMyw3OT
+UzMzQzOTksMTg4MDc5MzQwNywtMzQxODU4MDE5LC0yNTkyMzY1
+MDIsLTI1OTIzNjUwMiwxMjY4MTQ2NTYyLC0zNTU1ODI3OTcsLT
+UwNzQ1ODM0LDE4NjI0Mzc0MzgsMTU2NzA0Nzc4OCwtMzIzNzUw
+OTI2XX0=
 -->
