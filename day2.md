@@ -68,10 +68,11 @@ ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns1
 ubuntu@ip-172-31-10-25:~$ sudo ip netns
 ns1
 ns2
-#
+# Creating the veth pairs and associating one of their sides to their respective namespaces.
 ubuntu@ip-172-31-10-25:~$ sudo ip link add v-ns1 type veth peer name v-ns2
 ubuntu@ip-172-31-10-25:~$ sudo ip link set v-ns1 netns ns1
 ubuntu@ip-172-31-10-25:~$ sudo ip link set v-ns2 netns ns2
+
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip addr add 192.168.10.1/24 dev v-ns1
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip addr add 192.168.10.2/24 dev v-ns2
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip addr
@@ -109,11 +110,11 @@ PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTk5MzQ0MiwtMTgxNDE2NzAyMywxMT
-AyMTg5MTg1LC0xMTg5MDQ5NTQxLDQ5NTc1NTM3MSwtMTc5Mzg4
-NzA3MCwtNzAwMjUwNTY3LDI1MjQ2ODU3LDE3NjM3NTk0NjAsLT
-E0NzAxODYzOTgsMzk5NDY0NzMzLDc5NTMzNDM5OSwxODgwNzkz
-NDA3LC0zNDE4NTgwMTksLTI1OTIzNjUwMiwtMjU5MjM2NTAyLD
-EyNjgxNDY1NjIsLTM1NTU4Mjc5NywtNTA3NDU4MzQsMTg2MjQz
-NzQzOF19
+eyJoaXN0b3J5IjpbLTEyNDgzODYxNDIsLTE4MTQxNjcwMjMsMT
+EwMjE4OTE4NSwtMTE4OTA0OTU0MSw0OTU3NTUzNzEsLTE3OTM4
+ODcwNzAsLTcwMDI1MDU2NywyNTI0Njg1NywxNzYzNzU5NDYwLC
+0xNDcwMTg2Mzk4LDM5OTQ2NDczMyw3OTUzMzQzOTksMTg4MDc5
+MzQwNywtMzQxODU4MDE5LC0yNTkyMzY1MDIsLTI1OTIzNjUwMi
+wxMjY4MTQ2NTYyLC0zNTU1ODI3OTcsLTUwNzQ1ODM0LDE4NjI0
+Mzc0MzhdfQ==
 -->
