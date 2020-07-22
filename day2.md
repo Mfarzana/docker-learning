@@ -55,8 +55,7 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
 >-   **The  `pid`  namespace:**  Process isolation (PID: Process ID).
 
 ## Practice：Creat two namesapcces and ping vice varsa
-ubuntu@ip-172-31-10-25:~$ sudo ip netns add add ns1
-ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns2
+**ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns2**
 ubuntu@ip-172-31-10-25:~$ sudo ip netns
 ns2
 add
@@ -64,10 +63,10 @@ white
 black (id: 2)
 blue (id: 1)
 red (id: 0)
-ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns2
+**ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns2**
 Cannot create namespace file "/run/netns/ns2": File exists
 ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns1
-ubuntu@ip-172-31-10-25:~$ sudo ip netns
+**ubuntu@ip-172-31-10-25:~$ sudo ip netns**
 ns1
 ns2
 add
@@ -75,9 +74,9 @@ white
 black (id: 2)
 blue (id: 1)
 red (id: 0)
-ubuntu@ip-172-31-10-25:~$ sudo ip link add v-ns1 type veth peer name v-ns2
-ubuntu@ip-172-31-10-25:~$ sudo ip link set v-ns1 netns ns1
-ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link
+**ubuntu@ip-172-31-10-25:~$ sudo ip link add v-ns1 type veth peer name v-ns2**
+**ubuntu@ip-172-31-10-25:~$ sudo ip link set v-ns1 netns ns1**
+**ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link**
 1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 9: v-ns1@if8: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
@@ -1164,11 +1163,11 @@ ubuntu@ip-172-31-10-25:~$
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4Mzg1NjUxLC0xNDcwMTg2Mzk4LDM5OT
-Q2NDczMyw3OTUzMzQzOTksMTg4MDc5MzQwNywtMzQxODU4MDE5
-LC0yNTkyMzY1MDIsLTI1OTIzNjUwMiwxMjY4MTQ2NTYyLC0zNT
-U1ODI3OTcsLTUwNzQ1ODM0LDE4NjI0Mzc0MzgsMTU2NzA0Nzc4
-OCwtMzIzNzUwOTI2LDIxMDQ5NTQ4ODUsLTE0MDg4MjI2NDcsLT
-ExNzg5NjM0NTUsLTQxNDYwNzA5NiwtNDU2NzI2MTkwLDY4ODE2
-ODU2N119
+eyJoaXN0b3J5IjpbLTkzOTY3ODQ0MSwtMTQ3MDE4NjM5OCwzOT
+k0NjQ3MzMsNzk1MzM0Mzk5LDE4ODA3OTM0MDcsLTM0MTg1ODAx
+OSwtMjU5MjM2NTAyLC0yNTkyMzY1MDIsMTI2ODE0NjU2MiwtMz
+U1NTgyNzk3LC01MDc0NTgzNCwxODYyNDM3NDM4LDE1NjcwNDc3
+ODgsLTMyMzc1MDkyNiwyMTA0OTU0ODg1LC0xNDA4ODIyNjQ3LC
+0xMTc4OTYzNDU1LC00MTQ2MDcwOTYsLTQ1NjcyNjE5MCw2ODgx
+Njg1NjddfQ==
 -->
