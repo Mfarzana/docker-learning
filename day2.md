@@ -71,78 +71,32 @@ ubuntu@ip-172-31-10-25:~$ sudo ip link set v-ns1 netns ns1
 ubuntu@ip-172-31-10-25:~$ sudo ip link set v-ns2 netns ns2
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip addr add 192.168.10.1/24 dev v-ns1
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip addr add 192.168.10.2/24 dev v-ns2
-ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip link
-
-1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default qlen 1000
-
-link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
-
-8: v-ns2@if9: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
-
-link/ether f6:18:b3:c3:24:bc brd ff:ff:ff:ff:ff:ff link-netns ns1
-
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip addr
-
 1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN group default qlen 1000
-
 link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
-
 8: v-ns2@if9: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
-
 link/ether f6:18:b3:c3:24:bc brd ff:ff:ff:ff:ff:ff link-netns ns1
-
 inet 192.168.10.2/24 scope global v-ns2
-
 valid_lft forever preferred_lft forever
-
-ubuntu@ip-172-31-10-25:~$ sudo ip netns ns1 ip link
-
-Command "ns1" is unknown, try "ip netns help".
-
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link
-
 1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default qlen 1000
-
 link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
-
 9: v-ns1@if8: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
-
 link/ether 72:e1:ea:c4:f6:9a brd ff:ff:ff:ff:ff:ff link-netns ns2
-
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link set lo up
-
-ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link set ^Cp
-
-ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link set v-ns1@if8 up
-
-Cannot find device "v-ns1@if8"
-
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link set v-ns1 up
-
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip link set v-ns2 up
-
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip link set lo up
-
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip addr
-
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
-
 link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
-
 inet 127.0.0.1/8 scope host lo
-
 valid_lft forever preferred_lft forever
-
 inet6 ::1/128 scope host
-
 valid_lft forever preferred_lft forever
-
 9: v-ns1@if8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
-
 link/ether 72:e1:ea:c4:f6:9a brd ff:ff:ff:ff:ff:ff link-netns ns2
-
 inet 192.168.10.1/24 scope global v-ns1
-
 valid_lft forever preferred_lft forever
 
 inet6 fe80::70e1:eaff:fec4:f69a/64 scope link
@@ -240,11 +194,11 @@ PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgzNTc5NDk1LC0xMTg5MDQ5NTQxLDQ5NT
-c1NTM3MSwtMTc5Mzg4NzA3MCwtNzAwMjUwNTY3LDI1MjQ2ODU3
-LDE3NjM3NTk0NjAsLTE0NzAxODYzOTgsMzk5NDY0NzMzLDc5NT
-MzNDM5OSwxODgwNzkzNDA3LC0zNDE4NTgwMTksLTI1OTIzNjUw
-MiwtMjU5MjM2NTAyLDEyNjgxNDY1NjIsLTM1NTU4Mjc5NywtNT
-A3NDU4MzQsMTg2MjQzNzQzOCwxNTY3MDQ3Nzg4LC0zMjM3NTA5
-MjZdfQ==
+eyJoaXN0b3J5IjpbLTIwODYwODE2NDMsLTExODkwNDk1NDEsND
+k1NzU1MzcxLC0xNzkzODg3MDcwLC03MDAyNTA1NjcsMjUyNDY4
+NTcsMTc2Mzc1OTQ2MCwtMTQ3MDE4NjM5OCwzOTk0NjQ3MzMsNz
+k1MzM0Mzk5LDE4ODA3OTM0MDcsLTM0MTg1ODAxOSwtMjU5MjM2
+NTAyLC0yNTkyMzY1MDIsMTI2ODE0NjU2MiwtMzU1NTgyNzk3LC
+01MDc0NTgzNCwxODYyNDM3NDM4LDE1NjcwNDc3ODgsLTMyMzc1
+MDkyNl19
 -->
