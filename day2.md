@@ -87,6 +87,7 @@ ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link set lo up
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ip link set v-ns1 up
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip link set v-ns2 up
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns2 ip link set lo up
+# Check the connectivity from the ns1
 ubuntu@ip-172-31-10-25:~$ sudo ip netns exec ns1 ping 192.168.10.2
 PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 ~~~
@@ -105,11 +106,11 @@ PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMjE4OTE4NSwtMTE4OTA0OTU0MSw0OT
-U3NTUzNzEsLTE3OTM4ODcwNzAsLTcwMDI1MDU2NywyNTI0Njg1
-NywxNzYzNzU5NDYwLC0xNDcwMTg2Mzk4LDM5OTQ2NDczMyw3OT
-UzMzQzOTksMTg4MDc5MzQwNywtMzQxODU4MDE5LC0yNTkyMzY1
-MDIsLTI1OTIzNjUwMiwxMjY4MTQ2NTYyLC0zNTU1ODI3OTcsLT
-UwNzQ1ODM0LDE4NjI0Mzc0MzgsMTU2NzA0Nzc4OCwtMzIzNzUw
-OTI2XX0=
+eyJoaXN0b3J5IjpbLTE4MTQxNjcwMjMsMTEwMjE4OTE4NSwtMT
+E4OTA0OTU0MSw0OTU3NTUzNzEsLTE3OTM4ODcwNzAsLTcwMDI1
+MDU2NywyNTI0Njg1NywxNzYzNzU5NDYwLC0xNDcwMTg2Mzk4LD
+M5OTQ2NDczMyw3OTUzMzQzOTksMTg4MDc5MzQwNywtMzQxODU4
+MDE5LC0yNTkyMzY1MDIsLTI1OTIzNjUwMiwxMjY4MTQ2NTYyLC
+0zNTU1ODI3OTcsLTUwNzQ1ODM0LDE4NjI0Mzc0MzgsMTU2NzA0
+Nzc4OF19
 -->
