@@ -58,13 +58,14 @@ Cgroups and namespaces are both **linux kernel features** that, together, create
 ## Network namespaces
 Problem: Create two namespaces and ping them vice versa
 
- > ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns2
- > ubuntu@ip-172-31-10-25:~$ sudo ip netns
- > ns2
-> ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns1
-> ubuntu@ip-172-31-10-25:~$ sudo ip netns
-> ns1
->ns2
+~~~
+ubuntu@ip-172-31-10-25:~$ sudo ip netns
+ns2
+ubuntu@ip-172-31-10-25:~$ sudo ip netns add ns1
+ubuntu@ip-172-31-10-25:~$ sudo ip netns
+ns1
+ns2
+~~~
 
 ## Referece 
 - https://docs.docker.com/get-started/overview/
@@ -80,11 +81,11 @@ Problem: Create two namespaces and ping them vice versa
 - https://www.shaunwarman.com/posts/docker-another-introduction.html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk1NzU1MzcxLC0xNzkzODg3MDcwLC03MD
-AyNTA1NjcsMjUyNDY4NTcsMTc2Mzc1OTQ2MCwtMTQ3MDE4NjM5
-OCwzOTk0NjQ3MzMsNzk1MzM0Mzk5LDE4ODA3OTM0MDcsLTM0MT
-g1ODAxOSwtMjU5MjM2NTAyLC0yNTkyMzY1MDIsMTI2ODE0NjU2
-MiwtMzU1NTgyNzk3LC01MDc0NTgzNCwxODYyNDM3NDM4LDE1Nj
-cwNDc3ODgsLTMyMzc1MDkyNiwyMTA0OTU0ODg1LC0xNDA4ODIy
-NjQ3XX0=
+eyJoaXN0b3J5IjpbLTExODkwNDk1NDEsNDk1NzU1MzcxLC0xNz
+kzODg3MDcwLC03MDAyNTA1NjcsMjUyNDY4NTcsMTc2Mzc1OTQ2
+MCwtMTQ3MDE4NjM5OCwzOTk0NjQ3MzMsNzk1MzM0Mzk5LDE4OD
+A3OTM0MDcsLTM0MTg1ODAxOSwtMjU5MjM2NTAyLC0yNTkyMzY1
+MDIsMTI2ODE0NjU2MiwtMzU1NTgyNzk3LC01MDc0NTgzNCwxOD
+YyNDM3NDM4LDE1NjcwNDc3ODgsLTMyMzc1MDkyNiwyMTA0OTU0
+ODg1XX0=
 -->
