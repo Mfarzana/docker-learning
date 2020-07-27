@@ -1,4 +1,5 @@
-
+## Goals
+Understand Docker technology, Create namespaces & ping them 
 ## Basic Concept of Docker Networking 
  ### NIC Card
 A Network Interface Card (NIC) is a computer hardware component that allows a **computer to connect to a network**. NICs may be used for both wired and wireless connections.
