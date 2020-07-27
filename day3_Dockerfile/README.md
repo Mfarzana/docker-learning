@@ -1,5 +1,6 @@
 ## Goals
-Create Dockerfile and build  Docker images from .
+Create Dockerfile and build  Docker images from Dockerfile.
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTcxNzg2N119
+eyJoaXN0b3J5IjpbNDIyNTUwMjldfQ==
 -->
