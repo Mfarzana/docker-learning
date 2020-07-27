@@ -2,6 +2,7 @@
 - Create Dockerfile 
 - Build a Docker image from Dockerfile
 - Run image
+## Dockerfile
 
 
 
@@ -9,6 +10,6 @@
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDkyMDU0MDAsLTEzMDU0MDE3ODMsLT
-M1NjQ0MjAzOCw0MjI1NTAyOV19
+eyJoaXN0b3J5IjpbMTIzODU0Njc2LC0xMzA1NDAxNzgzLC0zNT
+Y0NDIwMzgsNDIyNTUwMjldfQ==
 -->
