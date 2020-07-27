@@ -1,10 +1,10 @@
 ## Goals
 Create Dockerfile and build  Docker images from Dockerfile.
-## 
+Docker builds images automatically by reading the instructions from a `Dockerfile`
 
 ## References
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzM3NjcxOCw0MjI1NTAyOV19
+eyJoaXN0b3J5IjpbMTAzODcxMDIzNiw0MjI1NTAyOV19
 -->
