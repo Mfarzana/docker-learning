@@ -6,7 +6,8 @@
 - Pushing and Pulling to and from Docker Hub
 
 ## Push docker image (Spring demo project) to Docker Registry
-Project Structe 
+**Project Structure** 
+![enter image description here](https://github.com/Mfarzana/docker-learning/blob/master/images/demo-structure.jpg)
 
 #### Step 1: Go to project directory and create a docker file 
  For example, my project was in desktop demo folder
@@ -45,10 +46,10 @@ Docker builds images automatically by reading the instructions from a Dockerfile
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjQ0Mjk4MTgsLTExMDMwNzQ2NzcsLT
-c3MTcwNDM4OCwtMjA5NjMyMjgzNiwxMzczMTAwNjU2LC0yMTE0
-MTQ3NzAyLDgxMjY4NzM5Niw3NTY3NTYxOTcsLTIwNzM4MDIzMT
-YsMTI0ODQwNDk4Myw2MjMwNDA2MzMsODE0MDk1OTk2LDEyMzg1
-NDY3NiwtMTMwNTQwMTc4MywtMzU2NDQyMDM4LDQyMjU1MDI5XX
-0=
+eyJoaXN0b3J5IjpbMTAzMjExMjc1MywtMTEwMzA3NDY3NywtNz
+cxNzA0Mzg4LC0yMDk2MzIyODM2LDEzNzMxMDA2NTYsLTIxMTQx
+NDc3MDIsODEyNjg3Mzk2LDc1Njc1NjE5NywtMjA3MzgwMjMxNi
+wxMjQ4NDA0OTgzLDYyMzA0MDYzMyw4MTQwOTU5OTYsMTIzODU0
+Njc2LC0xMzA1NDAxNzgzLC0zNTY0NDIwMzgsNDIyNTUwMjldfQ
+==
 -->
