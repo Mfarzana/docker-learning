@@ -5,20 +5,20 @@
 -  Push Java Web App In Docker Hub
 
 ## Push Java Web App In Docker Hub Repository 
-#### Step 1: Go to project directory and create a docker file 
-> For example my project was in desktop demo folder
+### Step 1: Go to project directory and create a docker file 
+ For example my project was in desktop demo folder
   ```
   C:\Users\Farzana>cd Desktop\demo
   ```
   **My  Dockerfile** 
-	```
+	
 	FROM java:8-jdk-alpine
 	COPY ./target/demo.war /usr/app/
 	WORKDIR /usr/app
 	EXPOSE 8080
 	ENTRYPOINT ["java", "-jar", "demo.war"]
 	```
- **NB:  .(dot) mean current directory** 
+ **NB:  . (dot) mean current directory** 
 ####  Step 2: Use command 
 > - C:\Users\Farzana\Desktop\demo>**docker build -t mfarzana/demo-spring:0.0.1 .**
 > - This command create docker image from Dockerfile
@@ -39,8 +39,8 @@ Docker builds images automatically by reading the instructions from a Dockerfile
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEyNjg3Mzk2LDc1Njc1NjE5NywtMjA3Mz
-gwMjMxNiwxMjQ4NDA0OTgzLDYyMzA0MDYzMyw4MTQwOTU5OTYs
-MTIzODU0Njc2LC0xMzA1NDAxNzgzLC0zNTY0NDIwMzgsNDIyNT
-UwMjldfQ==
+eyJoaXN0b3J5IjpbMTQ2NTQ1Njk1Myw4MTI2ODczOTYsNzU2Nz
+U2MTk3LC0yMDczODAyMzE2LDEyNDg0MDQ5ODMsNjIzMDQwNjMz
+LDgxNDA5NTk5NiwxMjM4NTQ2NzYsLTEzMDU0MDE3ODMsLTM1Nj
+Q0MjAzOCw0MjI1NTAyOV19
 -->
