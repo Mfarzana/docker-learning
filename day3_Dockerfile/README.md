@@ -7,7 +7,8 @@
 
 ## Push docker image to Docker Registry
 - **Spring Boot Demo Project Structure** 
-![enter image description here](https://github.com/Mfarzana/docker-learning/blob/master/images/demo-project-structure.jpg)
+- 
+![enter image description here](https://github.com/Mfarzana/docker-- learning/blob/master/images/demo-project-structure.jpg)
 
 #### Step 1: Go to project directory and create a docker file 
  For example, my project was in desktop demo folder
@@ -46,10 +47,10 @@ Docker builds images automatically by reading the instructions from a Dockerfile
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwNzI5OTA2LDEzNTExNjI3ODksMTAzMj
-ExMjc1MywtMTEwMzA3NDY3NywtNzcxNzA0Mzg4LC0yMDk2MzIy
-ODM2LDEzNzMxMDA2NTYsLTIxMTQxNDc3MDIsODEyNjg3Mzk2LD
-c1Njc1NjE5NywtMjA3MzgwMjMxNiwxMjQ4NDA0OTgzLDYyMzA0
-MDYzMyw4MTQwOTU5OTYsMTIzODU0Njc2LC0xMzA1NDAxNzgzLC
-0zNTY0NDIwMzgsNDIyNTUwMjldfQ==
+eyJoaXN0b3J5IjpbLTE2MjAwMTI0NDQsNjIwNzI5OTA2LDEzNT
+ExNjI3ODksMTAzMjExMjc1MywtMTEwMzA3NDY3NywtNzcxNzA0
+Mzg4LC0yMDk2MzIyODM2LDEzNzMxMDA2NTYsLTIxMTQxNDc3MD
+IsODEyNjg3Mzk2LDc1Njc1NjE5NywtMjA3MzgwMjMxNiwxMjQ4
+NDA0OTgzLDYyMzA0MDYzMyw4MTQwOTU5OTYsMTIzODU0Njc2LC
+0xMzA1NDAxNzgzLC0zNTY0NDIwMzgsNDIyNTUwMjldfQ==
 -->
