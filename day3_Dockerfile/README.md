@@ -3,6 +3,10 @@
 - Build a Docker image from Dockerfile
 - Run image
 - Pushing and Pulling to and from Docker Hub
+- 
+## Dockerfile
+Docker file has two parts instruction and arguments. Docker builds images automatically by reading the instructions from a Dockerfile. 
+
 
 ## Push docker image to Docker Hub Registry
 - **Spring Boot Demo Project Structure:**
@@ -36,15 +40,13 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
   
 
 
-## Dockerfile
-Docker builds images automatically by reading the instructions from a Dockerfile
 
 
 ## References
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjYzNjI3MiwtNTgyOTE2Mjg2LDEzNz
+eyJoaXN0b3J5IjpbMTQzMzUyMDQwMiwtNTgyOTE2Mjg2LDEzNz
 cyMzIzODAsMTcwMDg1OTc5MywtMTYyMDAxMjQ0NCw2MjA3Mjk5
 MDYsMTM1MTE2Mjc4OSwxMDMyMTEyNzUzLC0xMTAzMDc0Njc3LC
 03NzE3MDQzODgsLTIwOTYzMjI4MzYsMTM3MzEwMDY1NiwtMjEx
