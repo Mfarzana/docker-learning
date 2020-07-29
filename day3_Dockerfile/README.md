@@ -32,10 +32,9 @@ C:\Users\Farzana\Desktop\demo>docker login
 C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
  ```
  Image  uploaded 
- ```
-![GitHub Logo](/images/demo-spring-dockerhub.jpg)
-Format: ![Alt Text](url)
-```
+ 
+![](/images/demo-spring-dockerhub.jpg)
+
  
   
 
@@ -48,9 +47,9 @@ Docker builds images automatically by reading the instructions from a Dockerfile
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MTcwNDM4OCwtMjA5NjMyMjgzNiwxMz
-czMTAwNjU2LC0yMTE0MTQ3NzAyLDgxMjY4NzM5Niw3NTY3NTYx
-OTcsLTIwNzM4MDIzMTYsMTI0ODQwNDk4Myw2MjMwNDA2MzMsOD
-E0MDk1OTk2LDEyMzg1NDY3NiwtMTMwNTQwMTc4MywtMzU2NDQy
-MDM4LDQyMjU1MDI5XX0=
+eyJoaXN0b3J5IjpbMTY3MzI3MjQzMiwtNzcxNzA0Mzg4LC0yMD
+k2MzIyODM2LDEzNzMxMDA2NTYsLTIxMTQxNDc3MDIsODEyNjg3
+Mzk2LDc1Njc1NjE5NywtMjA3MzgwMjMxNiwxMjQ4NDA0OTgzLD
+YyMzA0MDYzMyw4MTQwOTU5OTYsMTIzODU0Njc2LC0xMzA1NDAx
+NzgzLC0zNTY0NDIwMzgsNDIyNTUwMjldfQ==
 -->
