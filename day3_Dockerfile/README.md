@@ -44,13 +44,14 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 
 ## References
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+- https://medium.com/@wkrzywiec/how-to-put-your-java-application-into-docker-container-5e0a02acdd6b
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODQ0OTYwNiwtNTgyOTE2Mjg2LDEzNz
-cyMzIzODAsMTcwMDg1OTc5MywtMTYyMDAxMjQ0NCw2MjA3Mjk5
-MDYsMTM1MTE2Mjc4OSwxMDMyMTEyNzUzLC0xMTAzMDc0Njc3LC
-03NzE3MDQzODgsLTIwOTYzMjI4MzYsMTM3MzEwMDY1NiwtMjEx
-NDE0NzcwMiw4MTI2ODczOTYsNzU2NzU2MTk3LC0yMDczODAyMz
-E2LDEyNDg0MDQ5ODMsNjIzMDQwNjMzLDgxNDA5NTk5NiwxMjM4
-NTQ2NzZdfQ==
+eyJoaXN0b3J5IjpbOTA0MzgyMDc1LC01ODI5MTYyODYsMTM3Nz
+IzMjM4MCwxNzAwODU5NzkzLC0xNjIwMDEyNDQ0LDYyMDcyOTkw
+NiwxMzUxMTYyNzg5LDEwMzIxMTI3NTMsLTExMDMwNzQ2NzcsLT
+c3MTcwNDM4OCwtMjA5NjMyMjgzNiwxMzczMTAwNjU2LC0yMTE0
+MTQ3NzAyLDgxMjY4NzM5Niw3NTY3NTYxOTcsLTIwNzM4MDIzMT
+YsMTI0ODQwNDk4Myw2MjMwNDA2MzMsODE0MDk1OTk2LDEyMzg1
+NDY3Nl19
 -->
