@@ -6,9 +6,8 @@
 - Pushing and Pulling to and from Docker Hub
 
 ## Push docker image to Docker Registry
-- **Spring Boot Demo Project Structure** 
-![enter image description here](https://github.com/Mfarzana/docker- learning/blob/master/images/demo-project-structure.jpg)
-
+- **Spring Boot Demo Project Structure**
+- ![enter image description here](https://github.com/Mfarzana/docker-learning/blob/master/images/demo-project-structure.jpg)
 #### Step 1: Go to project directory and create a docker file 
  For example, my project was in desktop demo folder
   ```
@@ -46,7 +45,7 @@ Docker builds images automatically by reading the instructions from a Dockerfile
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDQwMzU3NiwtMTYyMDAxMjQ0NCw2Mj
+eyJoaXN0b3J5IjpbMTcwMDg1OTc5MywtMTYyMDAxMjQ0NCw2Mj
 A3Mjk5MDYsMTM1MTE2Mjc4OSwxMDMyMTEyNzUzLC0xMTAzMDc0
 Njc3LC03NzE3MDQzODgsLTIwOTYzMjI4MzYsMTM3MzEwMDY1Ni
 wtMjExNDE0NzcwMiw4MTI2ODczOTYsNzU2NzU2MTk3LC0yMDcz
