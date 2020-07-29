@@ -20,7 +20,7 @@
 	ENTRYPOINT ["java", "-jar", "demo.war"]
 	
  **NB:  . (dot) mean current directory** 
-####  Step 2: Use command for create docker image from Dockerfile
+####  Step 2: Create docker image from Dockerfile
  ```
  C:\Users\Farzana\Desktop\demo>**docker build -t mfarzana/demo-spring:0.0.1 . 
  ```
@@ -43,8 +43,8 @@ Docker builds images automatically by reading the instructions from a Dockerfile
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzY4Mjk3MTcsLTIxMTQxNDc3MDIsOD
-EyNjg3Mzk2LDc1Njc1NjE5NywtMjA3MzgwMjMxNiwxMjQ4NDA0
-OTgzLDYyMzA0MDYzMyw4MTQwOTU5OTYsMTIzODU0Njc2LC0xMz
-A1NDAxNzgzLC0zNTY0NDIwMzgsNDIyNTUwMjldfQ==
+eyJoaXN0b3J5IjpbMTM3MzEwMDY1NiwtMjExNDE0NzcwMiw4MT
+I2ODczOTYsNzU2NzU2MTk3LC0yMDczODAyMzE2LDEyNDg0MDQ5
+ODMsNjIzMDQwNjMzLDgxNDA5NTk5NiwxMjM4NTQ2NzYsLTEzMD
+U0MDE3ODMsLTM1NjQ0MjAzOCw0MjI1NTAyOV19
 -->
