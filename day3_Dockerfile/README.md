@@ -5,9 +5,9 @@
 -  Push Java Web App In Docker Hub
 - Pushing and Pulling to and from Docker Hub
 
-## UploJava Web App In Docker Registry
+## Publish docker image (Spring demo project) to Docker Registry
 #### Step 1: Go to project directory and create a docker file 
- For example my project was in desktop demo folder
+ For example, my project was in desktop demo folder
   ```
   C:\Users\Farzana>cd Desktop\demo
   ```
@@ -43,8 +43,8 @@ Docker builds images automatically by reading the instructions from a Dockerfile
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk2NTgxODUwLC0yMTE0MTQ3NzAyLDgxMj
-Y4NzM5Niw3NTY3NTYxOTcsLTIwNzM4MDIzMTYsMTI0ODQwNDk4
-Myw2MjMwNDA2MzMsODE0MDk1OTk2LDEyMzg1NDY3NiwtMTMwNT
-QwMTc4MywtMzU2NDQyMDM4LDQyMjU1MDI5XX0=
+eyJoaXN0b3J5IjpbLTE1NzY4Mjk3MTcsLTIxMTQxNDc3MDIsOD
+EyNjg3Mzk2LDc1Njc1NjE5NywtMjA3MzgwMjMxNiwxMjQ4NDA0
+OTgzLDYyMzA0MDYzMyw4MTQwOTU5OTYsMTIzODU0Njc2LC0xMz
+A1NDAxNzgzLC0zNTY0NDIwMzgsNDIyNTUwMjldfQ==
 -->
