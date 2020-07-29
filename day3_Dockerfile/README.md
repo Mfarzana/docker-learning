@@ -4,7 +4,7 @@
 - Run image
 -  Push Java Web App In Docker Hub
 
-## Push Java Web App In Docker Hub Repository 
+## UploJava Web App In Docker Registry
 #### Step 1: Go to project directory and create a docker file 
  For example my project was in desktop demo folder
   ```
@@ -42,8 +42,8 @@ Docker builds images automatically by reading the instructions from a Dockerfile
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQxNDc3MDIsODEyNjg3Mzk2LDc1Nj
-c1NjE5NywtMjA3MzgwMjMxNiwxMjQ4NDA0OTgzLDYyMzA0MDYz
-Myw4MTQwOTU5OTYsMTIzODU0Njc2LC0xMzA1NDAxNzgzLC0zNT
-Y0NDIwMzgsNDIyNTUwMjldfQ==
+eyJoaXN0b3J5IjpbLTc4MDIwNzgyMCwtMjExNDE0NzcwMiw4MT
+I2ODczOTYsNzU2NzU2MTk3LC0yMDczODAyMzE2LDEyNDg0MDQ5
+ODMsNjIzMDQwNjMzLDgxNDA5NTk5NiwxMjM4NTQ2NzYsLTEzMD
+U0MDE3ODMsLTM1NjQ0MjAzOCw0MjI1NTAyOV19
 -->
