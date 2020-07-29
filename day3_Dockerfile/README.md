@@ -2,7 +2,6 @@
 - Create Dockerfile 
 - Build a Docker image from Dockerfile
 - Run image
--  Push Java Web App In Docker Hub
 - Pushing and Pulling to and from Docker Hub
 
 ## Push docker image to Docker Hub Registry
@@ -45,11 +44,11 @@ Docker builds images automatically by reading the instructions from a Dockerfile
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MjkxNjI4NiwxMzc3MjMyMzgwLDE3MD
-A4NTk3OTMsLTE2MjAwMTI0NDQsNjIwNzI5OTA2LDEzNTExNjI3
-ODksMTAzMjExMjc1MywtMTEwMzA3NDY3NywtNzcxNzA0Mzg4LC
-0yMDk2MzIyODM2LDEzNzMxMDA2NTYsLTIxMTQxNDc3MDIsODEy
-Njg3Mzk2LDc1Njc1NjE5NywtMjA3MzgwMjMxNiwxMjQ4NDA0OT
-gzLDYyMzA0MDYzMyw4MTQwOTU5OTYsMTIzODU0Njc2LC0xMzA1
-NDAxNzgzXX0=
+eyJoaXN0b3J5IjpbLTMzMjYzNjI3MiwtNTgyOTE2Mjg2LDEzNz
+cyMzIzODAsMTcwMDg1OTc5MywtMTYyMDAxMjQ0NCw2MjA3Mjk5
+MDYsMTM1MTE2Mjc4OSwxMDMyMTEyNzUzLC0xMTAzMDc0Njc3LC
+03NzE3MDQzODgsLTIwOTYzMjI4MzYsMTM3MzEwMDY1NiwtMjEx
+NDE0NzcwMiw4MTI2ODczOTYsNzU2NzU2MTk3LC0yMDczODAyMz
+E2LDEyNDg0MDQ5ODMsNjIzMDQwNjMzLDgxNDA5NTk5NiwxMjM4
+NTQ2NzZdfQ==
 -->
