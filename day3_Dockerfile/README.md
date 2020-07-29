@@ -28,7 +28,7 @@
 #### Step 3: Push image to Docker Hub
 ```
 C:\Users\Farzana\Desktop\demo>docker login 
-#Put username and password and use Command
+#Put username and password and use this command
 C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
  ```
  Image  uploaded 
@@ -47,9 +47,9 @@ Docker builds images automatically by reading the instructions from a Dockerfile
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzI3MjQzMiwtNzcxNzA0Mzg4LC0yMD
-k2MzIyODM2LDEzNzMxMDA2NTYsLTIxMTQxNDc3MDIsODEyNjg3
-Mzk2LDc1Njc1NjE5NywtMjA3MzgwMjMxNiwxMjQ4NDA0OTgzLD
-YyMzA0MDYzMyw4MTQwOTU5OTYsMTIzODU0Njc2LC0xMzA1NDAx
-NzgzLC0zNTY0NDIwMzgsNDIyNTUwMjldfQ==
+eyJoaXN0b3J5IjpbNjIyMjg5MTIwLC03NzE3MDQzODgsLTIwOT
+YzMjI4MzYsMTM3MzEwMDY1NiwtMjExNDE0NzcwMiw4MTI2ODcz
+OTYsNzU2NzU2MTk3LC0yMDczODAyMzE2LDEyNDg0MDQ5ODMsNj
+IzMDQwNjMzLDgxNDA5NTk5NiwxMjM4NTQ2NzYsLTEzMDU0MDE3
+ODMsLTM1NjQ0MjAzOCw0MjI1NTAyOV19
 -->
