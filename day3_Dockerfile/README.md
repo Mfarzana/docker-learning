@@ -8,12 +8,13 @@
 #### Step 1: Go to project directory and create a docker file 
 > For example my project was in desktop demo folder
   - **C:\Users\Farzana>cd Desktop\demo**
- > My  **Dockerfile** 
-	FROM java:8-jdk-alpine
+  My  **Dockerfile** 
+	``` FROM java:8-jdk-alpine
 	COPY ./target/demo.war /usr/app/
 	WORKDIR /usr/app
 	EXPOSE 8080
 	ENTRYPOINT ["java", "-jar", "demo.war"]
+	```
  **NB:  .(dot) mean current directory** 
 ####  Step 2: Use command 
 > - C:\Users\Farzana\Desktop\demo>**docker build -t mfarzana/demo-spring:0.0.1 .**
@@ -35,7 +36,8 @@ Docker builds images automatically by reading the instructions from a Dockerfile
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU2NzU2MTk3LC0yMDczODAyMzE2LDEyND
-g0MDQ5ODMsNjIzMDQwNjMzLDgxNDA5NTk5NiwxMjM4NTQ2NzYs
-LTEzMDU0MDE3ODMsLTM1NjQ0MjAzOCw0MjI1NTAyOV19
+eyJoaXN0b3J5IjpbMzMwODA2NDg3LDc1Njc1NjE5NywtMjA3Mz
+gwMjMxNiwxMjQ4NDA0OTgzLDYyMzA0MDYzMyw4MTQwOTU5OTYs
+MTIzODU0Njc2LC0xMzA1NDAxNzgzLC0zNTY0NDIwMzgsNDIyNT
+UwMjldfQ==
 -->
