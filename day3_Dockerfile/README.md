@@ -8,7 +8,7 @@
 #### Step 1: Go to project directory and create a docker file 
 > For example my project was in desktop demo folder
   - **C:\Users\Farzana>cd Desktop\demo**
- >  **Dockerfile** 
+ > My  **Dockerfile** 
 	FROM java:8-jdk-alpine
 	COPY ./target/demo.war /usr/app/
 	WORKDIR /usr/app
@@ -35,7 +35,7 @@ Docker builds images automatically by reading the instructions from a Dockerfile
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTk4NzgwNzUsLTIwNzM4MDIzMTYsMT
-I0ODQwNDk4Myw2MjMwNDA2MzMsODE0MDk1OTk2LDEyMzg1NDY3
-NiwtMTMwNTQwMTc4MywtMzU2NDQyMDM4LDQyMjU1MDI5XX0=
+eyJoaXN0b3J5IjpbNzU2NzU2MTk3LC0yMDczODAyMzE2LDEyND
+g0MDQ5ODMsNjIzMDQwNjMzLDgxNDA5NTk5NiwxMjM4NTQ2NzYs
+LTEzMDU0MDE3ODMsLTM1NjQ0MjAzOCw0MjI1NTAyOV19
 -->
