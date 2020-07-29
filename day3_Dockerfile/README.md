@@ -7,9 +7,12 @@
 ## Push Java Web App In Docker Hub Repository 
 #### Step 1: Go to project directory and create a docker file 
 > For example my project was in desktop demo folder
-  - **C:\Users\Farzana>cd Desktop\demo**
-  My  **Dockerfile** 
-	``` FROM java:8-jdk-alpine
+  ```
+  C:\Users\Farzana>cd Desktop\demo
+  ```
+  **My  Dockerfile** 
+	``` 
+	FROM java:8-jdk-alpine
 	COPY ./target/demo.war /usr/app/
 	WORKDIR /usr/app
 	EXPOSE 8080
@@ -36,8 +39,8 @@ Docker builds images automatically by reading the instructions from a Dockerfile
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwODA2NDg3LDc1Njc1NjE5NywtMjA3Mz
-gwMjMxNiwxMjQ4NDA0OTgzLDYyMzA0MDYzMyw4MTQwOTU5OTYs
-MTIzODU0Njc2LC0xMzA1NDAxNzgzLC0zNTY0NDIwMzgsNDIyNT
-UwMjldfQ==
+eyJoaXN0b3J5IjpbLTU0Njc4OTkxMCw3NTY3NTYxOTcsLTIwNz
+M4MDIzMTYsMTI0ODQwNDk4Myw2MjMwNDA2MzMsODE0MDk1OTk2
+LDEyMzg1NDY3NiwtMTMwNTQwMTc4MywtMzU2NDQyMDM4LDQyMj
+U1MDI5XX0=
 -->
