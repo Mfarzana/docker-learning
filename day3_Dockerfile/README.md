@@ -22,7 +22,7 @@
 > - C:\Users\Farzana\Desktop\demo>docker login
 > - Put username and password
 > - Use Command
-> - C:\Users\Farzana\Desktop\demo>**docker push mfarzana/demo-spring:0.0.1**
+>> - C:\Users\Farzana\Desktop\demo>**docker push mfarzana/demo-spring:0.0.1**
  
   
 
@@ -35,7 +35,7 @@ Docker builds images automatically by reading the instructions from a Dockerfile
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDA3OTM4NywtMjA3MzgwMjMxNiwxMj
-Q4NDA0OTgzLDYyMzA0MDYzMyw4MTQwOTU5OTYsMTIzODU0Njc2
-LC0xMzA1NDAxNzgzLC0zNTY0NDIwMzgsNDIyNTUwMjldfQ==
+eyJoaXN0b3J5IjpbLTIwMTk4NzgwNzUsLTIwNzM4MDIzMTYsMT
+I0ODQwNDk4Myw2MjMwNDA2MzMsODE0MDk1OTk2LDEyMzg1NDY3
+NiwtMTMwNTQwMTc4MywtMzU2NDQyMDM4LDQyMjU1MDI5XX0=
 -->
