@@ -32,6 +32,7 @@ C:\Users\Farzana\Desktop\demo>docker login
 C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
  ```
  
+ 
   
 
 
@@ -43,8 +44,9 @@ Docker builds images automatically by reading the instructions from a Dockerfile
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MzEwMDY1NiwtMjExNDE0NzcwMiw4MT
-I2ODczOTYsNzU2NzU2MTk3LC0yMDczODAyMzE2LDEyNDg0MDQ5
-ODMsNjIzMDQwNjMzLDgxNDA5NTk5NiwxMjM4NTQ2NzYsLTEzMD
-U0MDE3ODMsLTM1NjQ0MjAzOCw0MjI1NTAyOV19
+eyJoaXN0b3J5IjpbLTIwOTYzMjI4MzYsMTM3MzEwMDY1NiwtMj
+ExNDE0NzcwMiw4MTI2ODczOTYsNzU2NzU2MTk3LC0yMDczODAy
+MzE2LDEyNDg0MDQ5ODMsNjIzMDQwNjMzLDgxNDA5NTk5NiwxMj
+M4NTQ2NzYsLTEzMDU0MDE3ODMsLTM1NjQ0MjAzOCw0MjI1NTAy
+OV19
 -->
