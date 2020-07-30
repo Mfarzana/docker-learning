@@ -17,7 +17,11 @@ ubuntu@ip-172-31-4-174:~$ cd javaapp/
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Main.java
 ```
 **Java code** 
-
+class Main{
+    public static void main(String[] args) {
+        System.out.println("Hello World "); 
+    }
+}
 
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Dockerfile
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo docker build -t myapp:0.0.1 .
@@ -111,7 +115,7 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNTM1OTkyMSwxNjcwMzcxNTcxLDExMz
+eyJoaXN0b3J5IjpbMTcxMDA5NDA2NywxNjcwMzcxNTcxLDExMz
 E4MjA0NzAsLTE3NDI3MDc1MDksMTIyNDcyOTI3MiwtMTE2MjQ1
 MDYwOCwtMjEyNzQ2MDM2MCwxNzE5MzYzNTg0LDE0MzE5Njc4Mi
 w5MDQzODIwNzUsLTU4MjkxNjI4NiwxMzc3MjMyMzgwLDE3MDA4
