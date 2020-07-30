@@ -39,12 +39,12 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 ubuntu@ip-172-31-4-174:~$ sudo apt update
 ubuntu@ip-172-31-4-174:~$ sudo apt install docker.io
 ```
-Step 2: Pull image
+**Step 2: Pull image**
 ```
 ubuntu@ip-172-31-4-174:~$ sudo docker pull mfarzana/demo-spring:0.0.1
 0.0.1: Pulling from mfarzana/demo-spring
 ```
-Step 3: Run image
+**Step 3: Run image**
 ```
 ubuntu@ip-172-31-4-174:~$ sudo docker run -p 8081:8082 mfarzana/demo-spring:0.0.1
 
@@ -69,11 +69,11 @@ ubuntu@ip-172-31-4-174:~$ sudo docker run -p 8081:8082 mfarzana/demo-spring:0.0.
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTY0ODc0OCwxOTU0Njc1MjU0LC0xMj
-IxNDcwMjEsLTE4MzA5MDQwMCwtMTE5MTE4OTE5Niw5OTc1Mzg4
-MTIsLTE5ODI5MzE5NDMsMTY3MDM3MTU3MSwxMTMxODIwNDcwLC
-0xNzQyNzA3NTA5LDEyMjQ3MjkyNzIsLTExNjI0NTA2MDgsLTIx
-Mjc0NjAzNjAsMTcxOTM2MzU4NCwxNDMxOTY3ODIsOTA0MzgyMD
-c1LC01ODI5MTYyODYsMTM3NzIzMjM4MCwxNzAwODU5NzkzLC0x
-NjIwMDEyNDQ0XX0=
+eyJoaXN0b3J5IjpbLTUzNjQ3NDQ0LDE3OTk2NDg3NDgsMTk1ND
+Y3NTI1NCwtMTIyMTQ3MDIxLC0xODMwOTA0MDAsLTExOTExODkx
+OTYsOTk3NTM4ODEyLC0xOTgyOTMxOTQzLDE2NzAzNzE1NzEsMT
+EzMTgyMDQ3MCwtMTc0MjcwNzUwOSwxMjI0NzI5MjcyLC0xMTYy
+NDUwNjA4LC0yMTI3NDYwMzYwLDE3MTkzNjM1ODQsMTQzMTk2Nz
+gyLDkwNDM4MjA3NSwtNTgyOTE2Mjg2LDEzNzcyMzIzODAsMTcw
+MDg1OTc5M119
 -->
