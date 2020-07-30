@@ -3,6 +3,7 @@
 - Build a Docker image from Dockerfile
 - Run image
 - Pushing and Pulling to and from Docker Hub
+## Run Java in docker container 
 
 ## Dockerfile
 Dockerfile has two parts instruction and arguments. Docker builds images automatically by reading the instructions from a Dockerfile. 
@@ -56,11 +57,11 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDI3MDc1MDksMTIyNDcyOTI3MiwtMT
-E2MjQ1MDYwOCwtMjEyNzQ2MDM2MCwxNzE5MzYzNTg0LDE0MzE5
-Njc4Miw5MDQzODIwNzUsLTU4MjkxNjI4NiwxMzc3MjMyMzgwLD
-E3MDA4NTk3OTMsLTE2MjAwMTI0NDQsNjIwNzI5OTA2LDEzNTEx
-NjI3ODksMTAzMjExMjc1MywtMTEwMzA3NDY3NywtNzcxNzA0Mz
-g4LC0yMDk2MzIyODM2LDEzNzMxMDA2NTYsLTIxMTQxNDc3MDIs
-ODEyNjg3Mzk2XX0=
+eyJoaXN0b3J5IjpbLTE2ODQ1NjQsLTE3NDI3MDc1MDksMTIyND
+cyOTI3MiwtMTE2MjQ1MDYwOCwtMjEyNzQ2MDM2MCwxNzE5MzYz
+NTg0LDE0MzE5Njc4Miw5MDQzODIwNzUsLTU4MjkxNjI4NiwxMz
+c3MjMyMzgwLDE3MDA4NTk3OTMsLTE2MjAwMTI0NDQsNjIwNzI5
+OTA2LDEzNTExNjI3ODksMTAzMjExMjc1MywtMTEwMzA3NDY3Ny
+wtNzcxNzA0Mzg4LC0yMDk2MzIyODM2LDEzNzMxMDA2NTYsLTIx
+MTQxNDc3MDJdfQ==
 -->
