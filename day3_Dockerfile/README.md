@@ -10,30 +10,8 @@ ubuntu@ip-172-31-4-174:~$ sudo apt update
 ubuntu@ip-172-31-4-174:~$ sudo apt install docker.io
 ubuntu@ip-172-31-4-174:~$ pwd
 /home/ubuntu
-ubuntu@ip-172-31-4-174:~$ sudo /usr/src/
-sudo: /usr/src/: command not found
-ubuntu@ip-172-31-4-174:~$ sudo /usr/
-bin/     include/ lib32/   libexec/ local/   share/
-games/   lib/     lib64/   libx32/  sbin/    src/
-ubuntu@ip-172-31-4-174:~$ sudo /usr/src/
-sudo: /usr/src/: command not found
-ubuntu@ip-172-31-4-174:~$ sudo cd /usr/src/
-sudo: cd: command not found
-ubuntu@ip-172-31-4-174:~$ cd /usr/src/
-ubuntu@ip-172-31-4-174:/usr/src$ pwd
-/usr/src
-ubuntu@ip-172-31-4-174:/usr/src$ ls
-linux-aws-headers-5.4.0-1015  linux-headers-5.4.0-1015-aws
-ubuntu@ip-172-31-4-174:/usr/src$ cd ..
-ubuntu@ip-172-31-4-174:/usr$ cd ..
-ubuntu@ip-172-31-4-174:/$ cd ..
-ubuntu@ip-172-31-4-174:/$ cd
-ubuntu@ip-172-31-4-174:~$ pwd
-/home/ubuntu
 ubuntu@ip-172-31-4-174:~$ sudo mkdir javaapp
 ubuntu@ip-172-31-4-174:~$ cd javaapp/
-ubuntu@ip-172-31-4-174:~/javaapp$ sudo java nano Main.java
-sudo: java: command not found
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Main.java
 
 
@@ -141,11 +119,11 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzNzAxMTIyLC0xNzQyNzA3NTA5LDEyMj
-Q3MjkyNzIsLTExNjI0NTA2MDgsLTIxMjc0NjAzNjAsMTcxOTM2
-MzU4NCwxNDMxOTY3ODIsOTA0MzgyMDc1LC01ODI5MTYyODYsMT
-M3NzIzMjM4MCwxNzAwODU5NzkzLC0xNjIwMDEyNDQ0LDYyMDcy
-OTkwNiwxMzUxMTYyNzg5LDEwMzIxMTI3NTMsLTExMDMwNzQ2Nz
-csLTc3MTcwNDM4OCwtMjA5NjMyMjgzNiwxMzczMTAwNjU2LC0y
-MTE0MTQ3NzAyXX0=
+eyJoaXN0b3J5IjpbMTQ2NTIyNjQzNywtMTc0MjcwNzUwOSwxMj
+I0NzI5MjcyLC0xMTYyNDUwNjA4LC0yMTI3NDYwMzYwLDE3MTkz
+NjM1ODQsMTQzMTk2NzgyLDkwNDM4MjA3NSwtNTgyOTE2Mjg2LD
+EzNzcyMzIzODAsMTcwMDg1OTc5MywtMTYyMDAxMjQ0NCw2MjA3
+Mjk5MDYsMTM1MTE2Mjc4OSwxMDMyMTEyNzUzLC0xMTAzMDc0Nj
+c3LC03NzE3MDQzODgsLTIwOTYzMjI4MzYsMTM3MzEwMDY1Niwt
+MjExNDE0NzcwMl19
 -->
