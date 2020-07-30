@@ -47,7 +47,7 @@ Step 3: Run image
 ```
 ubuntu@ip-172-31-4-174:~$ sudo docker run -p 8081:8082 mfarzana/demo-spring:0.0.1
 ```
->
+
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -67,11 +67,11 @@ ubuntu@ip-172-31-4-174:~$ sudo docker run -p 8081:8082 mfarzana/demo-spring:0.0.
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDIxNDMwNiwtMTIyMTQ3MDIxLC0xOD
-MwOTA0MDAsLTExOTExODkxOTYsOTk3NTM4ODEyLC0xOTgyOTMx
-OTQzLDE2NzAzNzE1NzEsMTEzMTgyMDQ3MCwtMTc0MjcwNzUwOS
-wxMjI0NzI5MjcyLC0xMTYyNDUwNjA4LC0yMTI3NDYwMzYwLDE3
-MTkzNjM1ODQsMTQzMTk2NzgyLDkwNDM4MjA3NSwtNTgyOTE2Mj
-g2LDEzNzcyMzIzODAsMTcwMDg1OTc5MywtMTYyMDAxMjQ0NCw2
-MjA3Mjk5MDZdfQ==
+eyJoaXN0b3J5IjpbLTE3MjU1NTExMDYsLTEyMjE0NzAyMSwtMT
+gzMDkwNDAwLC0xMTkxMTg5MTk2LDk5NzUzODgxMiwtMTk4Mjkz
+MTk0MywxNjcwMzcxNTcxLDExMzE4MjA0NzAsLTE3NDI3MDc1MD
+ksMTIyNDcyOTI3MiwtMTE2MjQ1MDYwOCwtMjEyNzQ2MDM2MCwx
+NzE5MzYzNTg0LDE0MzE5Njc4Miw5MDQzODIwNzUsLTU4MjkxNj
+I4NiwxMzc3MjMyMzgwLDE3MDA4NTk3OTMsLTE2MjAwMTI0NDQs
+NjIwNzI5OTA2XX0=
 -->
