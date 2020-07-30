@@ -47,11 +47,14 @@ myapp               0.0.1               2ca4b83d9050        27 seconds ago      
 openjdk             7                   d735a2057e60        14 months ago       475MB
 ```
 **Step 5: Run image**
+```
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo docker run myapp:0.0.1
 Hello World
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0Nzk0MDE3NCwtNDkyNzEwNDY3LC0xOD
-EzNDY3NzMwLDE1NDE1NDgxNTgsMTYxMjA2NzU3NF19
+eyJoaXN0b3J5IjpbODUyNTY3MjM0LDE0NDc5NDAxNzQsLTQ5Mj
+cxMDQ2NywtMTgxMzQ2NzczMCwxNTQxNTQ4MTU4LDE2MTIwNjc1
+NzRdfQ==
 -->
