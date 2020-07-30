@@ -8,10 +8,10 @@
 Dockerfile has two parts instruction and arguments. Docker builds images automatically by reading the instructions from a Dockerfile. 
 - **FROM java:8-jdk-alpine**: Every Dockerfile typically starts with a FROM line. Here we tell Docker that our image will be based on another image that is available on public repository (Docker Hub) and **this image  contains all necessary dependencies** that we would need to run any **Java application**.
 
-- **COPY ./target/demo.war /usr/app/**: First argument after COPY (/target/demo.war) is a path of an application that we want to put into container. The second parameter, /usr/app/ , is a directory in a container where we put the app.
+- **COPY ./target/demo.war /usr/app/**: First argument after COPY (/target/demo.war) is a **path of an application** that we want to put into container. The second parameter, /usr/app/ , is a **directory in a container** where we put the app.
 
-- **WORKDIR /usr/app**: Here we instruct Docker to use /usr/app folder as a root.
-- EXPOSE 8080 — with it we inform Docker that a container will listen to specific port
+- **WORKDIR /usr/app**: Use **/usr/app** folder as a **root**.
+- EXPOSE 8080 — Container will **listen** to **specific port**
 - 
 ENTRYPOINT ["java", “-jar", “nasapicture-0.0.1-SNAPSHOT.war"] — in the last command we tell Docker to run the application, where first value is a command and the last two are parameters.
 
@@ -56,7 +56,7 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NDcyMjE4MCwxMjI0NzI5MjcyLC0xMT
+eyJoaXN0b3J5IjpbMTEzNDYxNTIyOSwxMjI0NzI5MjcyLC0xMT
 YyNDUwNjA4LC0yMTI3NDYwMzYwLDE3MTkzNjM1ODQsMTQzMTk2
 NzgyLDkwNDM4MjA3NSwtNTgyOTE2Mjg2LDEzNzcyMzIzODAsMT
 cwMDg1OTc5MywtMTYyMDAxMjQ0NCw2MjA3Mjk5MDYsMTM1MTE2
