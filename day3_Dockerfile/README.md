@@ -6,7 +6,7 @@
 
 ## Dockerfile
 Dockerfile has two parts instruction and arguments. Docker builds images automatically by reading the instructions from a Dockerfile. 
-
+- **FROM java:8-jdk-alpine**— with this line we tell Docker that our image will be based on another image that is available on public repository (Docker Hub). This image was prepared by someone else and contains all necessary dependencies that we would need to run any Java application.
 
 
 ## Push docker image to Docker Hub Registry
@@ -48,11 +48,11 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@wkrzywiec/how-to-put-your-java-application-into-docker-container-5e0a02acdd6b
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTM2MzU4NCwxNDMxOTY3ODIsOTA0Mz
-gyMDc1LC01ODI5MTYyODYsMTM3NzIzMjM4MCwxNzAwODU5Nzkz
-LC0xNjIwMDEyNDQ0LDYyMDcyOTkwNiwxMzUxMTYyNzg5LDEwMz
-IxMTI3NTMsLTExMDMwNzQ2NzcsLTc3MTcwNDM4OCwtMjA5NjMy
-MjgzNiwxMzczMTAwNjU2LC0yMTE0MTQ3NzAyLDgxMjY4NzM5Ni
-w3NTY3NTYxOTcsLTIwNzM4MDIzMTYsMTI0ODQwNDk4Myw2MjMw
-NDA2MzNdfQ==
+eyJoaXN0b3J5IjpbLTE0OTgzOTY1NjksMTcxOTM2MzU4NCwxND
+MxOTY3ODIsOTA0MzgyMDc1LC01ODI5MTYyODYsMTM3NzIzMjM4
+MCwxNzAwODU5NzkzLC0xNjIwMDEyNDQ0LDYyMDcyOTkwNiwxMz
+UxMTYyNzg5LDEwMzIxMTI3NTMsLTExMDMwNzQ2NzcsLTc3MTcw
+NDM4OCwtMjA5NjMyMjgzNiwxMzczMTAwNjU2LC0yMTE0MTQ3Nz
+AyLDgxMjY4NzM5Niw3NTY3NTYxOTcsLTIwNzM4MDIzMTYsMTI0
+ODQwNDk4M119
 -->
