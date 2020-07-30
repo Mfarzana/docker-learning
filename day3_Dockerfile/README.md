@@ -39,6 +39,7 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 ubuntu@ip-172-31-4-174:~$ sudo apt update
 ubuntu@ip-172-31-4-174:~$ sudo apt install docker.io
 
+Step 2: 
 
 ```
 
@@ -49,7 +50,7 @@ ubuntu@ip-172-31-4-174:~$ sudo apt install docker.io
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MjMxMjg1NCwtMTE5MTE4OTE5Niw5OT
+eyJoaXN0b3J5IjpbLTE4MzA5MDQwMCwtMTE5MTE4OTE5Niw5OT
 c1Mzg4MTIsLTE5ODI5MzE5NDMsMTY3MDM3MTU3MSwxMTMxODIw
 NDcwLC0xNzQyNzA3NTA5LDEyMjQ3MjkyNzIsLTExNjI0NTA2MD
 gsLTIxMjc0NjAzNjAsMTcxOTM2MzU4NCwxNDMxOTY3ODIsOTA0
