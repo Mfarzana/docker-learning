@@ -50,9 +50,10 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 - https://medium.com/@wkrzywiec/how-to-put-your-java-application-into-docker-container-5e0a02acdd6b
 - https://hub.docker.com/_/openjdk
+- https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjExNTc1NjgsLTExNjI0NTA2MDgsLT
+eyJoaXN0b3J5IjpbLTE0NDQ5ODA2MjAsLTExNjI0NTA2MDgsLT
 IxMjc0NjAzNjAsMTcxOTM2MzU4NCwxNDMxOTY3ODIsOTA0Mzgy
 MDc1LC01ODI5MTYyODYsMTM3NzIzMjM4MCwxNzAwODU5NzkzLC
 0xNjIwMDEyNDQ0LDYyMDcyOTkwNiwxMzUxMTYyNzg5LDEwMzIx
