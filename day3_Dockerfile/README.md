@@ -50,7 +50,6 @@ myapp               0.0.1               2ca4b83d9050        27 seconds ago      
 openjdk             7                   d735a2057e60        14 months ago       475MB
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo docker run myapp:0.0.1
 Hello World
-ubuntu@ip-172-31-4-174:~/javaapp$
 
 
 ```
@@ -106,11 +105,11 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgxNjc3Mjc2LC0xNzQyNzA3NTA5LDEyMj
-Q3MjkyNzIsLTExNjI0NTA2MDgsLTIxMjc0NjAzNjAsMTcxOTM2
-MzU4NCwxNDMxOTY3ODIsOTA0MzgyMDc1LC01ODI5MTYyODYsMT
-M3NzIzMjM4MCwxNzAwODU5NzkzLC0xNjIwMDEyNDQ0LDYyMDcy
-OTkwNiwxMzUxMTYyNzg5LDEwMzIxMTI3NTMsLTExMDMwNzQ2Nz
-csLTc3MTcwNDM4OCwtMjA5NjMyMjgzNiwxMzczMTAwNjU2LC0y
-MTE0MTQ3NzAyXX0=
+eyJoaXN0b3J5IjpbMTEzMTgyMDQ3MCwtMTc0MjcwNzUwOSwxMj
+I0NzI5MjcyLC0xMTYyNDUwNjA4LC0yMTI3NDYwMzYwLDE3MTkz
+NjM1ODQsMTQzMTk2NzgyLDkwNDM4MjA3NSwtNTgyOTE2Mjg2LD
+EzNzcyMzIzODAsMTcwMDg1OTc5MywtMTYyMDAxMjQ0NCw2MjA3
+Mjk5MDYsMTM1MTE2Mjc4OSwxMDMyMTEyNzUzLC0xMTAzMDc0Nj
+c3LC03NzE3MDQzODgsLTIwOTYzMjI4MzYsMTM3MzEwMDY1Niwt
+MjExNDE0NzcwMl19
 -->
