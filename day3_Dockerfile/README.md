@@ -6,7 +6,9 @@
 
 ## Dockerfile
 Dockerfile has two parts instruction and arguments. Docker builds images automatically by reading the instructions from a Dockerfile. 
-- **FROM java:8-jdk-alpine**— Every Dockerfile typically starts with a FROM line. This FROM command receives as argument a basic existent docker image that we will use to build our layers on top of and it contains all **necessary dependencies** that we would need to run any **Java application**.
+- **FROM java:8-jdk-alpine**— with this line we tell Docker that our image will be based on another image that is available on public repository (Docker Hub). This image was prepared by someone else and contains all necessary dependencies that we would need to run any Java application.
+
+Every Dockerfile typically starts with a FROM line. This FROM command receives as argument a basic existent docker image that we will use to build our layers on top of and it contains all **necessary dependencies** that we would need to run any **Java application**.
 
 
 This is the starting point for your Dockerfile. E  The base image passed as argument is openjdk:8-jdk-alpine. This image contains a jdk version 8 already installed. The alpine version means that the image makes use of the alpine distribution, which is significantly smaller than any other Linux distribution.
@@ -52,11 +54,11 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDcyOTI3MiwtMTE2MjQ1MDYwOCwtMj
-EyNzQ2MDM2MCwxNzE5MzYzNTg0LDE0MzE5Njc4Miw5MDQzODIw
-NzUsLTU4MjkxNjI4NiwxMzc3MjMyMzgwLDE3MDA4NTk3OTMsLT
-E2MjAwMTI0NDQsNjIwNzI5OTA2LDEzNTExNjI3ODksMTAzMjEx
-Mjc1MywtMTEwMzA3NDY3NywtNzcxNzA0Mzg4LC0yMDk2MzIyOD
-M2LDEzNzMxMDA2NTYsLTIxMTQxNDc3MDIsODEyNjg3Mzk2LDc1
-Njc1NjE5N119
+eyJoaXN0b3J5IjpbMTk3MTE4ODA2LDEyMjQ3MjkyNzIsLTExNj
+I0NTA2MDgsLTIxMjc0NjAzNjAsMTcxOTM2MzU4NCwxNDMxOTY3
+ODIsOTA0MzgyMDc1LC01ODI5MTYyODYsMTM3NzIzMjM4MCwxNz
+AwODU5NzkzLC0xNjIwMDEyNDQ0LDYyMDcyOTkwNiwxMzUxMTYy
+Nzg5LDEwMzIxMTI3NTMsLTExMDMwNzQ2NzcsLTc3MTcwNDM4OC
+wtMjA5NjMyMjgzNiwxMzczMTAwNjU2LC0yMTE0MTQ3NzAyLDgx
+MjY4NzM5Nl19
 -->
