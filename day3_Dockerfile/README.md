@@ -45,7 +45,8 @@ ubuntu@ip-172-31-4-174:~/javaapp$ sudo docker images
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 myapp               0.0.1               2ca4b83d9050        27 seconds ago      475MB
 openjdk             7                   d735a2057e60        14 months ago       475MB
-``
+```
+**Step 5: Run image**
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo docker run myapp:0.0.1
 Hello World
 
@@ -103,7 +104,7 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjczMzM2NTIsMTY3MDM3MTU3MSwxMT
+eyJoaXN0b3J5IjpbLTE5ODI5MzE5NDMsMTY3MDM3MTU3MSwxMT
 MxODIwNDcwLC0xNzQyNzA3NTA5LDEyMjQ3MjkyNzIsLTExNjI0
 NTA2MDgsLTIxMjc0NjAzNjAsMTcxOTM2MzU4NCwxNDMxOTY3OD
 IsOTA0MzgyMDc1LC01ODI5MTYyODYsMTM3NzIzMjM4MCwxNzAw
