@@ -1,4 +1,4 @@
-## Compile Java app inside the Docker container
+## Compile & Run Java app inside the Docker container
 
 **Step 1: Install Docker**
 ```
@@ -52,6 +52,6 @@ Hello World
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM0Njc3MzAsMTU0MTU0ODE1OCwxNj
-EyMDY3NTc0XX0=
+eyJoaXN0b3J5IjpbLTQ5MjcxMDQ2NywtMTgxMzQ2NzczMCwxNT
+QxNTQ4MTU4LDE2MTIwNjc1NzRdfQ==
 -->
