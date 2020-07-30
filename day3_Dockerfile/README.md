@@ -22,8 +22,10 @@ class Main{
         System.out.println("Hello World "); 
     }
 }
-
+**Step 3: Write Dockerfile**
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Dockerfile
+**Dockerfile**
+
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo docker build -t myapp:0.0.1 .
 Sending build context to Docker daemon  3.072kB
 Step 1/5 : FROM openjdk:7
@@ -115,7 +117,7 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMDA5NDA2NywxNjcwMzcxNTcxLDExMz
+eyJoaXN0b3J5IjpbMTc2NzMzNDQ1MywxNjcwMzcxNTcxLDExMz
 E4MjA0NzAsLTE3NDI3MDc1MDksMTIyNDcyOTI3MiwtMTE2MjQ1
 MDYwOCwtMjEyNzQ2MDM2MCwxNzE5MzYzNTg0LDE0MzE5Njc4Mi
 w5MDQzODIwNzUsLTU4MjkxNjI4NiwxMzc3MjMyMzgwLDE3MDA4
