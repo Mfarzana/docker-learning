@@ -12,7 +12,7 @@ ubuntu@ip-172-31-4-174:~$ cd javaapp/
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Main.java
 ```
 **Java code** 
-> class Main{
+``` class Main{
     public static void main(String[] args) {
         System.out.println("Hello World "); 
     }
@@ -47,5 +47,5 @@ Hello World
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjA2NzU3NF19
+eyJoaXN0b3J5IjpbNzQzMTE3Nzg0LDE2MTIwNjc1NzRdfQ==
 -->
