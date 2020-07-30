@@ -6,49 +6,6 @@
 ## Run Java in docker container 
 ```
 
-Farzana@DESKTOP-FNNE8NC MINGW64 ~/Downloads
-$ chmod 400 solemnAbalone6yycltCms.pem
-
-Farzana@DESKTOP-FNNE8NC MINGW64 ~/Downloads
-$ ssh -i solemnAbalone6yycltCms.pem ubuntu@13.234.30.158
-load pubkey "solemnAbalone6yycltCms.pem": invalid format
-The authenticity of host '13.234.30.158 (13.234.30.158)' can't be established.
-ECDSA key fingerprint is SHA256:mQ1cFC7vhcqYzhQaIz4mRx5/OuQ8sfcExAOuqo2lWFo.
-Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-Warning: Permanently added '13.234.30.158' (ECDSA) to the list of known hosts.
-Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-1015-aws x86_64)
-
- * Documentation:  https://help.ubuntu.com
- * Management:     https://landscape.canonical.com
- * Support:        https://ubuntu.com/advantage
-
-  System information as of Thu Jul 30 04:10:14 UTC 2020
-
-  System load:  0.29              Processes:             103
-  Usage of /:   16.3% of 7.69GB   Users logged in:       0
-  Memory usage: 18%               IPv4 address for eth0: 172.31.4.174
-  Swap usage:   0%
-
-0 updates can be installed immediately.
-0 of these updates are security updates.
-
-
-The list of available updates is more than a week old.
-To check for new updates run: sudo apt update
-
-
-The programs included with the Ubuntu system are free software;
-the exact distribution terms for each program are described in the
-individual files in /usr/share/doc/*/copyright.
-
-Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
-applicable law.
-
-To run a command as administrator (user "root"), use "sudo <command>".
-See "man sudo_root" for details.
-
-ubuntu@ip-172-31-4-174:~$ sudo docker -version
-sudo: docker: command not found
 ubuntu@ip-172-31-4-174:~$ sudo apt update
 Hit:1 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu focal InRelease
 Get:2 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu focal-updates InRelease [111 kB]
@@ -313,7 +270,7 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyOTE1NTUzNSwtMTc0MjcwNzUwOSwxMj
+eyJoaXN0b3J5IjpbMTI1NTIxNzE5MywtMTc0MjcwNzUwOSwxMj
 I0NzI5MjcyLC0xMTYyNDUwNjA4LC0yMTI3NDYwMzYwLDE3MTkz
 NjM1ODQsMTQzMTk2NzgyLDkwNDM4MjA3NSwtNTgyOTE2Mjg2LD
 EzNzcyMzIzODAsMTcwMDg1OTc5MywtMTYyMDAxMjQ0NCw2MjA3
