@@ -1,24 +1,6 @@
 ## Goals
 - Pushing and Pulling to and from Docker Hub
 
-**Step 1: Install Docker**
-```
-ubuntu@ip-172-31-4-174:~$ sudo apt update
-ubuntu@ip-172-31-4-174:~$ sudo apt install docker.io
-
-
-```
-## Dockerfile
-Dockerfile has two parts instruction and arguments. Docker builds images automatically by reading the instructions from a Dockerfile. 
-- **FROM java:8-jdk-alpine** Our image will be based on another image that is available on public repository (Docker Hub) and **this image  contains all necessary dependencies** that we would need to run any **Java application**.
-
-- **COPY ./target/demo.war /usr/app/**: First argument after COPY (/target/demo.war) is a **path of an application** that we want to put into container. The second parameter, /usr/app/ , is a **directory in a container** where we put the app.
-
-- **WORKDIR /usr/app**: Use **/usr/app** folder as a **root**.
-- **EXPOSE 8080** — Container will **listen** to **specific port**
-
-- **ENTRYPOINT ["java", "-jar", "demo.war"]** —  Run the application, where first value is a command and the last two are parameters.
-
 ## Push docker image to Docker Hub Registry
 - **Spring Boot Demo Project Structure:**
 - ![enter image description here](https://github.com/Mfarzana/docker-learning/blob/master/images/demo-project-structure.jpg)
@@ -49,6 +31,23 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
  ```
  Image  uploaded: ![](https://github.com/Mfarzana/docker-learning/blob/master/images/demo-spring-dockerhub.jpg)
   
+**Step 1: Install Docker**
+```
+ubuntu@ip-172-31-4-174:~$ sudo apt update
+ubuntu@ip-172-31-4-174:~$ sudo apt install docker.io
+
+
+```
+## Dockerfile
+Dockerfile has two parts instruction and arguments. Docker builds images automatically by reading the instructions from a Dockerfile. 
+- **FROM java:8-jdk-alpine** Our image will be based on another image that is available on public repository (Docker Hub) and **this image  contains all necessary dependencies** that we would need to run any **Java application**.
+
+- **COPY ./target/demo.war /usr/app/**: First argument after COPY (/target/demo.war) is a **path of an application** that we want to put into container. The second parameter, /usr/app/ , is a **directory in a container** where we put the app.
+
+- **WORKDIR /usr/app**: Use **/usr/app** folder as a **root**.
+- **EXPOSE 8080** — Container will **listen** to **specific port**
+
+- **ENTRYPOINT ["java", "-jar", "demo.war"]** —  Run the application, where first value is a command and the last two are parameters.
 
 
 
@@ -60,7 +59,7 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1MzE2MzY2LC0xOTgyOTMxOTQzLDE2Nz
+eyJoaXN0b3J5IjpbOTk3NTM4ODEyLC0xOTgyOTMxOTQzLDE2Nz
 AzNzE1NzEsMTEzMTgyMDQ3MCwtMTc0MjcwNzUwOSwxMjI0NzI5
 MjcyLC0xMTYyNDUwNjA4LC0yMTI3NDYwMzYwLDE3MTkzNjM1OD
 QsMTQzMTk2NzgyLDkwNDM4MjA3NSwtNTgyOTE2Mjg2LDEzNzcy
