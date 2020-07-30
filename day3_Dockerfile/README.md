@@ -43,7 +43,22 @@ Step 2: pull image
 ```
 ubuntu@ip-172-31-4-174:~$ sudo docker pull mfarzana/demo-spring:0.0.1
 0.0.1: Pulling from mfarzana/demo-spring
+Step 3: Run image
 ```
+ubuntu@ip-172-31-4-174:~$ sudo docker run -p 8081:8082 mfarzana/demo-spring:0.0.1
+```
+>
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.1.RELEASE)
+
+2020-07-30 07:33:36.990  INFO 1 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication v0.0.1-SNAPSHOT on db62a472e9fa with PID 1 (/usr/app/demo.war started by root in /usr/app)
+2020-07-30 07:33:37.006  INFO 1 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+
 
 ## References
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
@@ -52,11 +67,11 @@ ubuntu@ip-172-31-4-174:~$ sudo docker pull mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjE0NzAyMSwtMTgzMDkwNDAwLC0xMT
-kxMTg5MTk2LDk5NzUzODgxMiwtMTk4MjkzMTk0MywxNjcwMzcx
-NTcxLDExMzE4MjA0NzAsLTE3NDI3MDc1MDksMTIyNDcyOTI3Mi
-wtMTE2MjQ1MDYwOCwtMjEyNzQ2MDM2MCwxNzE5MzYzNTg0LDE0
-MzE5Njc4Miw5MDQzODIwNzUsLTU4MjkxNjI4NiwxMzc3MjMyMz
-gwLDE3MDA4NTk3OTMsLTE2MjAwMTI0NDQsNjIwNzI5OTA2LDEz
-NTExNjI3ODldfQ==
+eyJoaXN0b3J5IjpbLTE1MDIxNDMwNiwtMTIyMTQ3MDIxLC0xOD
+MwOTA0MDAsLTExOTExODkxOTYsOTk3NTM4ODEyLC0xOTgyOTMx
+OTQzLDE2NzAzNzE1NzEsMTEzMTgyMDQ3MCwtMTc0MjcwNzUwOS
+wxMjI0NzI5MjcyLC0xMTYyNDUwNjA4LC0yMTI3NDYwMzYwLDE3
+MTkzNjM1ODQsMTQzMTk2NzgyLDkwNDM4MjA3NSwtNTgyOTE2Mj
+g2LDEzNzcyMzIzODAsMTcwMDg1OTc5MywtMTYyMDAxMjQ0NCw2
+MjA3Mjk5MDZdfQ==
 -->
