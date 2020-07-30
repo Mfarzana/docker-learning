@@ -27,7 +27,7 @@ class Main{
 
 **Dockerfile**
 ```
-FROM openjdk:7
+FROM openjdk:8
 COPY . /usr/src/myapp
 WORKDIR usr/src/myapp
 RUN javac Main.java
@@ -54,7 +54,7 @@ Hello World
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUyNTY3MjM0LDE0NDc5NDAxNzQsLTQ5Mj
-cxMDQ2NywtMTgxMzQ2NzczMCwxNTQxNTQ4MTU4LDE2MTIwNjc1
-NzRdfQ==
+eyJoaXN0b3J5IjpbNDAxMDkyNzA1LDg1MjU2NzIzNCwxNDQ3OT
+QwMTc0LC00OTI3MTA0NjcsLTE4MTM0Njc3MzAsMTU0MTU0ODE1
+OCwxNjEyMDY3NTc0XX0=
 -->
