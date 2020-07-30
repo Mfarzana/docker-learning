@@ -1,5 +1,6 @@
 ## Goals
 - Pushing and Pulling to and from Docker Hub
+
 - **Spring Boot Demo Project Structure:**
 - ![enter image description here](https://github.com/Mfarzana/docker-learning/blob/master/images/demo-project-structure.jpg)
 ## Push docker image to Docker Hub Registry
@@ -59,7 +60,7 @@ Dockerfile has two parts instruction and arguments. Docker builds images automat
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTQ3MTg0NCw5OTc1Mzg4MTIsLTE5OD
+eyJoaXN0b3J5IjpbMTExODE0MTYxNCw5OTc1Mzg4MTIsLTE5OD
 I5MzE5NDMsMTY3MDM3MTU3MSwxMTMxODIwNDcwLC0xNzQyNzA3
 NTA5LDEyMjQ3MjkyNzIsLTExNjI0NTA2MDgsLTIxMjc0NjAzNj
 AsMTcxOTM2MzU4NCwxNDMxOTY3ODIsOTA0MzgyMDc1LC01ODI5
