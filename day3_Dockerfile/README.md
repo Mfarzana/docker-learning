@@ -8,8 +8,7 @@
 Dockerfile has two parts instruction and arguments. Docker builds images automatically by reading the instructions from a Dockerfile. 
 - **FROM java:8-jdk-alpine**— Every Dockerfile typically starts with a FROM line. Here we tell Docker that our image will be based on another image that is available on public repository (Docker Hub) and **this image  contains all necessary dependencies** that we would need to run any **Java application**.
 
-- **COPY ./target/demo.war /usr/app/**
- — as you might already guess with this step we copy-paste something from one directory to another. But what and where? First argument after COPY is a path of an application that we want to put into container. I’m using .war file because my project is a web application, but you if yours is a standard .jar app go with that. The second parameter, /usr/app/ , is a directory in a container where we put the app.
+- **COPY ./target/demo.war /usr/app/** — First argument after COPY (/target/demo.war ) is a path of an application that we want to put into container. I’m using .war file because my project is a web application, but you if yours is a standard .jar app go with that. The second parameter, /usr/app/ , is a directory in a container where we put the app.
 
 
 ## Push docker image to Docker Hub Registry
@@ -53,7 +52,7 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MjA2MjYyOCwxMjI0NzI5MjcyLC0xMT
+eyJoaXN0b3J5IjpbMTE4NzcwMzg2NiwxMjI0NzI5MjcyLC0xMT
 YyNDUwNjA4LC0yMTI3NDYwMzYwLDE3MTkzNjM1ODQsMTQzMTk2
 NzgyLDkwNDM4MjA3NSwtNTgyOTE2Mjg2LDEzNzcyMzIzODAsMT
 cwMDg1OTc5MywtMTYyMDAxMjQ0NCw2MjA3Mjk5MDYsMTM1MTE2
