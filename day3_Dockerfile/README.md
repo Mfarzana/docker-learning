@@ -37,38 +37,15 @@ CMD ["java","Main"]
 ```
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo docker build -t myapp:0.0.1 .
 Sending build context to Docker daemon  3.072kB
-Step 1/5 : FROM openjdk:7
-7: Pulling from library/openjdk
-db0035920883: Pull complete
-a9ebd83b4a47: Pull complete
-4cf624e5b311: Pull complete
-9acab6bfb3ef: Pull complete
-0c00f0a5c1e2: Pull complete
-98133370871a: Pull complete
-ffd6078faaf1: Pull complete
-Digest: sha256:75a05dbcd254fdde1a284c5cc47a8f7d5387cd517cbf9e66d50d45da1c695022
-Status: Downloaded newer image for openjdk:7
- ---> d735a2057e60
-Step 2/5 : COPY . /usr/src/myapp
- ---> 587e10061a77
-Step 3/5 : WORKDIR usr/src/myapp
- ---> Running in 0b820c8c12ac
-Removing intermediate container 0b820c8c12ac
- ---> 8fa7d5c89ca6
-Step 4/5 : RUN javac Main.java
- ---> Running in b427053857c2
-Removing intermediate container b427053857c2
- ---> 671b0e46af6c
-Step 5/5 : CMD ["java","Main"]
- ---> Running in 7405bdf9073e
-Removing intermediate container 7405bdf9073e
- ---> 2ca4b83d9050
+...
 Successfully built 2ca4b83d9050
 Successfully tagged myapp:0.0.1
+# list docker images
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo docker images
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 myapp               0.0.1               2ca4b83d9050        27 seconds ago      475MB
 openjdk             7                   d735a2057e60        14 months ago       475MB
+``
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo docker run myapp:0.0.1
 Hello World
 
@@ -126,11 +103,11 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTMxNTMzNSwxNjcwMzcxNTcxLDExMz
-E4MjA0NzAsLTE3NDI3MDc1MDksMTIyNDcyOTI3MiwtMTE2MjQ1
-MDYwOCwtMjEyNzQ2MDM2MCwxNzE5MzYzNTg0LDE0MzE5Njc4Mi
-w5MDQzODIwNzUsLTU4MjkxNjI4NiwxMzc3MjMyMzgwLDE3MDA4
-NTk3OTMsLTE2MjAwMTI0NDQsNjIwNzI5OTA2LDEzNTExNjI3OD
-ksMTAzMjExMjc1MywtMTEwMzA3NDY3NywtNzcxNzA0Mzg4LC0y
-MDk2MzIyODM2XX0=
+eyJoaXN0b3J5IjpbLTE4MjczMzM2NTIsMTY3MDM3MTU3MSwxMT
+MxODIwNDcwLC0xNzQyNzA3NTA5LDEyMjQ3MjkyNzIsLTExNjI0
+NTA2MDgsLTIxMjc0NjAzNjAsMTcxOTM2MzU4NCwxNDMxOTY3OD
+IsOTA0MzgyMDc1LC01ODI5MTYyODYsMTM3NzIzMjM4MCwxNzAw
+ODU5NzkzLC0xNjIwMDEyNDQ0LDYyMDcyOTkwNiwxMzUxMTYyNz
+g5LDEwMzIxMTI3NTMsLTExMDMwNzQ2NzcsLTc3MTcwNDM4OCwt
+MjA5NjMyMjgzNl19
 -->
