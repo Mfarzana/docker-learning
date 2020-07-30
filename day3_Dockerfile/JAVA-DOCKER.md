@@ -51,10 +51,12 @@ openjdk             7                   d735a2057e60        14 months ago       
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo docker run myapp:0.0.1
 Hello World
 ```
+## References
+- https://hub.docker.com/_/openjdk
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAxMDkyNzA1LDg1MjU2NzIzNCwxNDQ3OT
-QwMTc0LC00OTI3MTA0NjcsLTE4MTM0Njc3MzAsMTU0MTU0ODE1
-OCwxNjEyMDY3NTc0XX0=
+eyJoaXN0b3J5IjpbLTQ4MzU0NTU4Nyw0MDEwOTI3MDUsODUyNT
+Y3MjM0LDE0NDc5NDAxNzQsLTQ5MjcxMDQ2NywtMTgxMzQ2Nzcz
+MCwxNTQxNTQ4MTU4LDE2MTIwNjc1NzRdfQ==
 -->
