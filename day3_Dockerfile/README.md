@@ -17,6 +17,8 @@ ubuntu@ip-172-31-4-174:~$ pwd
 ubuntu@ip-172-31-4-174:~$ sudo mkdir javaapp
 ubuntu@ip-172-31-4-174:~$ cd javaapp/
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Main.java
+```
+
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Dockerfile
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo docker build -t myapp:0.0.1 .
 Sending build context to Docker daemon  3.072kB
@@ -109,7 +111,7 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0ODkyOTM2OSwxMTMxODIwNDcwLC0xNz
+eyJoaXN0b3J5IjpbMTY3MDM3MTU3MSwxMTMxODIwNDcwLC0xNz
 QyNzA3NTA5LDEyMjQ3MjkyNzIsLTExNjI0NTA2MDgsLTIxMjc0
 NjAzNjAsMTcxOTM2MzU4NCwxNDMxOTY3ODIsOTA0MzgyMDc1LC
 01ODI5MTYyODYsMTM3NzIzMjM4MCwxNzAwODU5NzkzLC0xNjIw
