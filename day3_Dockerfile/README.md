@@ -6,14 +6,10 @@
 
 ## Dockerfile
 Dockerfile has two parts instruction and arguments. Docker builds images automatically by reading the instructions from a Dockerfile. 
-- **FROM java:8-jdk-alpine**— This image was prepared by someone else and contains all necessary dependencies that we would need to run any Java application.
-
-Every Dockerfile typically starts with a FROM line. Here we tell Docker that our image will be based on another image that is available on public repository (Docker Hub). 
-
-This FROM command receives as argument a basic existent docker image that we will use to build our layers on top of. This image  contains all **necessary dependencies** that we would need to run any **Java application**.
+- **FROM java:8-jdk-alpine**— Every Dockerfile typically starts with a FROM line. Here we tell Docker that our image will be based on another image that is available on public repository (Docker Hub) and **this image  contains all necessary dependencies** that we would need to run any **Java application**.
 
 
-This is the starting point for your Dockerfile. E  The base image passed as argument is openjdk:8-jdk-alpine. This image contains a jdk version 8 already installed. The alpine version means that the image makes use of the alpine distribution, which is significantly smaller than any other Linux distribution.
+
 
 ## Push docker image to Docker Hub Registry
 - **Spring Boot Demo Project Structure:**
@@ -56,11 +52,11 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxNzcwMTIzLDEyMjQ3MjkyNzIsLTExNj
-I0NTA2MDgsLTIxMjc0NjAzNjAsMTcxOTM2MzU4NCwxNDMxOTY3
-ODIsOTA0MzgyMDc1LC01ODI5MTYyODYsMTM3NzIzMjM4MCwxNz
-AwODU5NzkzLC0xNjIwMDEyNDQ0LDYyMDcyOTkwNiwxMzUxMTYy
-Nzg5LDEwMzIxMTI3NTMsLTExMDMwNzQ2NzcsLTc3MTcwNDM4OC
-wtMjA5NjMyMjgzNiwxMzczMTAwNjU2LC0yMTE0MTQ3NzAyLDgx
-MjY4NzM5Nl19
+eyJoaXN0b3J5IjpbMTU1Mzc2NDc3NSwxMjI0NzI5MjcyLC0xMT
+YyNDUwNjA4LC0yMTI3NDYwMzYwLDE3MTkzNjM1ODQsMTQzMTk2
+NzgyLDkwNDM4MjA3NSwtNTgyOTE2Mjg2LDEzNzcyMzIzODAsMT
+cwMDg1OTc5MywtMTYyMDAxMjQ0NCw2MjA3Mjk5MDYsMTM1MTE2
+Mjc4OSwxMDMyMTEyNzUzLC0xMTAzMDc0Njc3LC03NzE3MDQzOD
+gsLTIwOTYzMjI4MzYsMTM3MzEwMDY1NiwtMjExNDE0NzcwMiw4
+MTI2ODczOTZdfQ==
 -->
