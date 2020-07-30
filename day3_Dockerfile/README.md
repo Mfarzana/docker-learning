@@ -1,8 +1,8 @@
 ## Goals
 - Pushing and Pulling to and from Docker Hub
 
-> **Spring Boot Demo Project Structure:**
->>![enter image description here](https://github.com/Mfarzana/docker-learning/blob/master/images/demo-project-structure.jpg)
+ **Spring Boot Demo Project Structure:**
+>![enter image description here](https://github.com/Mfarzana/docker-learning/blob/master/images/demo-project-structure.jpg)
 ## Push docker image to Docker Hub Registry
 
 #### Step 1: Go to project directory and create a docker file 
@@ -60,11 +60,11 @@ Dockerfile has two parts instruction and arguments. Docker builds images automat
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzYwMjI1Niw5OTc1Mzg4MTIsLTE5OD
-I5MzE5NDMsMTY3MDM3MTU3MSwxMTMxODIwNDcwLC0xNzQyNzA3
-NTA5LDEyMjQ3MjkyNzIsLTExNjI0NTA2MDgsLTIxMjc0NjAzNj
-AsMTcxOTM2MzU4NCwxNDMxOTY3ODIsOTA0MzgyMDc1LC01ODI5
-MTYyODYsMTM3NzIzMjM4MCwxNzAwODU5NzkzLC0xNjIwMDEyND
-Q0LDYyMDcyOTkwNiwxMzUxMTYyNzg5LDEwMzIxMTI3NTMsLTEx
-MDMwNzQ2NzddfQ==
+eyJoaXN0b3J5IjpbLTExOTExODkxOTYsOTk3NTM4ODEyLC0xOT
+gyOTMxOTQzLDE2NzAzNzE1NzEsMTEzMTgyMDQ3MCwtMTc0Mjcw
+NzUwOSwxMjI0NzI5MjcyLC0xMTYyNDUwNjA4LC0yMTI3NDYwMz
+YwLDE3MTkzNjM1ODQsMTQzMTk2NzgyLDkwNDM4MjA3NSwtNTgy
+OTE2Mjg2LDEzNzcyMzIzODAsMTcwMDg1OTc5MywtMTYyMDAxMj
+Q0NCw2MjA3Mjk5MDYsMTM1MTE2Mjc4OSwxMDMyMTEyNzUzLC0x
+MTAzMDc0Njc3XX0=
 -->
