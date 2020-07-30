@@ -8,6 +8,7 @@
 Dockerfile has two parts instruction and arguments. Docker builds images automatically by reading the instructions from a Dockerfile. 
 
 
+
 ## Push docker image to Docker Hub Registry
 - **Spring Boot Demo Project Structure:**
 - ![enter image description here](https://github.com/Mfarzana/docker-learning/blob/master/images/demo-project-structure.jpg)
@@ -47,11 +48,11 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@wkrzywiec/how-to-put-your-java-application-into-docker-container-5e0a02acdd6b
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMTk2NzgyLDkwNDM4MjA3NSwtNTgyOT
-E2Mjg2LDEzNzcyMzIzODAsMTcwMDg1OTc5MywtMTYyMDAxMjQ0
-NCw2MjA3Mjk5MDYsMTM1MTE2Mjc4OSwxMDMyMTEyNzUzLC0xMT
-AzMDc0Njc3LC03NzE3MDQzODgsLTIwOTYzMjI4MzYsMTM3MzEw
-MDY1NiwtMjExNDE0NzcwMiw4MTI2ODczOTYsNzU2NzU2MTk3LC
-0yMDczODAyMzE2LDEyNDg0MDQ5ODMsNjIzMDQwNjMzLDgxNDA5
-NTk5Nl19
+eyJoaXN0b3J5IjpbMTcxOTM2MzU4NCwxNDMxOTY3ODIsOTA0Mz
+gyMDc1LC01ODI5MTYyODYsMTM3NzIzMjM4MCwxNzAwODU5Nzkz
+LC0xNjIwMDEyNDQ0LDYyMDcyOTkwNiwxMzUxMTYyNzg5LDEwMz
+IxMTI3NTMsLTExMDMwNzQ2NzcsLTc3MTcwNDM4OCwtMjA5NjMy
+MjgzNiwxMzczMTAwNjU2LC0yMTE0MTQ3NzAyLDgxMjY4NzM5Ni
+w3NTY3NTYxOTcsLTIwNzM4MDIzMTYsMTI0ODQwNDk4Myw2MjMw
+NDA2MzNdfQ==
 -->
