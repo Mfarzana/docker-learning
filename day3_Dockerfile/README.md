@@ -1,54 +1,10 @@
 ## Goals
-- Create Dockerfile 
-- Build a Docker image from Dockerfile
-- Run image
 - Pushing and Pulling to and from Docker Hub
-## Compile Java app inside the Docker container
 
 **Step 1: Install Docker**
 ```
 ubuntu@ip-172-31-4-174:~$ sudo apt update
 ubuntu@ip-172-31-4-174:~$ sudo apt install docker.io
-```
-**Step 2: Create directory and write java code**
-```
-ubuntu@ip-172-31-4-174:~$ sudo mkdir javaapp
-ubuntu@ip-172-31-4-174:~$ cd javaapp/
-ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Main.java
-```
-**Java code** 
-> class Main{
-    public static void main(String[] args) {
-        System.out.println("Hello World "); 
-    }
-}
-
-**Step 3: Write Dockerfile**
-ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Dockerfile
-
-**Dockerfile**
-> FROM openjdk:7
-COPY . /usr/src/myapp
-WORKDIR usr/src/myapp
-RUN javac Main.java
-CMD ["java","Main"]
-
-**Step 4: Build dockerfile**
-```
-ubuntu@ip-172-31-4-174:~/javaapp$ sudo docker build -t myapp:0.0.1 .
-Sending build context to Docker daemon  3.072kB
-...
-Successfully built 2ca4b83d9050
-Successfully tagged myapp:0.0.1
-# list docker images
-ubuntu@ip-172-31-4-174:~/javaapp$ sudo docker images
-REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-myapp               0.0.1               2ca4b83d9050        27 seconds ago      475MB
-openjdk             7                   d735a2057e60        14 months ago       475MB
-```
-**Step 5: Run image**
-ubuntu@ip-172-31-4-174:~/javaapp$ sudo docker run myapp:0.0.1
-Hello World
 
 
 ```
@@ -104,11 +60,11 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODI5MzE5NDMsMTY3MDM3MTU3MSwxMT
-MxODIwNDcwLC0xNzQyNzA3NTA5LDEyMjQ3MjkyNzIsLTExNjI0
-NTA2MDgsLTIxMjc0NjAzNjAsMTcxOTM2MzU4NCwxNDMxOTY3OD
-IsOTA0MzgyMDc1LC01ODI5MTYyODYsMTM3NzIzMjM4MCwxNzAw
-ODU5NzkzLC0xNjIwMDEyNDQ0LDYyMDcyOTkwNiwxMzUxMTYyNz
-g5LDEwMzIxMTI3NTMsLTExMDMwNzQ2NzcsLTc3MTcwNDM4OCwt
-MjA5NjMyMjgzNl19
+eyJoaXN0b3J5IjpbOTM1MzE2MzY2LC0xOTgyOTMxOTQzLDE2Nz
+AzNzE1NzEsMTEzMTgyMDQ3MCwtMTc0MjcwNzUwOSwxMjI0NzI5
+MjcyLC0xMTYyNDUwNjA4LC0yMTI3NDYwMzYwLDE3MTkzNjM1OD
+QsMTQzMTk2NzgyLDkwNDM4MjA3NSwtNTgyOTE2Mjg2LDEzNzcy
+MzIzODAsMTcwMDg1OTc5MywtMTYyMDAxMjQ0NCw2MjA3Mjk5MD
+YsMTM1MTE2Mjc4OSwxMDMyMTEyNzUzLC0xMTAzMDc0Njc3LC03
+NzE3MDQzODhdfQ==
 -->
