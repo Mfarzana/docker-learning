@@ -17,7 +17,7 @@ ubuntu@ip-172-31-4-174:~$ cd javaapp/
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Main.java
 ```
 **Java code** 
-class Main{
+> class Main{
     public static void main(String[] args) {
         System.out.println("Hello World "); 
     }
@@ -25,6 +25,12 @@ class Main{
 **Step 3: Write Dockerfile**
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Dockerfile
 **Dockerfile**
+> FROM openjdk:7
+COPY . /usr/src/myapp
+WORKDIR usr/src/myapp
+RUN javac Main.java
+CMD ["java","Main"]
+
 
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo docker build -t myapp:0.0.1 .
 Sending build context to Docker daemon  3.072kB
@@ -117,7 +123,7 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzMzNDQ1MywxNjcwMzcxNTcxLDExMz
+eyJoaXN0b3J5IjpbMTczOTExMzEyMSwxNjcwMzcxNTcxLDExMz
 E4MjA0NzAsLTE3NDI3MDc1MDksMTIyNDcyOTI3MiwtMTE2MjQ1
 MDYwOCwtMjEyNzQ2MDM2MCwxNzE5MzYzNTg0LDE0MzE5Njc4Mi
 w5MDQzODIwNzUsLTU4MjkxNjI4NiwxMzc3MjMyMzgwLDE3MDA4
