@@ -43,10 +43,6 @@ Step 2: pull image
 ```
 ubuntu@ip-172-31-4-174:~$ sudo docker pull mfarzana/demo-spring:0.0.1
 0.0.1: Pulling from mfarzana/demo-spring
-
-```
-
-
 ```
 
 ## References
@@ -56,7 +52,7 @@ ubuntu@ip-172-31-4-174:~$ sudo docker pull mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDgxNTg4MywtMTgzMDkwNDAwLC0xMT
+eyJoaXN0b3J5IjpbLTEyMjE0NzAyMSwtMTgzMDkwNDAwLC0xMT
 kxMTg5MTk2LDk5NzUzODgxMiwtMTk4MjkzMTk0MywxNjcwMzcx
 NTcxLDExMzE4MjA0NzAsLTE3NDI3MDc1MDksMTIyNDcyOTI3Mi
 wtMTE2MjQ1MDYwOCwtMjEyNzQ2MDM2MCwxNzE5MzYzNTg0LDE0
