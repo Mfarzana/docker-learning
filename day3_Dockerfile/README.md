@@ -59,6 +59,8 @@ ubuntu@ip-172-31-4-174:~$ sudo docker run -p 8081:8082 mfarzana/demo-spring:0.0.
 2020-07-30 07:33:36.990  INFO 1 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication v0.0.1-SNAPSHOT on db62a472e9fa with PID 1 (/usr/app/demo.war started by root in /usr/app)
 2020-07-30 07:33:37.006  INFO 1 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
 ```
+**Application from browser**
+> 
 
 ## References
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
@@ -67,11 +69,11 @@ ubuntu@ip-172-31-4-174:~$ sudo docker run -p 8081:8082 mfarzana/demo-spring:0.0.
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDY3NTI1NCwtMTIyMTQ3MDIxLC0xOD
-MwOTA0MDAsLTExOTExODkxOTYsOTk3NTM4ODEyLC0xOTgyOTMx
-OTQzLDE2NzAzNzE1NzEsMTEzMTgyMDQ3MCwtMTc0MjcwNzUwOS
-wxMjI0NzI5MjcyLC0xMTYyNDUwNjA4LC0yMTI3NDYwMzYwLDE3
-MTkzNjM1ODQsMTQzMTk2NzgyLDkwNDM4MjA3NSwtNTgyOTE2Mj
-g2LDEzNzcyMzIzODAsMTcwMDg1OTc5MywtMTYyMDAxMjQ0NCw2
-MjA3Mjk5MDZdfQ==
+eyJoaXN0b3J5IjpbNTAyNjgzOTM0LDE5NTQ2NzUyNTQsLTEyMj
+E0NzAyMSwtMTgzMDkwNDAwLC0xMTkxMTg5MTk2LDk5NzUzODgx
+MiwtMTk4MjkzMTk0MywxNjcwMzcxNTcxLDExMzE4MjA0NzAsLT
+E3NDI3MDc1MDksMTIyNDcyOTI3MiwtMTE2MjQ1MDYwOCwtMjEy
+NzQ2MDM2MCwxNzE5MzYzNTg0LDE0MzE5Njc4Miw5MDQzODIwNz
+UsLTU4MjkxNjI4NiwxMzc3MjMyMzgwLDE3MDA4NTk3OTMsLTE2
+MjAwMTI0NDRdfQ==
 -->
