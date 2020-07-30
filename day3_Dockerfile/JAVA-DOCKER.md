@@ -12,22 +12,25 @@ ubuntu@ip-172-31-4-174:~$ cd javaapp/
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Main.java
 ```
 **Java code** 
-``` class Main{
+``` 
+class Main{
     public static void main(String[] args) {
         System.out.println("Hello World "); 
     }
 }
+```
 
 **Step 3: Write Dockerfile**
 ``` ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Dockerfile ```
 
 **Dockerfile**
-> FROM openjdk:7
+```
+FROM openjdk:7
 COPY . /usr/src/myapp
 WORKDIR usr/src/myapp
 RUN javac Main.java
 CMD ["java","Main"]
-
+```
 **Step 4: Build dockerfile**
 ```
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo docker build -t myapp:0.0.1 .
@@ -47,5 +50,5 @@ Hello World
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQzMTE3Nzg0LDE2MTIwNjc1NzRdfQ==
+eyJoaXN0b3J5IjpbMTU0MTU0ODE1OCwxNjEyMDY3NTc0XX0=
 -->
