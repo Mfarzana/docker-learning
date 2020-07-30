@@ -21,7 +21,9 @@ class Main{
 ```
 
 **Step 3: Write Dockerfile**
-``` ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Dockerfile ```
+```
+ ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Dockerfile
+  ```
 
 **Dockerfile**
 ```
@@ -50,5 +52,6 @@ Hello World
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MTU0ODE1OCwxNjEyMDY3NTc0XX0=
+eyJoaXN0b3J5IjpbLTE4MTM0Njc3MzAsMTU0MTU0ODE1OCwxNj
+EyMDY3NTc0XX0=
 -->
