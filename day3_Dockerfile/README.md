@@ -60,7 +60,7 @@ ubuntu@ip-172-31-4-174:~$ sudo docker run -p 8081:8082 mfarzana/demo-spring:0.0.
 2020-07-30 07:33:37.006  INFO 1 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
 ```
 **Application from browser**
-> 
+> ![enter image description here](https://github.com/Mfarzana/docker-learning/blob/master/images/demo-live-docker.jpg)
 
 ## References
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
@@ -69,11 +69,11 @@ ubuntu@ip-172-31-4-174:~$ sudo docker run -p 8081:8082 mfarzana/demo-spring:0.0.
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyNjgzOTM0LDE5NTQ2NzUyNTQsLTEyMj
-E0NzAyMSwtMTgzMDkwNDAwLC0xMTkxMTg5MTk2LDk5NzUzODgx
-MiwtMTk4MjkzMTk0MywxNjcwMzcxNTcxLDExMzE4MjA0NzAsLT
-E3NDI3MDc1MDksMTIyNDcyOTI3MiwtMTE2MjQ1MDYwOCwtMjEy
-NzQ2MDM2MCwxNzE5MzYzNTg0LDE0MzE5Njc4Miw5MDQzODIwNz
-UsLTU4MjkxNjI4NiwxMzc3MjMyMzgwLDE3MDA4NTk3OTMsLTE2
-MjAwMTI0NDRdfQ==
+eyJoaXN0b3J5IjpbMTc5OTY0ODc0OCwxOTU0Njc1MjU0LC0xMj
+IxNDcwMjEsLTE4MzA5MDQwMCwtMTE5MTE4OTE5Niw5OTc1Mzg4
+MTIsLTE5ODI5MzE5NDMsMTY3MDM3MTU3MSwxMTMxODIwNDcwLC
+0xNzQyNzA3NTA5LDEyMjQ3MjkyNzIsLTExNjI0NTA2MDgsLTIx
+Mjc0NjAzNjAsMTcxOTM2MzU4NCwxNDMxOTY3ODIsOTA0MzgyMD
+c1LC01ODI5MTYyODYsMTM3NzIzMjM4MCwxNzAwODU5NzkzLC0x
+NjIwMDEyNDQ0XX0=
 -->
