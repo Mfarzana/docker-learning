@@ -10,6 +10,7 @@ ubuntu@ip-172-31-4-174:~$ sudo apt update
 ubuntu@ip-172-31-4-174:~$ sudo apt install docker.io
 ubuntu@ip-172-31-4-174:~$ pwd
 /home/ubuntu
+
 ubuntu@ip-172-31-4-174:~$ sudo mkdir javaapp
 ubuntu@ip-172-31-4-174:~$ cd javaapp/
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Main.java
@@ -105,11 +106,11 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTgyMDQ3MCwtMTc0MjcwNzUwOSwxMj
-I0NzI5MjcyLC0xMTYyNDUwNjA4LC0yMTI3NDYwMzYwLDE3MTkz
-NjM1ODQsMTQzMTk2NzgyLDkwNDM4MjA3NSwtNTgyOTE2Mjg2LD
-EzNzcyMzIzODAsMTcwMDg1OTc5MywtMTYyMDAxMjQ0NCw2MjA3
-Mjk5MDYsMTM1MTE2Mjc4OSwxMDMyMTEyNzUzLC0xMTAzMDc0Nj
-c3LC03NzE3MDQzODgsLTIwOTYzMjI4MzYsMTM3MzEwMDY1Niwt
-MjExNDE0NzcwMl19
+eyJoaXN0b3J5IjpbMTkwNjU4OTUyLDExMzE4MjA0NzAsLTE3ND
+I3MDc1MDksMTIyNDcyOTI3MiwtMTE2MjQ1MDYwOCwtMjEyNzQ2
+MDM2MCwxNzE5MzYzNTg0LDE0MzE5Njc4Miw5MDQzODIwNzUsLT
+U4MjkxNjI4NiwxMzc3MjMyMzgwLDE3MDA4NTk3OTMsLTE2MjAw
+MTI0NDQsNjIwNzI5OTA2LDEzNTExNjI3ODksMTAzMjExMjc1My
+wtMTEwMzA3NDY3NywtNzcxNzA0Mzg4LC0yMDk2MzIyODM2LDEz
+NzMxMDA2NTZdfQ==
 -->
