@@ -6,7 +6,7 @@
 
 ## Dockerfile
 Dockerfile has two parts instruction and arguments. Docker builds images automatically by reading the instructions from a Dockerfile. 
-- **FROM java:8-jdk-alpine**: Every Dockerfile typically starts with a FROM line. Here we tell Docker that our image will be based on another image that is available on public repository (Docker Hub) and **this image  contains all necessary dependencies** that we would need to run any **Java application**.
+- **FROM java:8-jdk-alpine** Our image will be based on another image that is available on public repository (Docker Hub) and **this image  contains all necessary dependencies** that we would need to run any **Java application**.
 
 - **COPY ./target/demo.war /usr/app/**: First argument after COPY (/target/demo.war) is a **path of an application** that we want to put into container. The second parameter, /usr/app/ , is a **directory in a container** where we put the app.
 
@@ -56,11 +56,11 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3Mjc1ODk4MSwxMjI0NzI5MjcyLC0xMT
-YyNDUwNjA4LC0yMTI3NDYwMzYwLDE3MTkzNjM1ODQsMTQzMTk2
-NzgyLDkwNDM4MjA3NSwtNTgyOTE2Mjg2LDEzNzcyMzIzODAsMT
-cwMDg1OTc5MywtMTYyMDAxMjQ0NCw2MjA3Mjk5MDYsMTM1MTE2
-Mjc4OSwxMDMyMTEyNzUzLC0xMTAzMDc0Njc3LC03NzE3MDQzOD
-gsLTIwOTYzMjI4MzYsMTM3MzEwMDY1NiwtMjExNDE0NzcwMiw4
-MTI2ODczOTZdfQ==
+eyJoaXN0b3J5IjpbLTE3NDI3MDc1MDksMTIyNDcyOTI3MiwtMT
+E2MjQ1MDYwOCwtMjEyNzQ2MDM2MCwxNzE5MzYzNTg0LDE0MzE5
+Njc4Miw5MDQzODIwNzUsLTU4MjkxNjI4NiwxMzc3MjMyMzgwLD
+E3MDA4NTk3OTMsLTE2MjAwMTI0NDQsNjIwNzI5OTA2LDEzNTEx
+NjI3ODksMTAzMjExMjc1MywtMTEwMzA3NDY3NywtNzcxNzA0Mz
+g4LC0yMDk2MzIyODM2LDEzNzMxMDA2NTYsLTIxMTQxNDc3MDIs
+ODEyNjg3Mzk2XX0=
 -->
