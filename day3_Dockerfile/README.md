@@ -4,8 +4,8 @@
 - Run image
 - Pushing and Pulling to and from Docker Hub
 ## Run Java in docker container 
+Step 1
 ```
-
 ubuntu@ip-172-31-4-174:~$ sudo apt update
 ubuntu@ip-172-31-4-174:~$ sudo apt install docker.io
 ubuntu@ip-172-31-4-174:~$ pwd
@@ -106,11 +106,11 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjU4OTUyLDExMzE4MjA0NzAsLTE3ND
-I3MDc1MDksMTIyNDcyOTI3MiwtMTE2MjQ1MDYwOCwtMjEyNzQ2
-MDM2MCwxNzE5MzYzNTg0LDE0MzE5Njc4Miw5MDQzODIwNzUsLT
-U4MjkxNjI4NiwxMzc3MjMyMzgwLDE3MDA4NTk3OTMsLTE2MjAw
-MTI0NDQsNjIwNzI5OTA2LDEzNTExNjI3ODksMTAzMjExMjc1My
-wtMTEwMzA3NDY3NywtNzcxNzA0Mzg4LC0yMDk2MzIyODM2LDEz
-NzMxMDA2NTZdfQ==
+eyJoaXN0b3J5IjpbLTgxMjExNTA2NSwxMTMxODIwNDcwLC0xNz
+QyNzA3NTA5LDEyMjQ3MjkyNzIsLTExNjI0NTA2MDgsLTIxMjc0
+NjAzNjAsMTcxOTM2MzU4NCwxNDMxOTY3ODIsOTA0MzgyMDc1LC
+01ODI5MTYyODYsMTM3NzIzMjM4MCwxNzAwODU5NzkzLC0xNjIw
+MDEyNDQ0LDYyMDcyOTkwNiwxMzUxMTYyNzg5LDEwMzIxMTI3NT
+MsLTExMDMwNzQ2NzcsLTc3MTcwNDM4OCwtMjA5NjMyMjgzNiwx
+MzczMTAwNjU2XX0=
 -->
