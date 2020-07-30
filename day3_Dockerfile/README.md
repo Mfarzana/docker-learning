@@ -13,13 +13,6 @@ ubuntu@ip-172-31-4-174:~$ pwd
 ubuntu@ip-172-31-4-174:~$ sudo mkdir javaapp
 ubuntu@ip-172-31-4-174:~$ cd javaapp/
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Main.java
-
-
-Use "fg" to return to nano.
-
-[1]+  Stopped                 sudo nano Main.java
-ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Main.java
-ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Main.java
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Dockerfile
 ubuntu@ip-172-31-4-174:~/javaapp$ docker build -t myapp:0.0.1 .
 Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post http://%2Fvar%2Frun%2Fdocker.sock/v1.40/build?buildargs=%7B%7D&cachefrom=%5B%5D&cgroupparent=&cpuperiod=0&cpuquota=0&cpusetcpus=&cpusetmems=&cpushares=0&dockerfile=Dockerfile&labels=%7B%7D&memory=0&memswap=0&networkmode=default&rm=1&session=vf67ogt6hm598yatydbzg29g4&shmsize=0&t=myapp%3A0.0.1&target=&ulimits=null&version=1: dial unix /var/run/docker.sock: connect: permission denied
@@ -119,7 +112,7 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NTIyNjQzNywtMTc0MjcwNzUwOSwxMj
+eyJoaXN0b3J5IjpbLTY5NzQ2OTIxMCwtMTc0MjcwNzUwOSwxMj
 I0NzI5MjcyLC0xMTYyNDUwNjA4LC0yMTI3NDYwMzYwLDE3MTkz
 NjM1ODQsMTQzMTk2NzgyLDkwNDM4MjA3NSwtNTgyOTE2Mjg2LD
 EzNzcyMzIzODAsMTcwMDg1OTc5MywtMTYyMDAxMjQ0NCw2MjA3
