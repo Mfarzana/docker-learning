@@ -3,14 +3,17 @@
 - Build a Docker image from Dockerfile
 - Run image
 - Pushing and Pulling to and from Docker Hub
-## Run Java in docker container 
-Step 1
+## Compile Java app inside the Docker container
+
+**Step 1: Install Docker**
 ```
 ubuntu@ip-172-31-4-174:~$ sudo apt update
 ubuntu@ip-172-31-4-174:~$ sudo apt install docker.io
 ubuntu@ip-172-31-4-174:~$ pwd
 /home/ubuntu
-
+```
+**Step 2: Create directory and write java code**
+```
 ubuntu@ip-172-31-4-174:~$ sudo mkdir javaapp
 ubuntu@ip-172-31-4-174:~$ cd javaapp/
 ubuntu@ip-172-31-4-174:~/javaapp$ sudo nano Main.java
@@ -106,7 +109,7 @@ C:\Users\Farzana\Desktop\demo>docker push mfarzana/demo-spring:0.0.1
 - https://medium.com/@migueldoctor/how-to-create-a-custom-docker-image-with-jdk8-maven-and-gradle-ddc90f41cee4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjExNTA2NSwxMTMxODIwNDcwLC0xNz
+eyJoaXN0b3J5IjpbLTU0ODkyOTM2OSwxMTMxODIwNDcwLC0xNz
 QyNzA3NTA5LDEyMjQ3MjkyNzIsLTExNjI0NTA2MDgsLTIxMjc0
 NjAzNjAsMTcxOTM2MzU4NCwxNDMxOTY3ODIsOTA0MzgyMDc1LC
 01ODI5MTYyODYsMTM3NzIzMjM4MCwxNzAwODU5NzkzLC0xNjIw
