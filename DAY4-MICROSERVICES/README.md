@@ -105,10 +105,11 @@ From Browser view
 ## References:
 
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
+ - [https://flask.palletsprojects.com/en/1.1.x/](https://flask.palletsprojects.com/en/1.1.x/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NjYyOTQxMSw2NDgwODM4NTMsMTQ3OT
-M2NTY1NSwyMTI1NTk3NjM1LDEyMDc0MDc3MzIsOTg1NjMxODM2
-LC0zNjA5OTMwMDYsLTY5MTU0NDc1OCwxNDIzMTY4NTAwLDgwND
-k5MDM3NSwyMDk2NjU4NDM2LDE2OTA2NDQ2NDRdfQ==
+eyJoaXN0b3J5IjpbLTk4ODg4MDA3LDY0ODA4Mzg1MywxNDc5Mz
+Y1NjU1LDIxMjU1OTc2MzUsMTIwNzQwNzczMiw5ODU2MzE4MzYs
+LTM2MDk5MzAwNiwtNjkxNTQ0NzU4LDE0MjMxNjg1MDAsODA0OT
+kwMzc1LDIwOTY2NTg0MzYsMTY5MDY0NDY0NF19
 -->
