@@ -34,8 +34,11 @@ def hello_world():
 if __name__ == '__main__':
      app.run(debug=True, host='0.0.0.0')
 
+```
+Dockerfile
+```
 
-````
+```
 #Create Dockerfile in service1 directory
 ```
 
@@ -44,7 +47,7 @@ if __name__ == '__main__':
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTg1MjQwLC02OTE1NDQ3NTgsMTQyMz
-E2ODUwMCw4MDQ5OTAzNzUsMjA5NjY1ODQzNiwxNjkwNjQ0NjQ0
-XX0=
+eyJoaXN0b3J5IjpbLTU2ODkxNzQ5MiwtNjkxNTQ0NzU4LDE0Mj
+MxNjg1MDAsODA0OTkwMzc1LDIwOTY2NTg0MzYsMTY5MDY0NDY0
+NF19
 -->
