@@ -54,7 +54,7 @@ ubuntu@ip-172-31-4-174:~/pymicroservice/service2$ sudo nano app.py
 ubuntu@ip-172-31-4-174:~/pymicroservice/service2$ sudo nano Dockerfile
 ubuntu@ip-172-31-4-174:~/pymicroservice/service2$ sudo nano requirements.txt
 ```
->** Or Use command for copy paste service1 files to service2** 
+> Or Use command for copy paste service1 files to service2 
 >  NB : ubuntu@ip-172-31-4-174:~/pymicroservice/service1$ sudo cp * -r ../service2
 
 **app.py** 
@@ -108,9 +108,9 @@ From Browser view
  - [https://flask.palletsprojects.com/en/1.1.x/](https://flask.palletsprojects.com/en/1.1.x/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDEzOTA3NDcsLTk4ODg4MDA3LDY0OD
-A4Mzg1MywxNDc5MzY1NjU1LDIxMjU1OTc2MzUsMTIwNzQwNzcz
-Miw5ODU2MzE4MzYsLTM2MDk5MzAwNiwtNjkxNTQ0NzU4LDE0Mj
-MxNjg1MDAsODA0OTkwMzc1LDIwOTY2NTg0MzYsMTY5MDY0NDY0
-NF19
+eyJoaXN0b3J5IjpbOTYxNDY2Mjc3LC05ODg4ODAwNyw2NDgwOD
+M4NTMsMTQ3OTM2NTY1NSwyMTI1NTk3NjM1LDEyMDc0MDc3MzIs
+OTg1NjMxODM2LC0zNjA5OTMwMDYsLTY5MTU0NDc1OCwxNDIzMT
+Y4NTAwLDgwNDk5MDM3NSwyMDk2NjU4NDM2LDE2OTA2NDQ2NDRd
+fQ==
 -->
