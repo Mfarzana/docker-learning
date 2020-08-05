@@ -95,8 +95,8 @@ mfarzana/microservice   0.0.1               29fefc4131d5        About a minute a
 ### Step 5: Run image in docker container
 ```
 ubuntu@ip-172-31-4-174:~$ sudo docker container run --name pymicro-service2 -d -p 8085:5000 mfarzana/microservice:0.0.2
-b33945675ebfcafa23cca971223cc0d8cd32b8dcdf39daba29ca069ef7ccae29
-
+# Get details about container
+ubuntu@ip-172-31-4-174:~$ sudo docker inspect ad983a933dad
 ```
 
 ## References:
@@ -104,7 +104,8 @@ b33945675ebfcafa23cca971223cc0d8cd32b8dcdf39daba29ca069ef7ccae29
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNTU5NzYzNSwxMjA3NDA3NzMyLDk4NT
-YzMTgzNiwtMzYwOTkzMDA2LC02OTE1NDQ3NTgsMTQyMzE2ODUw
-MCw4MDQ5OTAzNzUsMjA5NjY1ODQzNiwxNjkwNjQ0NjQ0XX0=
+eyJoaXN0b3J5IjpbMTQ3OTM2NTY1NSwyMTI1NTk3NjM1LDEyMD
+c0MDc3MzIsOTg1NjMxODM2LC0zNjA5OTMwMDYsLTY5MTU0NDc1
+OCwxNDIzMTY4NTAwLDgwNDk5MDM3NSwyMDk2NjU4NDM2LDE2OT
+A2NDQ2NDRdfQ==
 -->
