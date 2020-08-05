@@ -84,13 +84,16 @@ CMD ["python","app.py"]
  ```
 ### Step 4: Build  image from Dockerfile
 ```
+ubuntu@ip-172-31-4-174:~/pymicroservice/service1$ sudo docker build -t mfarzana/microservice:0.0.1 .
+
+
 ```
 ## References:
 
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwMjI3NDQxLDEyMDc0MDc3MzIsOTg1Nj
+eyJoaXN0b3J5IjpbNDkzOTk3MTQ2LDEyMDc0MDc3MzIsOTg1Nj
 MxODM2LC0zNjA5OTMwMDYsLTY5MTU0NDc1OCwxNDIzMTY4NTAw
 LDgwNDk5MDM3NSwyMDk2NjU4NDM2LDE2OTA2NDQ2NDRdfQ==
 -->
