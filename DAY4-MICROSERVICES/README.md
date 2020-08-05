@@ -1,6 +1,6 @@
 
 ## Deploying Multiple Python Microservices to Docker
-### Step 1:  create directory 
+### Step 1:  Create directory 
 In my case, I created two directories in pymicroservice those are service1 and service2
 ```
 #Create Derectories
@@ -9,7 +9,7 @@ ubuntu@ip-172-31-4-174:~$ cd microservice/
 ubuntu@ip-172-31-4-174:~/pymicroservice$ sudo mkdir service1
 ubuntu@ip-172-31-4-174:~/pymicroservice$ sudo mkdir service2
 ```
-### Step 2 :Create app.py, requirements.txt and Dockerfile  in service1 directory
+### Step 2 : Create app.py, requirements.txt & Dockerfile  in service1 directory
 ```
 ubuntu@ip-172-31-4-174:~/pymicroservice/service1$ sudo nano app.py
 ubuntu@ip-172-31-4-174:~/pymicroservice/service1$ sudo nano Dockerfile
@@ -48,7 +48,7 @@ CMD ["python","app.py"]
 flask
 ```
 
-### Step 3 :Create app.py, requirements.txt and Dockerfile  in service2 directory
+### Step 3 : Create app.py, requirements.txt & Dockerfile  in service2 directory
 ```
 ubuntu@ip-172-31-4-174:~/pymicroservice/service2$ sudo nano app.py
 ubuntu@ip-172-31-4-174:~/pymicroservice/service2$ sudo nano Dockerfile
@@ -108,7 +108,7 @@ From Browser view
  - [https://flask.palletsprojects.com/en/1.1.x/](https://flask.palletsprojects.com/en/1.1.x/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTU5MDAxNDEsNDc2MjM3NjMsLTk4OD
+eyJoaXN0b3J5IjpbLTE2MDYwNjM0MDUsNDc2MjM3NjMsLTk4OD
 g4MDA3LDY0ODA4Mzg1MywxNDc5MzY1NjU1LDIxMjU1OTc2MzUs
 MTIwNzQwNzczMiw5ODU2MzE4MzYsLTM2MDk5MzAwNiwtNjkxNT
 Q0NzU4LDE0MjMxNjg1MDAsODA0OTkwMzc1LDIwOTY2NTg0MzYs
