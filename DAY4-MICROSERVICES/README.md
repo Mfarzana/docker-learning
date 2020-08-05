@@ -61,18 +61,26 @@ def hello_world():
 
 if __name__ == '__main__':
      app.run(debug=True, host='0.0.0.0')
-Dockefile
+  
+ ```
+**Dockefile**
 ```
-
-
+FROM python:3
+COPY . /app
+WORKDIR /app
+RUN pip install -r requirements.txt
+CMD ["python","app.py"]
 ```
+** requirements.txt file** 
+```
+flask
 
 ## References:
 
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDUwMjQ2MSwtMzYwOTkzMDA2LC02OT
+eyJoaXN0b3J5IjpbLTg3Mzc2NjcwMCwtMzYwOTkzMDA2LC02OT
 E1NDQ3NTgsMTQyMzE2ODUwMCw4MDQ5OTAzNzUsMjA5NjY1ODQz
 NiwxNjkwNjQ0NjQ0XX0=
 -->
