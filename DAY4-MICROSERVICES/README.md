@@ -50,13 +50,29 @@ flask
 
 ### Step 2 :Create app.py , requirements.txt and Dockerfile  in service2 directory
 
+**app.py** 
+```                                                                     app.py
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/greting')
+def hello_world():
+    return 'Hello, World!'
+
+if __name__ == '__main__':
+     app.run(debug=True, host='0.0.0.0')
+Dockefile
+```
+
+
+```
 
 ## References:
 
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDk5MzAwNiwtNjkxNTQ0NzU4LDE0Mj
-MxNjg1MDAsODA0OTkwMzc1LDIwOTY2NTg0MzYsMTY5MDY0NDY0
-NF19
+eyJoaXN0b3J5IjpbMTMxNDUwMjQ2MSwtMzYwOTkzMDA2LC02OT
+E1NDQ3NTgsMTQyMzE2ODUwMCw4MDQ5OTAzNzUsMjA5NjY1ODQz
+NiwxNjkwNjQ0NjQ0XX0=
 -->
