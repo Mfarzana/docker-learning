@@ -82,13 +82,15 @@ CMD ["python","app.py"]
  ```
  flask 
  ```
-### Step 4: Build  image from Docker
+### Step 4: Build  image from Dockerfile
+```
+```
 ## References:
 
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDE1OTg2MSwxMjA3NDA3NzMyLDk4NT
-YzMTgzNiwtMzYwOTkzMDA2LC02OTE1NDQ3NTgsMTQyMzE2ODUw
-MCw4MDQ5OTAzNzUsMjA5NjY1ODQzNiwxNjkwNjQ0NjQ0XX0=
+eyJoaXN0b3J5IjpbNjUwMjI3NDQxLDEyMDc0MDc3MzIsOTg1Nj
+MxODM2LC0zNjA5OTMwMDYsLTY5MTU0NDc1OCwxNDIzMTY4NTAw
+LDgwNDk5MDM3NSwyMDk2NjU4NDM2LDE2OTA2NDQ2NDRdfQ==
 -->
