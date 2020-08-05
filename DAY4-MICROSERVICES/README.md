@@ -44,9 +44,7 @@ RUN pip install -r requirements.txt
 CMD ["python","app.py"]
 ```
 **My requirements.txt file** 
-```
-flask
-```
+```flask```
 
 ### Step 2 :Create app.py , requirements.txt and Dockerfile  in service2 directory
 
@@ -71,16 +69,15 @@ WORKDIR /app
 RUN pip install -r requirements.txt
 CMD ["python","app.py"]
 ```
-** requirements.txt file** 
-```
-flask
+ **requirements.txt file**
+ ```flask ```
 
 ## References:
 
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3Mzc2NjcwMCwtMzYwOTkzMDA2LC02OT
-E1NDQ3NTgsMTQyMzE2ODUwMCw4MDQ5OTAzNzUsMjA5NjY1ODQz
-NiwxNjkwNjQ0NjQ0XX0=
+eyJoaXN0b3J5IjpbLTE5NjQ0MDczNTgsLTM2MDk5MzAwNiwtNj
+kxNTQ0NzU4LDE0MjMxNjg1MDAsODA0OTkwMzc1LDIwOTY2NTg0
+MzYsMTY5MDY0NDY0NF19
 -->
