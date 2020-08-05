@@ -43,6 +43,9 @@ RUN pip install requests
 RUN pip install -r requirements.txt
 CMD ["python","app.py"]
 ```
+**My requirements.txt file** 
+```
+```
 #Create Dockerfile in service1 directory
 ```
 
@@ -51,7 +54,7 @@ CMD ["python","app.py"]
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjU2MTkyNDksLTY5MTU0NDc1OCwxND
-IzMTY4NTAwLDgwNDk5MDM3NSwyMDk2NjU4NDM2LDE2OTA2NDQ2
-NDRdfQ==
+eyJoaXN0b3J5IjpbMjUyMjI4MDU5LC02OTE1NDQ3NTgsMTQyMz
+E2ODUwMCw4MDQ5OTAzNzUsMjA5NjY1ODQzNiwxNjkwNjQ0NjQ0
+XX0=
 -->
