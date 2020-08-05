@@ -52,10 +52,10 @@ ubuntu@ip-172-31-4-174:~/pymicroservice/service2$ sudo nano app.py
 ubuntu@ip-172-31-4-174:~/pymicroservice/service2$ sudo nano Dockerfile
 ubuntu@ip-172-31-4-174:~/pymicroservice/service2$ sudo nano requirements.txt
 ```
->Use command copy paste service1 file to service2 
+>**Use command copy paste service1 files to service2** 
 >  NB : ubuntu@ip-172-31-4-174:~/pymicroservice/service1$ sudo cp * -r ../service2
-
 **app.py** 
+
 ```                                                                     app.py
 from flask import Flask
 app = Flask(__name__)
@@ -84,7 +84,7 @@ CMD ["python","app.py"]
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4NTkzNDEsLTM2MDk5MzAwNiwtNjkxNT
-Q0NzU4LDE0MjMxNjg1MDAsODA0OTkwMzc1LDIwOTY2NTg0MzYs
-MTY5MDY0NDY0NF19
+eyJoaXN0b3J5IjpbLTE3NDM5ODYzNjgsLTM2MDk5MzAwNiwtNj
+kxNTQ0NzU4LDE0MjMxNjg1MDAsODA0OTkwMzc1LDIwOTY2NTg0
+MzYsMTY5MDY0NDY0NF19
 -->
