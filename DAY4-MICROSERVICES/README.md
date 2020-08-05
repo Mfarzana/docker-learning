@@ -52,8 +52,8 @@ ubuntu@ip-172-31-4-174:~/pymicroservice/service2$ sudo nano app.py
 ubuntu@ip-172-31-4-174:~/pymicroservice/service2$ sudo nano Dockerfile
 ubuntu@ip-172-31-4-174:~/pymicroservice/service2$ sudo nano requirements.txt
 ```
-> 
-> NB : ubuntu@ip-172-31-4-174:~/pymicroservice/service1$ sudo cp * -r ../service2
+>Use command copy paste service1 file to service2 
+>  NB : ubuntu@ip-172-31-4-174:~/pymicroservice/service1$ sudo cp * -r ../service2
 
 **app.py** 
 ```                                                                     app.py
@@ -84,7 +84,7 @@ CMD ["python","app.py"]
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTE5ODU5NywtMzYwOTkzMDA2LC02OT
-E1NDQ3NTgsMTQyMzE2ODUwMCw4MDQ5OTAzNzUsMjA5NjY1ODQz
-NiwxNjkwNjQ0NjQ0XX0=
+eyJoaXN0b3J5IjpbOTc4NTkzNDEsLTM2MDk5MzAwNiwtNjkxNT
+Q0NzU4LDE0MjMxNjg1MDAsODA0OTkwMzc1LDIwOTY2NTg0MzYs
+MTY5MDY0NDY0NF19
 -->
