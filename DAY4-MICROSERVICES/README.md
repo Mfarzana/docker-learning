@@ -91,14 +91,13 @@ ubuntu@ip-172-31-4-174:~$ sudo docker images
 REPOSITORY              TAG                 IMAGE ID            CREATED              SIZE
 mfarzana/microservice   0.0.2               03c9959a29b1        32 seconds ago       944MB
 mfarzana/microservice   0.0.1               29fefc4131d5        About a minute ago   947MB
-
-``
+```
 ## References:
 
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTk5OTM4LDEyMDc0MDc3MzIsOTg1Nj
-MxODM2LC0zNjA5OTMwMDYsLTY5MTU0NDc1OCwxNDIzMTY4NTAw
-LDgwNDk5MDM3NSwyMDk2NjU4NDM2LDE2OTA2NDQ2NDRdfQ==
+eyJoaXN0b3J5IjpbLTUwODczMTgxMiwxMjA3NDA3NzMyLDk4NT
+YzMTgzNiwtMzYwOTkzMDA2LC02OTE1NDQ3NTgsMTQyMzE2ODUw
+MCw4MDQ5OTAzNzUsMjA5NjY1ODQzNiwxNjkwNjQ0NjQ0XX0=
 -->
