@@ -85,15 +85,20 @@ CMD ["python","app.py"]
 ### Step 4: Build  image from Dockerfile
 ```
 ubuntu@ip-172-31-4-174:~/pymicroservice/service1$ sudo docker build -t mfarzana/microservice:0.0.1 .
+ubuntu@ip-172-31-4-174:~/pymicroservice/service2$ sudo docker build -t mfarzana/microservice:0.0.2 .
+# docker images list
+ubuntu@ip-172-31-4-174:~$ sudo docker images
+REPOSITORY              TAG                 IMAGE ID            CREATED              SIZE
+mfarzana/microservice   0.0.2               03c9959a29b1        32 seconds ago       944MB
+mfarzana/microservice   0.0.1               29fefc4131d5        About a minute ago   947MB
 
-
-```
+``
 ## References:
 
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzOTk3MTQ2LDEyMDc0MDc3MzIsOTg1Nj
+eyJoaXN0b3J5IjpbLTExOTk5OTM4LDEyMDc0MDc3MzIsOTg1Nj
 MxODM2LC0zNjA5OTMwMDYsLTY5MTU0NDc1OCwxNDIzMTY4NTAw
 LDgwNDk5MDM3NSwyMDk2NjU4NDM2LDE2OTA2NDQ2NDRdfQ==
 -->
