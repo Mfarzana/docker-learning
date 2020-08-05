@@ -9,6 +9,9 @@ ubuntu@ip-172-31-4-174:~$ cd microservice/
 ubuntu@ip-172-31-4-174:~/pymicroservice$ sudo mkdir service1
 ubuntu@ip-172-31-4-174:~/pymicroservice$ sudo mkdir service2
 
+#Create Pyhon file app.py in service1 directory
+ubuntu@ip-172-31-4-174:~/pymicroservice/service1$ sudo nano app.py
+
 #Create Dockerfile in service1 directory
 ```
 
@@ -17,6 +20,6 @@ ubuntu@ip-172-31-4-174:~/pymicroservice$ sudo mkdir service2
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzc5NTI4NTYsODA0OTkwMzc1LDIwOT
-Y2NTg0MzYsMTY5MDY0NDY0NF19
+eyJoaXN0b3J5IjpbLTcxNDYwNDc5Miw4MDQ5OTAzNzUsMjA5Nj
+Y1ODQzNiwxNjkwNjQ0NjQ0XX0=
 -->
