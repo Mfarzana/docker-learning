@@ -18,6 +18,22 @@ ubuntu@ip-172-31-4-174:~/pymicroservice/service1$ sudo nano requirements.txt
 ```
 My app.py
 ```
+import requests
+from flask import Flask
+app = Flask(__name__)
+@app.route('/microservice')
+def hello_world():
+    response=requests.get('http://172.17.0.2:5000/greting')
+    if response.status_code == 200:
+       #print('...............Success!....................')
+       return 'Connection established succesfully'
+    elif response.status_code == 404:
+        #print('..........Not Found..............')
+        return 'Error 404 : Not Found '
+    else: return 'Hello, World!'
+if __name__ == '__main__':
+     app.run(debug=True, host='0.0.0.0')
+
 
 ````
 #Create Dockerfile in service1 directory
@@ -28,6 +44,7 @@ My app.py
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTU0NDc1OCwxNDIzMTY4NTAwLDgwND
-k5MDM3NSwyMDk2NjU4NDM2LDE2OTA2NDQ2NDRdfQ==
+eyJoaXN0b3J5IjpbLTU4NTg1MjQwLC02OTE1NDQ3NTgsMTQyMz
+E2ODUwMCw4MDQ5OTAzNzUsMjA5NjY1ODQzNiwxNjkwNjQ0NjQ0
+XX0=
 -->
