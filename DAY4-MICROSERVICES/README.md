@@ -13,7 +13,7 @@ Step 2 :Create app.py , requirements.txt and Dockerfile  in service1 directory
 ```
 ubuntu@ip-172-31-4-174:~/pymicroservice/service1$ sudo nano app.py
 
-``
+```
 #Create Dockerfile in service1 directory
 ```
 
@@ -22,6 +22,6 @@ ubuntu@ip-172-31-4-174:~/pymicroservice/service1$ sudo nano app.py
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzIwNDg3OCw4MDQ5OTAzNzUsMjA5Nj
+eyJoaXN0b3J5IjpbMTQyMzE2ODUwMCw4MDQ5OTAzNzUsMjA5Nj
 Y1ODQzNiwxNjkwNjQ0NjQ0XX0=
 -->
