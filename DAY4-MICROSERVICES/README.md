@@ -45,16 +45,18 @@ CMD ["python","app.py"]
 ```
 **My requirements.txt file** 
 ```
+flask
 ```
-#Create Dockerfile in service1 directory
-```
+
+### Step 2 :Create app.py , requirements.txt and Dockerfile  in service2 directory
+
 
 ## References:
 
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUyMjI4MDU5LC02OTE1NDQ3NTgsMTQyMz
-E2ODUwMCw4MDQ5OTAzNzUsMjA5NjY1ODQzNiwxNjkwNjQ0NjQ0
-XX0=
+eyJoaXN0b3J5IjpbLTM2MDk5MzAwNiwtNjkxNTQ0NzU4LDE0Mj
+MxNjg1MDAsODA0OTkwMzc1LDIwOTY2NTg0MzYsMTY5MDY0NDY0
+NF19
 -->
