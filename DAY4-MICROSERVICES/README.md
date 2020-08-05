@@ -1,7 +1,7 @@
 
 ## Deploying Multiple Python Microservices to Docker
 ### Step 1:  create directory 
-In my case I created two directories in pymicroservice those are service1 and service2
+In my case, I created two directories in pymicroservice those are service1 and service2
 ```
 #Create Derectories
 ubuntu@ip-172-31-4-174:~$ sudo mkdir pymicroservice
@@ -84,7 +84,7 @@ CMD ["python","app.py"]
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1NjMxODM2LC0zNjA5OTMwMDYsLTY5MT
-U0NDc1OCwxNDIzMTY4NTAwLDgwNDk5MDM3NSwyMDk2NjU4NDM2
-LDE2OTA2NDQ2NDRdfQ==
+eyJoaXN0b3J5IjpbMTIwNzQwNzczMiw5ODU2MzE4MzYsLTM2MD
+k5MzAwNiwtNjkxNTQ0NzU4LDE0MjMxNjg1MDAsODA0OTkwMzc1
+LDIwOTY2NTg0MzYsMTY5MDY0NDY0NF19
 -->
