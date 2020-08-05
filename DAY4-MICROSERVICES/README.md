@@ -95,8 +95,15 @@ mfarzana/microservice   0.0.1               29fefc4131d5        About a minute a
 ### Step 5: Run image in docker container
 ```
 ubuntu@ip-172-31-4-174:~$ sudo docker container run --name pymicro-service2 -d -p 8085:5000 mfarzana/microservice:0.0.2
+# Running container list
+ubuntu@ip-172-31-4-174:~$ sudo docker ps
+CONTAINER ID        IMAGE                         COMMAND             CREATED             STATUS              PORTS                    NAMES
+dba424a24ee1        mfarzana/microservice:0.0.1   "python app.py"     17 minutes ago      Up 17 minutes       0.0.0.0:80->5000/tcp     xenodochial_liskov
+0c6913d70e0c        mfarzana/microservice:0.0.2   "python app.py"     22 minutes ago      Up 22 minutes       0.0.0.0:8085->5000/tcp   pymicro-service2
+
 # Get details about container:ip address 
-ubuntu@ip-172-31-4-174:~$ sudo docker inspect ad983a933dad
+ubuntu@ip-172-31-4-174:~$ sudo docker inspect 0c6913d70e0c
+
 ubuntu@ip-172-31-4-174:~$ sudo docker run -p 80:5000 mfarzana/microservice:0.0.1
 ```
 From Browser view 
@@ -108,9 +115,9 @@ From Browser view
  - [https://flask.palletsprojects.com/en/1.1.x/](https://flask.palletsprojects.com/en/1.1.x/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDYwNjM0MDUsNDc2MjM3NjMsLTk4OD
-g4MDA3LDY0ODA4Mzg1MywxNDc5MzY1NjU1LDIxMjU1OTc2MzUs
-MTIwNzQwNzczMiw5ODU2MzE4MzYsLTM2MDk5MzAwNiwtNjkxNT
-Q0NzU4LDE0MjMxNjg1MDAsODA0OTkwMzc1LDIwOTY2NTg0MzYs
-MTY5MDY0NDY0NF19
+eyJoaXN0b3J5IjpbMTE2Mzc4NDM4NywtMTYwNjA2MzQwNSw0Nz
+YyMzc2MywtOTg4ODgwMDcsNjQ4MDgzODUzLDE0NzkzNjU2NTUs
+MjEyNTU5NzYzNSwxMjA3NDA3NzMyLDk4NTYzMTgzNiwtMzYwOT
+kzMDA2LC02OTE1NDQ3NTgsMTQyMzE2ODUwMCw4MDQ5OTAzNzUs
+MjA5NjY1ODQzNiwxNjkwNjQ0NjQ0XX0=
 -->
