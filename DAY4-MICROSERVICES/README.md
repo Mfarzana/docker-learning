@@ -48,7 +48,7 @@ CMD ["python","app.py"]
 flask
 ```
 
-### Step 2 :Create app.py , requirements.txt and Dockerfile  in service2 directory
+### Step 3 :Create app.py , requirements.txt and Dockerfile  in service2 directory
 ```
 ubuntu@ip-172-31-4-174:~/pymicroservice/service2$ sudo nano app.py
 ubuntu@ip-172-31-4-174:~/pymicroservice/service2$ sudo nano Dockerfile
@@ -82,13 +82,13 @@ CMD ["python","app.py"]
  ```
  flask 
  ```
-### Step 3
+### Step 4: Build  image from Docker
 ## References:
 
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3OTY3NDg1OCwxMjA3NDA3NzMyLDk4NT
+eyJoaXN0b3J5IjpbMTU0MDE1OTg2MSwxMjA3NDA3NzMyLDk4NT
 YzMTgzNiwtMzYwOTkzMDA2LC02OTE1NDQ3NTgsMTQyMzE2ODUw
 MCw4MDQ5OTAzNzUsMjA5NjY1ODQzNiwxNjkwNjQ0NjQ0XX0=
 -->
