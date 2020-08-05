@@ -47,7 +47,10 @@ CMD ["python","app.py"]
 ```flask```
 
 ### Step 2 :Create app.py , requirements.txt and Dockerfile  in service2 directory
-
+```
+ubuntu@ip-172-31-4-174:~/pymicroservice/service2$ sudo nano app.py
+ubuntu@ip-172-31-4-174:~/pymicroservice/service2$ sudo nano Dockerfile
+```
 **app.py** 
 ```                                                                     app.py
 from flask import Flask
@@ -77,7 +80,7 @@ CMD ["python","app.py"]
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQ0MDczNTgsLTM2MDk5MzAwNiwtNj
+eyJoaXN0b3J5IjpbLTEyNjcxMTIzMTAsLTM2MDk5MzAwNiwtNj
 kxNTQ0NzU4LDE0MjMxNjg1MDAsODA0OTkwMzc1LDIwOTY2NTg0
 MzYsMTY5MDY0NDY0NF19
 -->
