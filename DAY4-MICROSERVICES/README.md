@@ -1,6 +1,6 @@
 
 ## Deploying Multiple Python Microservices to Docker
-### Step 1:  create directory 
+### Step 1:  Create directory 
 In my case, I created two directories in pymicroservice those are service1 and service2
 ```
 #Create Derectories
@@ -9,7 +9,7 @@ ubuntu@ip-172-31-4-174:~$ cd microservice/
 ubuntu@ip-172-31-4-174:~/pymicroservice$ sudo mkdir service1
 ubuntu@ip-172-31-4-174:~/pymicroservice$ sudo mkdir service2
 ```
-### Step 2 :Create app.py , requirements.txt and Dockerfile  in service1 directory
+### Step 2 : Create app.py, requirements.txt & Dockerfile  in service1 directory
 ```
 ubuntu@ip-172-31-4-174:~/pymicroservice/service1$ sudo nano app.py
 ubuntu@ip-172-31-4-174:~/pymicroservice/service1$ sudo nano Dockerfile
@@ -48,14 +48,14 @@ CMD ["python","app.py"]
 flask
 ```
 
-### Step 3 :Create app.py , requirements.txt and Dockerfile  in service2 directory
+### Step 3 : Create app.py, requirements.txt & Dockerfile  in service2 directory
 ```
 ubuntu@ip-172-31-4-174:~/pymicroservice/service2$ sudo nano app.py
 ubuntu@ip-172-31-4-174:~/pymicroservice/service2$ sudo nano Dockerfile
 ubuntu@ip-172-31-4-174:~/pymicroservice/service2$ sudo nano requirements.txt
 ```
->**Use command copy paste service1 files to service2** 
->  NB : ubuntu@ip-172-31-4-174:~/pymicroservice/service1$ sudo cp * -r ../service2
+> NB: Or Use command for copy paste service1 files to service2 
+>>  ubuntu@ip-172-31-4-174:~/pymicroservice/service1$ sudo cp * -r ../service2
 
 **app.py** 
 ```                                                                     app.py
@@ -95,18 +95,30 @@ mfarzana/microservice   0.0.1               29fefc4131d5        About a minute a
 ### Step 5: Run image in docker container
 ```
 ubuntu@ip-172-31-4-174:~$ sudo docker container run --name pymicro-service2 -d -p 8085:5000 mfarzana/microservice:0.0.2
+
+# Running container list
+ubuntu@ip-172-31-4-174:~$ sudo docker ps
+CONTAINER ID        IMAGE                         COMMAND             CREATED             STATUS              PORTS                    NAMES
+dba424a24ee1        mfarzana/microservice:0.0.1   "python app.py"     17 minutes ago      Up 17 minutes       0.0.0.0:80->5000/tcp     xenodochial_liskov
+0c6913d70e0c        mfarzana/microservice:0.0.2   "python app.py"     22 minutes ago      Up 22 minutes       0.0.0.0:8085->5000/tcp   pymicro-service2
+
 # Get details about container:ip address 
-ubuntu@ip-172-31-4-174:~$ sudo docker inspect ad983a933dad
+ubuntu@ip-172-31-4-174:~$ sudo docker inspect 0c6913d70e0c
+
 ubuntu@ip-172-31-4-174:~$ sudo docker run -p 80:5000 mfarzana/microservice:0.0.1
 ```
+From Browser view 
+![enter image description here](https://github.com/Mfarzana/docker-learning/blob/master/images/microservice-python.jpg)
 
 ## References:
 
  - [https://realpython.com/python-requests/](https://realpython.com/python-requests/)
+ - [https://flask.palletsprojects.com/en/1.1.x/](https://flask.palletsprojects.com/en/1.1.x/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ4MDgzODUzLDE0NzkzNjU2NTUsMjEyNT
-U5NzYzNSwxMjA3NDA3NzMyLDk4NTYzMTgzNiwtMzYwOTkzMDA2
-LC02OTE1NDQ3NTgsMTQyMzE2ODUwMCw4MDQ5OTAzNzUsMjA5Nj
-Y1ODQzNiwxNjkwNjQ0NjQ0XX0=
+eyJoaXN0b3J5IjpbMTMxMTE2Mjc3MywxMTYzNzg0Mzg3LC0xNj
+A2MDYzNDA1LDQ3NjIzNzYzLC05ODg4ODAwNyw2NDgwODM4NTMs
+MTQ3OTM2NTY1NSwyMTI1NTk3NjM1LDEyMDc0MDc3MzIsOTg1Nj
+MxODM2LC0zNjA5OTMwMDYsLTY5MTU0NDc1OCwxNDIzMTY4NTAw
+LDgwNDk5MDM3NSwyMDk2NjU4NDM2LDE2OTA2NDQ2NDRdfQ==
 -->
