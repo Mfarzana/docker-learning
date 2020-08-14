@@ -15,6 +15,8 @@ ubuntu@ip-172-31-10-250:~/hello$ python3 -m venv env
 ubuntu@ip-172-31-10-250:~/hello$ source ./venv/bin/activate
 or 
 ubuntu@ip-172-31-10-250:~/hello$ source env/bin/activate
+(venv) ubuntu@ip-172-31-10-250:~/hello$ sudo nano requirements.txt
+(venv) ubuntu@ip-172-31-10-250:~/hello$ pip install -r requirements.txt
 ```
 
 ### References
@@ -23,6 +25,6 @@ ubuntu@ip-172-31-10-250:~/hello$ source env/bin/activate
  - [https://flask.palletsprojects.com/en/1.1.x/quickstart/#a-minimal-application](https://flask.palletsprojects.com/en/1.1.x/quickstart/#a-minimal-application)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDAyMzQ2MjIsLTExOTE5MDA1NTAsMT
-Q4MDA3MTAxMSwxMjg0NzczOTM3XX0=
+eyJoaXN0b3J5IjpbLTI5NjkzODAyMiwtMTE5MTkwMDU1MCwxND
+gwMDcxMDExLDEyODQ3NzM5MzddfQ==
 -->
