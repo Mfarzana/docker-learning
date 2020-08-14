@@ -8,6 +8,8 @@ ubuntu@ip-172-31-10-250:~/hello$ cd
 ubuntu@ip-172-31-10-250:~$ sudo apt update
 
 ubuntu@ip-172-31-10-250:~/hello$ sudo apt install python3-pip
+
+ubuntu@ip-172-31-10-250:~/hello$ python3 -m pip install --user virtualenv
 ```
 
 ### References
@@ -16,5 +18,6 @@ ubuntu@ip-172-31-10-250:~/hello$ sudo apt install python3-pip
  - [https://flask.palletsprojects.com/en/1.1.x/quickstart/#a-minimal-application](https://flask.palletsprojects.com/en/1.1.x/quickstart/#a-minimal-application)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MDA3MTAxMSwxMjg0NzczOTM3XX0=
+eyJoaXN0b3J5IjpbMTQ0NTI0NDQ2OCwxNDgwMDcxMDExLDEyOD
+Q3NzM5MzddfQ==
 -->
