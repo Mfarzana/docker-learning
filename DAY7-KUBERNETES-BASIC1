@@ -19,6 +19,10 @@ The cluster is a collection of Nodes (computers) related to each other and work 
 **Pod:**
 The Pod is nothing but one or more docker containers, sharing the same network card (having the same localhost).
 
+**Replica**:
+
+The replica is a clone of a pod, replicas are needed to distribute the load.
+
 ## References
 - [https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 - [https://kubernetes.io/docs/concepts/overview/components/](https://kubernetes.io/docs/concepts/overview/components/)
@@ -29,8 +33,8 @@ The Pod is nothing but one or more docker containers, sharing the same network c
 - [https://medium.com/@prakashkumar0301/kubernetes-key-component-and-concept-68c18e21cb95#:~:text=Kubernetes%20is%20an%20open%2Dsource,managing%20containerized%20apps%20in%20production.&text=Instead%2C%20you%20tell%20K8s%20your,all%20about%20abstracting%20away%20complexity.](https://medium.com/@prakashkumar0301/kubernetes-key-component-and-concept-68c18e21cb95#:~:text=Kubernetes%20is%20an%20open%2Dsource,managing%20containerized%20apps%20in%20production.&text=Instead%2C%20you%20tell%20K8s%20your,all%20about%20abstracting%20away%20complexity.)
 - [https://medium.com/easyread/step-by-step-introduction-to-basic-concept-of-kubernetes-e20383bdd118](https://medium.com/easyread/step-by-step-introduction-to-basic-concept-of-kubernetes-e20383bdd118)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjUyODI1ODYsLTk1NTU4MjU2NCwyND
-cyNDM5NDcsLTEzOTk4NTI2NzEsOTQyOTk5NTkxLC0xMjk2OTI5
-ODE4LC0xNDA1NDQ4OTAyLDIyMjU0MzAzOCwxNTUxOTk5MjU4LD
-MzMzE1OTA4NF19
+eyJoaXN0b3J5IjpbMTc5MzUwMzQ1OSwtMTk2NTI4MjU4NiwtOT
+U1NTgyNTY0LDI0NzI0Mzk0NywtMTM5OTg1MjY3MSw5NDI5OTk1
+OTEsLTEyOTY5Mjk4MTgsLTE0MDU0NDg5MDIsMjIyNTQzMDM4LD
+E1NTE5OTkyNTgsMzMzMTU5MDg0XX0=
 -->
