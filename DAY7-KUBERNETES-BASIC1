@@ -5,6 +5,15 @@
 
 That's how Kubernetes comes to the rescue! Kubernetes provides you with a framework to run distributed systems resiliently. It takes care of scaling and failover for your application, provides deployment patterns, and more. 
 
+## Kubernetes Components
+When you deploy Kubernetes, you get a cluster.
+A Kubernetes cluster consists of a set of worker machines, called nodes, that run containerized applications. Every cluster has at least one worker node.
+
+The worker node(s) host the Pods that are the components of the application workload. The control plane manages the worker nodes and the Pods in the cluster. In production environments, the control plane usually runs across multiple computers and a cluster usually runs multiple nodes, providing fault-tolerance and high availability.
+
+This document outlines the various components you need to have a complete and working Kubernetes cluster.
+
+Here's the diagram of a Kubernetes cluster with all the components tied together.
 ## References
 - [https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 - [https://medium.com/yld-blog/kubernetes-core-concepts-324ea7028c29](https://medium.com/yld-blog/kubernetes-core-concepts-324ea7028c29)
@@ -12,6 +21,7 @@ That's how Kubernetes comes to the rescue! Kubernetes provides you with a framew
 - [https://medium.com/@prakashkumar0301/kubernetes-key-component-and-concept-68c18e21cb95#:~:text=Kubernetes%20is%20an%20open%2Dsource,managing%20containerized%20apps%20in%20production.&text=Instead%2C%20you%20tell%20K8s%20your,all%20about%20abstracting%20away%20complexity.](https://medium.com/@prakashkumar0301/kubernetes-key-component-and-concept-68c18e21cb95#:~:text=Kubernetes%20is%20an%20open%2Dsource,managing%20containerized%20apps%20in%20production.&text=Instead%2C%20you%20tell%20K8s%20your,all%20about%20abstracting%20away%20complexity.)
 - [https://medium.com/easyread/step-by-step-introduction-to-basic-concept-of-kubernetes-e20383bdd118](https://medium.com/easyread/step-by-step-introduction-to-basic-concept-of-kubernetes-e20383bdd118)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY5Mjk4MTgsLTE0MDU0NDg5MDIsMj
-IyNTQzMDM4LDE1NTE5OTkyNTgsMzMzMTU5MDg0XX0=
+eyJoaXN0b3J5IjpbMTMwNTE4MjA5MiwtMTI5NjkyOTgxOCwtMT
+QwNTQ0ODkwMiwyMjI1NDMwMzgsMTU1MTk5OTI1OCwzMzMxNTkw
+ODRdfQ==
 -->
