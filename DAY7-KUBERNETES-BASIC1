@@ -14,8 +14,11 @@ That's how Kubernetes comes to the rescue! Kubernetes provides you with a framew
 
 
 
+**Cluster:**
+The cluster is a collection of Nodes (computers) related to each other and work together.
+**Pod:**
+The Pod is nothing but one or more docker containers, sharing the same network card (having the same localhost).
 
-Here's the diagram of a Kubernetes cluster with all the components tied together.
 ## References
 - [https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 - [https://kubernetes.io/docs/concepts/overview/components/](https://kubernetes.io/docs/concepts/overview/components/)
@@ -26,7 +29,8 @@ Here's the diagram of a Kubernetes cluster with all the components tied together
 - [https://medium.com/@prakashkumar0301/kubernetes-key-component-and-concept-68c18e21cb95#:~:text=Kubernetes%20is%20an%20open%2Dsource,managing%20containerized%20apps%20in%20production.&text=Instead%2C%20you%20tell%20K8s%20your,all%20about%20abstracting%20away%20complexity.](https://medium.com/@prakashkumar0301/kubernetes-key-component-and-concept-68c18e21cb95#:~:text=Kubernetes%20is%20an%20open%2Dsource,managing%20containerized%20apps%20in%20production.&text=Instead%2C%20you%20tell%20K8s%20your,all%20about%20abstracting%20away%20complexity.)
 - [https://medium.com/easyread/step-by-step-introduction-to-basic-concept-of-kubernetes-e20383bdd118](https://medium.com/easyread/step-by-step-introduction-to-basic-concept-of-kubernetes-e20383bdd118)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTU4MjU2NCwyNDcyNDM5NDcsLTEzOT
-k4NTI2NzEsOTQyOTk5NTkxLC0xMjk2OTI5ODE4LC0xNDA1NDQ4
-OTAyLDIyMjU0MzAzOCwxNTUxOTk5MjU4LDMzMzE1OTA4NF19
+eyJoaXN0b3J5IjpbLTE5NjUyODI1ODYsLTk1NTU4MjU2NCwyND
+cyNDM5NDcsLTEzOTk4NTI2NzEsOTQyOTk5NTkxLC0xMjk2OTI5
+ODE4LC0xNDA1NDQ4OTAyLDIyMjU0MzAzOCwxNTUxOTk5MjU4LD
+MzMzE1OTA4NF19
 -->
