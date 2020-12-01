@@ -32,9 +32,3 @@ The replica is a clone of a pod, replicas are needed to distribute the load.
 - [https://medium.com/tech-tajawal/understand-kubernetes-main-concepts-in-2-minutes-68270fa3ceb6](https://medium.com/tech-tajawal/understand-kubernetes-main-concepts-in-2-minutes-68270fa3ceb6)
 - [https://medium.com/@prakashkumar0301/kubernetes-key-component-and-concept-68c18e21cb95#:~:text=Kubernetes%20is%20an%20open%2Dsource,managing%20containerized%20apps%20in%20production.&text=Instead%2C%20you%20tell%20K8s%20your,all%20about%20abstracting%20away%20complexity.](https://medium.com/@prakashkumar0301/kubernetes-key-component-and-concept-68c18e21cb95#:~:text=Kubernetes%20is%20an%20open%2Dsource,managing%20containerized%20apps%20in%20production.&text=Instead%2C%20you%20tell%20K8s%20your,all%20about%20abstracting%20away%20complexity.)
 - [https://medium.com/easyread/step-by-step-introduction-to-basic-concept-of-kubernetes-e20383bdd118](https://medium.com/easyread/step-by-step-introduction-to-basic-concept-of-kubernetes-e20383bdd118)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MzUwMzQ1OSwtMTk2NTI4MjU4NiwtOT
-U1NTgyNTY0LDI0NzI0Mzk0NywtMTM5OTg1MjY3MSw5NDI5OTk1
-OTEsLTEyOTY5Mjk4MTgsLTE0MDU0NDg5MDIsMjIyNTQzMDM4LD
-E1NTE5OTkyNTgsMzMzMTU5MDg0XX0=
--->
